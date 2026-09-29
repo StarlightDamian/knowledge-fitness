@@ -1,0 +1,46 @@
+{
+  "id": "scale",
+  "name": {
+    "zh-CN": "体重秤",
+    "en": "Body-weight scale"
+  },
+  "aliases": [
+    "体重秤",
+    "Body-weight scale",
+    "scale"
+  ],
+  "category": "measurement",
+  "patterns": [
+    "measure"
+  ],
+  "regions": [
+    "not-applicable"
+  ],
+  "settings": [
+    "home",
+    "gym"
+  ],
+  "role": "measurement",
+  "path": "measurement",
+  "learning": "low",
+  "footprint": "small",
+  "use": {
+    "zh-CN": "标准条件下记录体重趋势",
+    "en": "Tracks weight under consistent conditions"
+  },
+  "caution": {
+    "zh-CN": "单日变化不等于脂肪变化",
+    "en": "A daily change is not a fat change"
+  },
+  "sources": [
+    "bia-2021",
+    "resistance-obesity"
+  ],
+  "evidenceScope": {
+    "zh-CN": "前者为特定体脂秤验证，后者说明结局指标区分；不构成所有监测设备的精度验证。",
+    "en": "One validates specific BIA scales; the other distinguishes body-composition outcomes. These do not validate all monitors."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "measurement.svg",
+  "alternatives": []
+}

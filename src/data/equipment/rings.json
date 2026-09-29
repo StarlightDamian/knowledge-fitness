@@ -1,0 +1,50 @@
+{
+  "id": "rings",
+  "name": {
+    "zh-CN": "吊环",
+    "en": "Gymnastic rings"
+  },
+  "aliases": [
+    "吊环",
+    "Gymnastic rings",
+    "rings"
+  ],
+  "category": "body",
+  "patterns": [
+    "multi"
+  ],
+  "regions": [
+    "varies"
+  ],
+  "settings": [
+    "home",
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "self",
+  "learning": "high",
+  "footprint": "small",
+  "use": {
+    "zh-CN": "不固定把手路径的悬挂",
+    "en": "Suspended handles with free paths"
+  },
+  "caution": {
+    "zh-CN": "锚点和带扣须检查，稳定要求较高",
+    "en": "Inspect anchors and buckles; high stability demand"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "body.svg",
+  "alternatives": [
+    "dumbbell",
+    "adjustable-dumbbell",
+    "barbell"
+  ]
+}

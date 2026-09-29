@@ -1,0 +1,49 @@
+{
+  "id": "belt-squat",
+  "name": {
+    "zh-CN": "腰带深蹲机",
+    "en": "Belt squat machine"
+  },
+  "aliases": [
+    "腰带深蹲机",
+    "Belt squat machine",
+    "belt-squat"
+  ],
+  "category": "plate",
+  "patterns": [
+    "squat"
+  ],
+  "regions": [
+    "glutes",
+    "legs"
+  ],
+  "settings": [
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "guided",
+  "learning": "moderate",
+  "footprint": "large",
+  "use": {
+    "zh-CN": "经髋部腰带传递负荷",
+    "en": "Load transferred through a hip belt"
+  },
+  "caution": {
+    "zh-CN": "检查腰带位置与上下机路径",
+    "en": "Check belt fit and entry/exit"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "plate.svg",
+  "alternatives": [
+    "safety-bar",
+    "stack-leg-press"
+  ]
+}

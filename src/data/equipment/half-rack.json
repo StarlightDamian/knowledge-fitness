@@ -1,0 +1,46 @@
+{
+  "id": "half-rack",
+  "name": {
+    "zh-CN": "半框深蹲架",
+    "en": "Half rack"
+  },
+  "aliases": [
+    "半框深蹲架",
+    "Half rack",
+    "half-rack"
+  ],
+  "category": "support",
+  "patterns": [
+    "support"
+  ],
+  "regions": [
+    "not-applicable"
+  ],
+  "settings": [
+    "home",
+    "gym"
+  ],
+  "role": "support",
+  "path": "support",
+  "learning": "low",
+  "footprint": "large",
+  "use": {
+    "zh-CN": "开放式挂杠及保护臂",
+    "en": "Open bar support with safety arms"
+  },
+  "caution": {
+    "zh-CN": "核对固定及前后稳定",
+    "en": "Check anchoring and fore-aft stability"
+  },
+  "sources": [
+    "lf-catalog",
+    "tg-catalog"
+  ],
+  "evidenceScope": {
+    "zh-CN": "厂商目录仅用于识别类别。配件安全与承重须逐型号查手册；没有“增肌效果”分数。",
+    "en": "Manufacturer catalogs identify categories only. Check each model manual for ratings and safe use; no hypertrophy score is assigned."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "support.svg",
+  "alternatives": []
+}

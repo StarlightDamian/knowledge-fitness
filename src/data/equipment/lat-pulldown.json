@@ -1,0 +1,53 @@
+{
+  "id": "lat-pulldown",
+  "name": {
+    "zh-CN": "高位下拉机",
+    "en": "Lat pulldown machine"
+  },
+  "aliases": [
+    "高位下拉机",
+    "Lat pulldown machine",
+    "lat-pulldown",
+    "高拉",
+    "下拉器",
+    "背阔肌下拉",
+    "lat pull down"
+  ],
+  "category": "stack",
+  "patterns": [
+    "vertical-pull"
+  ],
+  "regions": [
+    "arms",
+    "back"
+  ],
+  "settings": [
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "guided",
+  "learning": "low",
+  "footprint": "large",
+  "use": {
+    "zh-CN": "大腿垫稳定下的向下拉动",
+    "en": "Downward pull with thigh support"
+  },
+  "caution": {
+    "zh-CN": "以可控胸前路径为例，不拉向颈后",
+    "en": "Use a controlled front path; not behind the neck"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "stack.svg",
+  "alternatives": [
+    "lat-row-combo",
+    "pullup-bar"
+  ]
+}

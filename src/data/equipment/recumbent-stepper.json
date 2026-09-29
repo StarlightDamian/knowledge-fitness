@@ -1,0 +1,50 @@
+{
+  "id": "recumbent-stepper",
+  "name": {
+    "zh-CN": "卧式交叉训练器",
+    "en": "Recumbent cross trainer"
+  },
+  "aliases": [
+    "卧式交叉训练器",
+    "Recumbent cross trainer",
+    "recumbent-stepper"
+  ],
+  "category": "cardio",
+  "patterns": [
+    "gait"
+  ],
+  "regions": [
+    "legs"
+  ],
+  "settings": [
+    "home",
+    "gym"
+  ],
+  "role": "aerobic",
+  "path": "cyclic",
+  "learning": "low",
+  "footprint": "large",
+  "use": {
+    "zh-CN": "坐姿支撑下的交替推踩",
+    "en": "Alternating seated push-and-step motion"
+  },
+  "caution": {
+    "zh-CN": "适配上下机、活动范围和把手",
+    "en": "Fit transfers, movement range and handles"
+  },
+  "sources": [
+    "who-2020",
+    "cdc-activity"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "cardio.svg",
+  "alternatives": [
+    "treadmill",
+    "walking-pad",
+    "curved-treadmill"
+  ]
+}

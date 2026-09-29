@@ -1,0 +1,47 @@
+{
+  "id": "triceps-machine",
+  "name": {
+    "zh-CN": "肱三头伸展机",
+    "en": "Triceps extension machine"
+  },
+  "aliases": [
+    "肱三头伸展机",
+    "Triceps extension machine",
+    "triceps-machine"
+  ],
+  "category": "stack",
+  "patterns": [
+    "elbow"
+  ],
+  "regions": [
+    "arms"
+  ],
+  "settings": [
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "guided",
+  "learning": "low",
+  "footprint": "large",
+  "use": {
+    "zh-CN": "专用肘伸展",
+    "en": "Dedicated elbow extension"
+  },
+  "caution": {
+    "zh-CN": "座高与把手可达范围匹配",
+    "en": "Match seat height and handle reach"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "stack.svg",
+  "alternatives": [
+    "ez-bar"
+  ]
+}

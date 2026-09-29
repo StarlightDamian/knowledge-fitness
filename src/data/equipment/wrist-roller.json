@@ -1,0 +1,46 @@
+{
+  "id": "wrist-roller",
+  "name": {
+    "zh-CN": "卷绳腕力器",
+    "en": "Wrist roller"
+  },
+  "aliases": [
+    "卷绳腕力器",
+    "Wrist roller",
+    "wrist-roller"
+  ],
+  "category": "free",
+  "patterns": [
+    "grip-wrist"
+  ],
+  "regions": [
+    "arms"
+  ],
+  "settings": [
+    "gym",
+    "home"
+  ],
+  "role": "resistance",
+  "path": "self",
+  "learning": "moderate",
+  "footprint": "small",
+  "use": {
+    "zh-CN": "手柄卷绳提升悬挂负重",
+    "en": "Rolling a handle lifts a suspended load"
+  },
+  "caution": {
+    "zh-CN": "检查绳索和挂重，避免手腕疼痛时继续",
+    "en": "Inspect cord and load attachment; do not continue through wrist pain"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "free.svg",
+  "alternatives": []
+}

@@ -1,0 +1,282 @@
+[
+  {
+    "id": "straight",
+    "name": {
+      "zh-CN": "传统直组",
+      "en": "Straight sets"
+    },
+    "definition": {
+      "zh-CN": "一次动作完成全部工作组再换动作。",
+      "en": "Finish the work sets for one exercise before moving on."
+    },
+    "use": {
+      "zh-CN": "最容易记录与核对进步，是默认安排。",
+      "en": "Simple to log and audit; the default arrangement."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "reviewStatus": "editorial definitions; not superiority claims"
+  },
+  {
+    "id": "fullbody",
+    "name": {
+      "zh-CN": "全身安排",
+      "en": "Full-body scheduling"
+    },
+    "definition": {
+      "zh-CN": "在一次训练内涵盖多个大肌群。",
+      "en": "Train multiple major regions within a session."
+    },
+    "use": {
+      "zh-CN": "适合可用天数少的安排，不意味着每次练到力竭。",
+      "en": "Useful with limited weekly days; does not require training to failure."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "reviewStatus": "editorial definitions; not superiority claims"
+  },
+  {
+    "id": "split",
+    "name": {
+      "zh-CN": "上下肢 / 分化安排",
+      "en": "Upper/lower and split scheduling"
+    },
+    "definition": {
+      "zh-CN": "把周训练量分配到不同天。",
+      "en": "Distribute weekly work across different days."
+    },
+    "use": {
+      "zh-CN": "先确认实际出勤，不因名字更高级而采用。",
+      "en": "Use only when attendance supports it, not because it sounds advanced."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "reviewStatus": "editorial definitions; not superiority claims"
+  },
+  {
+    "id": "double",
+    "name": {
+      "zh-CN": "双进阶",
+      "en": "Double progression"
+    },
+    "definition": {
+      "zh-CN": "先在次数区间内进步，再小幅加重。",
+      "en": "Progress within a rep range, then add a small load."
+    },
+    "use": {
+      "zh-CN": "固定行程与RIR，避免以动作缩水换次数。",
+      "en": "Keep range and RIR comparable instead of shortening the task."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "reviewStatus": "editorial definitions; not superiority claims"
+  },
+  {
+    "id": "superset",
+    "name": {
+      "zh-CN": "超级组",
+      "en": "Supersets"
+    },
+    "definition": {
+      "zh-CN": "两项动作相邻安排，再休息。",
+      "en": "Pair two exercises before resting."
+    },
+    "use": {
+      "zh-CN": "节时策略；不在技术敏感的大重量动作上盲目省休息。",
+      "en": "A time-management choice; do not indiscriminately shorten rest for heavy technical lifts."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "reviewStatus": "editorial definitions; not superiority claims"
+  },
+  {
+    "id": "circuit",
+    "name": {
+      "zh-CN": "循环训练",
+      "en": "Circuit training"
+    },
+    "definition": {
+      "zh-CN": "按顺序完成多动作站点。",
+      "en": "Move through a sequence of exercise stations."
+    },
+    "use": {
+      "zh-CN": "心肺限制可能先于目标肌肉，需明确目标。",
+      "en": "Breathing demands can limit work before the target muscles do; clarify the goal."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "reviewStatus": "editorial definitions; not superiority claims"
+  },
+  {
+    "id": "drop",
+    "name": {
+      "zh-CN": "递减组",
+      "en": "Drop sets"
+    },
+    "definition": {
+      "zh-CN": "一组后降低负荷继续。",
+      "en": "Reduce load after a set and continue."
+    },
+    "use": {
+      "zh-CN": "可增加疲劳，不是新手默认，也不证明更优。",
+      "en": "Can increase fatigue; not a novice default or proof of superiority."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "reviewStatus": "editorial definitions; not superiority claims"
+  },
+  {
+    "id": "restpause",
+    "name": {
+      "zh-CN": "休息暂停组",
+      "en": "Rest-pause sets"
+    },
+    "definition": {
+      "zh-CN": "短暂停顿后继续同动作。",
+      "en": "Continue the same exercise after a brief pause."
+    },
+    "use": {
+      "zh-CN": "高疲劳技巧，不自动加入推荐计划。",
+      "en": "A fatiguing technique; not automatically included in recommendations."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "reviewStatus": "editorial definitions; not superiority claims"
+  },
+  {
+    "id": "tempo",
+    "name": {
+      "zh-CN": "节奏控制",
+      "en": "Tempo control"
+    },
+    "definition": {
+      "zh-CN": "规定抬起、停顿与放下节奏。",
+      "en": "Specify lifting, pauses and lowering cadence."
+    },
+    "use": {
+      "zh-CN": "用于可控性与任务一致；秒数本身不是效果排名。",
+      "en": "Useful for control and consistency; cadence alone is not an effectiveness ranking."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "reviewStatus": "editorial definitions; not superiority claims"
+  },
+  {
+    "id": "isometric",
+    "name": {
+      "zh-CN": "等长训练",
+      "en": "Isometrics"
+    },
+    "definition": {
+      "zh-CN": "在相对固定关节位置发力。",
+      "en": "Produce force at a relatively fixed joint position."
+    },
+    "use": {
+      "zh-CN": "适应有角度与任务特异性；康复应用需专业安排。",
+      "en": "Adaptation is angle/task-specific; rehabilitation use needs professional planning."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "reviewStatus": "editorial definitions; not superiority claims"
+  },
+  {
+    "id": "continuous",
+    "name": {
+      "zh-CN": "持续有氧",
+      "en": "Continuous aerobic work"
+    },
+    "definition": {
+      "zh-CN": "以可持续强度连续活动。",
+      "en": "Maintain a sustainable aerobic effort."
+    },
+    "use": {
+      "zh-CN": "起点易执行，可依据时间和偏好选择方式。",
+      "en": "An accessible starting format chosen around time and preference."
+    },
+    "sources": [
+      "who-2020",
+      "aerobic-2024"
+    ],
+    "reviewStatus": "editorial definitions; not superiority claims"
+  },
+  {
+    "id": "interval",
+    "name": {
+      "zh-CN": "间歇有氧",
+      "en": "Aerobic intervals"
+    },
+    "definition": {
+      "zh-CN": "较高与较低强度交替。",
+      "en": "Alternate higher and lower efforts."
+    },
+    "use": {
+      "zh-CN": "不是减脂必需；先有基础耐受再考虑高强度。",
+      "en": "Not required for fat loss; establish tolerance before high intensity."
+    },
+    "sources": [
+      "who-2020",
+      "aerobic-2024"
+    ],
+    "reviewStatus": "editorial definitions; not superiority claims"
+  },
+  {
+    "id": "power",
+    "name": {
+      "zh-CN": "爆发力训练",
+      "en": "Power training"
+    },
+    "definition": {
+      "zh-CN": "强调快速发力或快速完成特定任务。",
+      "en": "Emphasize rapid force or task execution."
+    },
+    "use": {
+      "zh-CN": "不是增肌模板的默认替代；落地、技术和恢复重要。",
+      "en": "Not a default substitute for hypertrophy work; landing, skill and recovery matter."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "reviewStatus": "editorial definitions; not superiority claims"
+  },
+  {
+    "id": "bfr",
+    "name": {
+      "zh-CN": "血流限制训练",
+      "en": "Blood-flow restriction training"
+    },
+    "definition": {
+      "zh-CN": "利用专用袖带限制局部血流的训练方式。",
+      "en": "Training using specialized cuffs to restrict local blood flow."
+    },
+    "use": {
+      "zh-CN": "本版仅介绍概念，不提供缠带压力或自制操作；需合格人员。",
+      "en": "Concept only; no DIY cuff pressures or wrapping instructions. Requires qualified supervision."
+    },
+    "sources": [
+      "bfr-2019",
+      "acsm-2026"
+    ],
+    "reviewStatus": "editorial definitions; not superiority claims"
+  }
+]

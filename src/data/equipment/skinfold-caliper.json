@@ -1,0 +1,46 @@
+{
+  "id": "skinfold-caliper",
+  "name": {
+    "zh-CN": "皮褶钳",
+    "en": "Skinfold caliper"
+  },
+  "aliases": [
+    "皮褶钳",
+    "Skinfold caliper",
+    "skinfold-caliper"
+  ],
+  "category": "measurement",
+  "patterns": [
+    "measure"
+  ],
+  "regions": [
+    "not-applicable"
+  ],
+  "settings": [
+    "home",
+    "gym"
+  ],
+  "role": "measurement",
+  "path": "measurement",
+  "learning": "low",
+  "footprint": "pocket",
+  "use": {
+    "zh-CN": "测局部皮褶并通过公式估算",
+    "en": "Measures local folds for model-based estimates"
+  },
+  "caution": {
+    "zh-CN": "依赖测量者技术与公式适用性",
+    "en": "Depends on operator skill and equation applicability"
+  },
+  "sources": [
+    "bia-2021",
+    "resistance-obesity"
+  ],
+  "evidenceScope": {
+    "zh-CN": "前者为特定体脂秤验证，后者说明结局指标区分；不构成所有监测设备的精度验证。",
+    "en": "One validates specific BIA scales; the other distinguishes body-composition outcomes. These do not validate all monitors."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "measurement.svg",
+  "alternatives": []
+}

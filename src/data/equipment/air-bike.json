@@ -1,0 +1,50 @@
+{
+  "id": "air-bike",
+  "name": {
+    "zh-CN": "风阻健身车",
+    "en": "Air bike"
+  },
+  "aliases": [
+    "风阻健身车",
+    "Air bike",
+    "air-bike"
+  ],
+  "category": "cardio",
+  "patterns": [
+    "cycle"
+  ],
+  "regions": [
+    "legs"
+  ],
+  "settings": [
+    "home",
+    "gym"
+  ],
+  "role": "aerobic",
+  "path": "cyclic",
+  "learning": "low",
+  "footprint": "medium",
+  "use": {
+    "zh-CN": "风扇阻力，可联动上肢",
+    "en": "Fan resistance, often with arm involvement"
+  },
+  "caution": {
+    "zh-CN": "不要把短冲刺当新手默认起点",
+    "en": "Hard sprints are not a novice default"
+  },
+  "sources": [
+    "who-2020",
+    "cdc-activity"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "cardio.svg",
+  "alternatives": [
+    "upright-bike",
+    "spin-bike",
+    "recumbent-bike"
+  ]
+}

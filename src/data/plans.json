@@ -1,0 +1,1685 @@
+[
+  {
+    "id": "muscle-db-2",
+    "name": {
+      "zh-CN": "哑铃全身 · 每周2天",
+      "en": "Dumbbell full body · 2 days"
+    },
+    "goal": "hypertrophy",
+    "days": 2,
+    "minutes": 45,
+    "level": "beginner",
+    "settings": [
+      "home",
+      "gym"
+    ],
+    "sessions": [
+      {
+        "label": "A",
+        "exercises": [
+          {
+            "exercise": "goblet",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "db-floor",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "db-row",
+            "sets": 2,
+            "reps": "8–12 / side",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "db-rdl",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "deadbug",
+            "sets": 2,
+            "reps": "6–10 / side",
+            "rir": "2–3",
+            "restSeconds": 60
+          }
+        ],
+        "cardioMinutes": 0,
+        "cardioExercise": null
+      },
+      {
+        "label": "B",
+        "exercises": [
+          {
+            "exercise": "db-lunge",
+            "sets": 2,
+            "reps": "8–12 / side",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "db-floor",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "db-row",
+            "sets": 2,
+            "reps": "8–12 / side",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "db-rdl",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "db-press",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "calf-raise",
+            "sets": 2,
+            "reps": "10–15",
+            "rir": "2–3",
+            "restSeconds": 60
+          }
+        ],
+        "cardioMinutes": 0,
+        "cardioExercise": null
+      }
+    ],
+    "notes": {
+      "zh-CN": "A、B间隔至少一天；没有卧推凳也能执行。",
+      "en": "Leave a day between A and B; no bench is required."
+    },
+    "partial": false,
+    "warmup": {
+      "zh-CN": "每次先预留5–8分钟轻活动和动作热身；热身组不计入工作组。",
+      "en": "Allow 5–8 minutes for easy activity and task-specific warm-up; warm-up sets are not work sets."
+    },
+    "progression": {
+      "zh-CN": "前两次从较轻负荷与低组数开始。两次训练均能在可控行程内达到次数上限，且仍有约2次余力时，尝试最小加重；恢复不佳则减少一组或回退负荷。",
+      "en": "Begin the first two sessions with light loads and low set counts. After two controlled sessions at the rep ceiling with about two reps left, try the smallest load increase. With poor recovery, remove a set or regress load."
+    },
+    "stop": {
+      "zh-CN": "出现胸痛、晕厥、异常呼吸困难、神经症状或明显疼痛时停止，不用完成计划优先于安全。",
+      "en": "Stop for chest pain, fainting, unusual breathlessness, neurological symptoms or significant pain; completing a plan never takes priority over safety."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "evidenceScope": {
+      "zh-CN": "依据原则编排的示例，不是该整套计划经过随机试验验证；仅用于无已知限制的18–64岁成人。",
+      "en": "An editorial implementation of evidence-based principles, not a trial-validated complete program; for adults 18–64 without known limitations."
+    },
+    "reviewStatus": "editorial template; coach and clinician review pending"
+  },
+  {
+    "id": "muscle-db-3",
+    "name": {
+      "zh-CN": "哑铃全身 · 每周3天",
+      "en": "Dumbbell full body · 3 days"
+    },
+    "goal": "hypertrophy",
+    "days": 3,
+    "minutes": 45,
+    "level": "beginner",
+    "settings": [
+      "home",
+      "gym"
+    ],
+    "sessions": [
+      {
+        "label": "A",
+        "exercises": [
+          {
+            "exercise": "goblet",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "db-floor",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "db-row",
+            "sets": 2,
+            "reps": "8–12 / side",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "db-rdl",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "deadbug",
+            "sets": 2,
+            "reps": "6–10 / side",
+            "rir": "2–3",
+            "restSeconds": 60
+          }
+        ],
+        "cardioMinutes": 0,
+        "cardioExercise": null
+      },
+      {
+        "label": "B",
+        "exercises": [
+          {
+            "exercise": "db-lunge",
+            "sets": 2,
+            "reps": "8–12 / side",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "db-floor",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "db-row",
+            "sets": 2,
+            "reps": "8–12 / side",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "db-rdl",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "db-press",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "calf-raise",
+            "sets": 2,
+            "reps": "10–15",
+            "rir": "2–3",
+            "restSeconds": 60
+          }
+        ],
+        "cardioMinutes": 0,
+        "cardioExercise": null
+      },
+      {
+        "label": "A",
+        "exercises": [
+          {
+            "exercise": "goblet",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "db-floor",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "db-row",
+            "sets": 2,
+            "reps": "8–12 / side",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "db-rdl",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "deadbug",
+            "sets": 2,
+            "reps": "6–10 / side",
+            "rir": "2–3",
+            "restSeconds": 60
+          }
+        ],
+        "cardioMinutes": 0,
+        "cardioExercise": null
+      }
+    ],
+    "notes": {
+      "zh-CN": "第一周ABA、第二周BAB；不是连续三天硬练。",
+      "en": "Alternate ABA and BAB across weeks; do not schedule three consecutive hard days."
+    },
+    "partial": false,
+    "warmup": {
+      "zh-CN": "每次先预留5–8分钟轻活动和动作热身；热身组不计入工作组。",
+      "en": "Allow 5–8 minutes for easy activity and task-specific warm-up; warm-up sets are not work sets."
+    },
+    "progression": {
+      "zh-CN": "前两次从较轻负荷与低组数开始。两次训练均能在可控行程内达到次数上限，且仍有约2次余力时，尝试最小加重；恢复不佳则减少一组或回退负荷。",
+      "en": "Begin the first two sessions with light loads and low set counts. After two controlled sessions at the rep ceiling with about two reps left, try the smallest load increase. With poor recovery, remove a set or regress load."
+    },
+    "stop": {
+      "zh-CN": "出现胸痛、晕厥、异常呼吸困难、神经症状或明显疼痛时停止，不用完成计划优先于安全。",
+      "en": "Stop for chest pain, fainting, unusual breathlessness, neurological symptoms or significant pain; completing a plan never takes priority over safety."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "evidenceScope": {
+      "zh-CN": "依据原则编排的示例，不是该整套计划经过随机试验验证；仅用于无已知限制的18–64岁成人。",
+      "en": "An editorial implementation of evidence-based principles, not a trial-validated complete program; for adults 18–64 without known limitations."
+    },
+    "reviewStatus": "editorial template; coach and clinician review pending"
+  },
+  {
+    "id": "muscle-machine-2",
+    "name": {
+      "zh-CN": "器械入门 · 每周2天",
+      "en": "Machine foundation · 2 days"
+    },
+    "goal": "hypertrophy",
+    "days": 2,
+    "minutes": 50,
+    "level": "beginner",
+    "settings": [
+      "gym"
+    ],
+    "sessions": [
+      {
+        "label": "A",
+        "exercises": [
+          {
+            "exercise": "legpress",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "machine-press",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "pulldown",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "legcurl",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "deadbug",
+            "sets": 2,
+            "reps": "6–10 / side",
+            "rir": "2–3",
+            "restSeconds": 60
+          }
+        ],
+        "cardioMinutes": 0,
+        "cardioExercise": null
+      },
+      {
+        "label": "B",
+        "exercises": [
+          {
+            "exercise": "legpress",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "machine-press",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "machine-row",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "machine-shoulder",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "legcurl",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "calf-raise",
+            "sets": 2,
+            "reps": "10–15",
+            "rir": "2–3",
+            "restSeconds": 60
+          }
+        ],
+        "cardioMinutes": 0,
+        "cardioExercise": null
+      }
+    ],
+    "notes": {
+      "zh-CN": "首课确认座高、插销与保护装置；无合适机型不硬套。",
+      "en": "Check seats, pins and safeties first; do not force an unsuitable model."
+    },
+    "partial": false,
+    "warmup": {
+      "zh-CN": "每次先预留5–8分钟轻活动和动作热身；热身组不计入工作组。",
+      "en": "Allow 5–8 minutes for easy activity and task-specific warm-up; warm-up sets are not work sets."
+    },
+    "progression": {
+      "zh-CN": "前两次从较轻负荷与低组数开始。两次训练均能在可控行程内达到次数上限，且仍有约2次余力时，尝试最小加重；恢复不佳则减少一组或回退负荷。",
+      "en": "Begin the first two sessions with light loads and low set counts. After two controlled sessions at the rep ceiling with about two reps left, try the smallest load increase. With poor recovery, remove a set or regress load."
+    },
+    "stop": {
+      "zh-CN": "出现胸痛、晕厥、异常呼吸困难、神经症状或明显疼痛时停止，不用完成计划优先于安全。",
+      "en": "Stop for chest pain, fainting, unusual breathlessness, neurological symptoms or significant pain; completing a plan never takes priority over safety."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "evidenceScope": {
+      "zh-CN": "依据原则编排的示例，不是该整套计划经过随机试验验证；仅用于无已知限制的18–64岁成人。",
+      "en": "An editorial implementation of evidence-based principles, not a trial-validated complete program; for adults 18–64 without known limitations."
+    },
+    "reviewStatus": "editorial template; coach and clinician review pending"
+  },
+  {
+    "id": "muscle-machine-3",
+    "name": {
+      "zh-CN": "器械全身 · 每周3天",
+      "en": "Machine full body · 3 days"
+    },
+    "goal": "hypertrophy",
+    "days": 3,
+    "minutes": 50,
+    "level": "beginner",
+    "settings": [
+      "gym"
+    ],
+    "sessions": [
+      {
+        "label": "A",
+        "exercises": [
+          {
+            "exercise": "legpress",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "machine-press",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "pulldown",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "legcurl",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "deadbug",
+            "sets": 2,
+            "reps": "6–10 / side",
+            "rir": "2–3",
+            "restSeconds": 60
+          }
+        ],
+        "cardioMinutes": 0,
+        "cardioExercise": null
+      },
+      {
+        "label": "B",
+        "exercises": [
+          {
+            "exercise": "legpress",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "machine-press",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "machine-row",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "machine-shoulder",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "legcurl",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "calf-raise",
+            "sets": 2,
+            "reps": "10–15",
+            "rir": "2–3",
+            "restSeconds": 60
+          }
+        ],
+        "cardioMinutes": 0,
+        "cardioExercise": null
+      },
+      {
+        "label": "A",
+        "exercises": [
+          {
+            "exercise": "legpress",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "machine-press",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "pulldown",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "legcurl",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "deadbug",
+            "sets": 2,
+            "reps": "6–10 / side",
+            "rir": "2–3",
+            "restSeconds": 60
+          }
+        ],
+        "cardioMinutes": 0,
+        "cardioExercise": null
+      }
+    ],
+    "notes": {
+      "zh-CN": "用非连续日分配练习；每台机器独立记录。",
+      "en": "Use non-consecutive days; log each machine separately."
+    },
+    "partial": false,
+    "warmup": {
+      "zh-CN": "每次先预留5–8分钟轻活动和动作热身；热身组不计入工作组。",
+      "en": "Allow 5–8 minutes for easy activity and task-specific warm-up; warm-up sets are not work sets."
+    },
+    "progression": {
+      "zh-CN": "前两次从较轻负荷与低组数开始。两次训练均能在可控行程内达到次数上限，且仍有约2次余力时，尝试最小加重；恢复不佳则减少一组或回退负荷。",
+      "en": "Begin the first two sessions with light loads and low set counts. After two controlled sessions at the rep ceiling with about two reps left, try the smallest load increase. With poor recovery, remove a set or regress load."
+    },
+    "stop": {
+      "zh-CN": "出现胸痛、晕厥、异常呼吸困难、神经症状或明显疼痛时停止，不用完成计划优先于安全。",
+      "en": "Stop for chest pain, fainting, unusual breathlessness, neurological symptoms or significant pain; completing a plan never takes priority over safety."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "evidenceScope": {
+      "zh-CN": "依据原则编排的示例，不是该整套计划经过随机试验验证；仅用于无已知限制的18–64岁成人。",
+      "en": "An editorial implementation of evidence-based principles, not a trial-validated complete program; for adults 18–64 without known limitations."
+    },
+    "reviewStatus": "editorial template; coach and clinician review pending"
+  },
+  {
+    "id": "muscle-band-2",
+    "name": {
+      "zh-CN": "长环带全身 · 每周2天",
+      "en": "Long-band full body · 2 days"
+    },
+    "goal": "hypertrophy",
+    "days": 2,
+    "minutes": 40,
+    "level": "beginner",
+    "settings": [
+      "home",
+      "gym"
+    ],
+    "sessions": [
+      {
+        "label": "A",
+        "exercises": [
+          {
+            "exercise": "band-squat",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "band-press",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "band-row",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "band-rdl",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "deadbug",
+            "sets": 2,
+            "reps": "6–10 / side",
+            "rir": "2–3",
+            "restSeconds": 60
+          }
+        ],
+        "cardioMinutes": 0,
+        "cardioExercise": null
+      },
+      {
+        "label": "B",
+        "exercises": [
+          {
+            "exercise": "split-squat",
+            "sets": 2,
+            "reps": "8–12 / side",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "band-press",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "band-row",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "band-rdl",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "band-curl",
+            "sets": 2,
+            "reps": "10–15",
+            "rir": "2–3",
+            "restSeconds": 60
+          }
+        ],
+        "cardioMinutes": 0,
+        "cardioExercise": null
+      }
+    ],
+    "notes": {
+      "zh-CN": "需要长环形带；迷你臀圈不等价。先确认带无裂纹。",
+      "en": "Requires a long loop band, not a mini loop; inspect for cracks."
+    },
+    "partial": false,
+    "warmup": {
+      "zh-CN": "每次先预留5–8分钟轻活动和动作热身；热身组不计入工作组。",
+      "en": "Allow 5–8 minutes for easy activity and task-specific warm-up; warm-up sets are not work sets."
+    },
+    "progression": {
+      "zh-CN": "前两次从较轻负荷与低组数开始。两次训练均能在可控行程内达到次数上限，且仍有约2次余力时，尝试最小加重；恢复不佳则减少一组或回退负荷。",
+      "en": "Begin the first two sessions with light loads and low set counts. After two controlled sessions at the rep ceiling with about two reps left, try the smallest load increase. With poor recovery, remove a set or regress load."
+    },
+    "stop": {
+      "zh-CN": "出现胸痛、晕厥、异常呼吸困难、神经症状或明显疼痛时停止，不用完成计划优先于安全。",
+      "en": "Stop for chest pain, fainting, unusual breathlessness, neurological symptoms or significant pain; completing a plan never takes priority over safety."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "evidenceScope": {
+      "zh-CN": "依据原则编排的示例，不是该整套计划经过随机试验验证；仅用于无已知限制的18–64岁成人。",
+      "en": "An editorial implementation of evidence-based principles, not a trial-validated complete program; for adults 18–64 without known limitations."
+    },
+    "reviewStatus": "editorial template; coach and clinician review pending"
+  },
+  {
+    "id": "muscle-upper-lower-4",
+    "name": {
+      "zh-CN": "上肢 / 下肢 · 每周4天",
+      "en": "Upper / lower split · 4 days"
+    },
+    "goal": "hypertrophy",
+    "days": 4,
+    "minutes": 60,
+    "level": "intermediate",
+    "settings": [
+      "gym"
+    ],
+    "sessions": [
+      {
+        "label": "Upper A",
+        "exercises": [
+          {
+            "exercise": "bar-bench",
+            "sets": 3,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "machine-row",
+            "sets": 3,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "db-press",
+            "sets": 3,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "db-curl",
+            "sets": 3,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 60
+          }
+        ],
+        "cardioMinutes": 0,
+        "cardioExercise": null
+      },
+      {
+        "label": "Lower A",
+        "exercises": [
+          {
+            "exercise": "bar-squat",
+            "sets": 3,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "bar-rdl",
+            "sets": 3,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "legcurl",
+            "sets": 3,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "calf-raise",
+            "sets": 3,
+            "reps": "10–15",
+            "rir": "2–3",
+            "restSeconds": 60
+          }
+        ],
+        "cardioMinutes": 0,
+        "cardioExercise": null
+      },
+      {
+        "label": "Upper B",
+        "exercises": [
+          {
+            "exercise": "db-floor",
+            "sets": 3,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "pulldown",
+            "sets": 3,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "db-lateral",
+            "sets": 3,
+            "reps": "10–15",
+            "rir": "2–3",
+            "restSeconds": 60
+          },
+          {
+            "exercise": "db-curl",
+            "sets": 3,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 60
+          }
+        ],
+        "cardioMinutes": 0,
+        "cardioExercise": null
+      },
+      {
+        "label": "Lower B",
+        "exercises": [
+          {
+            "exercise": "legpress",
+            "sets": 3,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "db-rdl",
+            "sets": 3,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "legextension",
+            "sets": 3,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "calf-raise",
+            "sets": 3,
+            "reps": "10–15",
+            "rir": "2–3",
+            "restSeconds": 60
+          }
+        ],
+        "cardioMinutes": 0,
+        "cardioExercise": null
+      }
+    ],
+    "notes": {
+      "zh-CN": "适合已有技术基础且器材齐备者；如周一二四六。",
+      "en": "For technically experienced trainees with all required equipment; e.g. Mon/Tue/Thu/Sat."
+    },
+    "partial": false,
+    "warmup": {
+      "zh-CN": "每次先预留5–8分钟轻活动和动作热身；热身组不计入工作组。",
+      "en": "Allow 5–8 minutes for easy activity and task-specific warm-up; warm-up sets are not work sets."
+    },
+    "progression": {
+      "zh-CN": "前两次从较轻负荷与低组数开始。两次训练均能在可控行程内达到次数上限，且仍有约2次余力时，尝试最小加重；恢复不佳则减少一组或回退负荷。",
+      "en": "Begin the first two sessions with light loads and low set counts. After two controlled sessions at the rep ceiling with about two reps left, try the smallest load increase. With poor recovery, remove a set or regress load."
+    },
+    "stop": {
+      "zh-CN": "出现胸痛、晕厥、异常呼吸困难、神经症状或明显疼痛时停止，不用完成计划优先于安全。",
+      "en": "Stop for chest pain, fainting, unusual breathlessness, neurological symptoms or significant pain; completing a plan never takes priority over safety."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "evidenceScope": {
+      "zh-CN": "依据原则编排的示例，不是该整套计划经过随机试验验证；仅用于无已知限制的18–64岁成人。",
+      "en": "An editorial implementation of evidence-based principles, not a trial-validated complete program; for adults 18–64 without known limitations."
+    },
+    "reviewStatus": "editorial template; coach and clinician review pending"
+  },
+  {
+    "id": "fat-db-2",
+    "name": {
+      "zh-CN": "减脂保肌 · 哑铃2天",
+      "en": "Fat loss with resistance · Dumbbells 2 days"
+    },
+    "goal": "fat-loss",
+    "days": 2,
+    "minutes": 55,
+    "level": "beginner",
+    "settings": [
+      "home",
+      "gym"
+    ],
+    "sessions": [
+      {
+        "label": "A",
+        "exercises": [
+          {
+            "exercise": "goblet",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "db-floor",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "db-row",
+            "sets": 2,
+            "reps": "8–12 / side",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "db-rdl",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          }
+        ],
+        "cardioMinutes": 15,
+        "cardioExercise": "walk"
+      },
+      {
+        "label": "B",
+        "exercises": [
+          {
+            "exercise": "db-lunge",
+            "sets": 2,
+            "reps": "8–12 / side",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "db-floor",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "db-row",
+            "sets": 2,
+            "reps": "8–12 / side",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "bridge",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          }
+        ],
+        "cardioMinutes": 15,
+        "cardioExercise": "walk"
+      }
+    ],
+    "notes": {
+      "zh-CN": "每次时长包含15分钟步行；这只是起点，尚未覆盖每周有氧建议量。",
+      "en": "Each session includes 15 minutes walking. This is an entry point, not the full weekly aerobic target."
+    },
+    "partial": false,
+    "warmup": {
+      "zh-CN": "每次先预留5–8分钟轻活动和动作热身；热身组不计入工作组。",
+      "en": "Allow 5–8 minutes for easy activity and task-specific warm-up; warm-up sets are not work sets."
+    },
+    "progression": {
+      "zh-CN": "前两次从较轻负荷与低组数开始。两次训练均能在可控行程内达到次数上限，且仍有约2次余力时，尝试最小加重；恢复不佳则减少一组或回退负荷。 有氧先以可持续的谈话强度完成当前时间；适应且恢复良好后，在可用时长内少量增加分钟数，不同时提高强度。若需更多周有氧量，另行安排时间，不挤掉热身或抗阻组间休息。",
+      "en": "Begin the first two sessions with light loads and low set counts. After two controlled sessions at the rep ceiling with about two reps left, try the smallest load increase. With poor recovery, remove a set or regress load. For aerobic work, first complete the current duration at a sustainable conversational effort. Once comfortable and recovering well, add a few minutes within available time without also increasing intensity. Schedule extra weekly aerobic time separately rather than cutting warm-up or resistance rest."
+    },
+    "stop": {
+      "zh-CN": "出现胸痛、晕厥、异常呼吸困难、神经症状或明显疼痛时停止，不用完成计划优先于安全。",
+      "en": "Stop for chest pain, fainting, unusual breathlessness, neurological symptoms or significant pain; completing a plan never takes priority over safety."
+    },
+    "sources": [
+      "resistance-obesity",
+      "aerobic-2024",
+      "who-2020"
+    ],
+    "evidenceScope": {
+      "zh-CN": "依据原则编排的示例，不是该整套计划经过随机试验验证；仅用于无已知限制的18–64岁成人。",
+      "en": "An editorial implementation of evidence-based principles, not a trial-validated complete program; for adults 18–64 without known limitations."
+    },
+    "reviewStatus": "editorial template; coach and clinician review pending"
+  },
+  {
+    "id": "fat-band-3",
+    "name": {
+      "zh-CN": "减脂入门 · 弹力带3天",
+      "en": "Fat-loss foundation · Bands 3 days"
+    },
+    "goal": "fat-loss",
+    "days": 3,
+    "minutes": 55,
+    "level": "beginner",
+    "settings": [
+      "home",
+      "gym"
+    ],
+    "sessions": [
+      {
+        "label": "A",
+        "exercises": [
+          {
+            "exercise": "band-squat",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "band-press",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "band-row",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "band-rdl",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          }
+        ],
+        "cardioMinutes": 20,
+        "cardioExercise": "walk"
+      },
+      {
+        "label": "B",
+        "exercises": [
+          {
+            "exercise": "split-squat",
+            "sets": 2,
+            "reps": "8–12 / side",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "band-press",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "band-row",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "bridge",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          }
+        ],
+        "cardioMinutes": 20,
+        "cardioExercise": "walk"
+      },
+      {
+        "label": "C",
+        "exercises": [
+          {
+            "exercise": "band-squat",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "band-press",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "band-row",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "band-rdl",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          }
+        ],
+        "cardioMinutes": 20,
+        "cardioExercise": "walk"
+      }
+    ],
+    "notes": {
+      "zh-CN": "60分钟周有氧是起始量，不是减脂保证；日常活动按实际时间逐步增加。",
+      "en": "Sixty aerobic minutes weekly is a starting amount, not a weight-loss guarantee; build daily activity as feasible."
+    },
+    "partial": false,
+    "warmup": {
+      "zh-CN": "每次先预留5–8分钟轻活动和动作热身；热身组不计入工作组。",
+      "en": "Allow 5–8 minutes for easy activity and task-specific warm-up; warm-up sets are not work sets."
+    },
+    "progression": {
+      "zh-CN": "前两次从较轻负荷与低组数开始。两次训练均能在可控行程内达到次数上限，且仍有约2次余力时，尝试最小加重；恢复不佳则减少一组或回退负荷。 有氧先以可持续的谈话强度完成当前时间；适应且恢复良好后，在可用时长内少量增加分钟数，不同时提高强度。若需更多周有氧量，另行安排时间，不挤掉热身或抗阻组间休息。",
+      "en": "Begin the first two sessions with light loads and low set counts. After two controlled sessions at the rep ceiling with about two reps left, try the smallest load increase. With poor recovery, remove a set or regress load. For aerobic work, first complete the current duration at a sustainable conversational effort. Once comfortable and recovering well, add a few minutes within available time without also increasing intensity. Schedule extra weekly aerobic time separately rather than cutting warm-up or resistance rest."
+    },
+    "stop": {
+      "zh-CN": "出现胸痛、晕厥、异常呼吸困难、神经症状或明显疼痛时停止，不用完成计划优先于安全。",
+      "en": "Stop for chest pain, fainting, unusual breathlessness, neurological symptoms or significant pain; completing a plan never takes priority over safety."
+    },
+    "sources": [
+      "resistance-obesity",
+      "aerobic-2024",
+      "who-2020"
+    ],
+    "evidenceScope": {
+      "zh-CN": "依据原则编排的示例，不是该整套计划经过随机试验验证；仅用于无已知限制的18–64岁成人。",
+      "en": "An editorial implementation of evidence-based principles, not a trial-validated complete program; for adults 18–64 without known limitations."
+    },
+    "reviewStatus": "editorial template; coach and clinician review pending"
+  },
+  {
+    "id": "fat-machine-3",
+    "name": {
+      "zh-CN": "减脂保肌 · 器械3天",
+      "en": "Fat loss with resistance · Machines 3 days"
+    },
+    "goal": "fat-loss",
+    "days": 3,
+    "minutes": 60,
+    "level": "beginner",
+    "settings": [
+      "gym"
+    ],
+    "sessions": [
+      {
+        "label": "A",
+        "exercises": [
+          {
+            "exercise": "legpress",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "machine-press",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "pulldown",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "legcurl",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          }
+        ],
+        "cardioMinutes": 20,
+        "cardioExercise": "bike"
+      },
+      {
+        "label": "B",
+        "exercises": [
+          {
+            "exercise": "legpress",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "machine-row",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "machine-shoulder",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "legcurl",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          }
+        ],
+        "cardioMinutes": 20,
+        "cardioExercise": "bike"
+      },
+      {
+        "label": "C",
+        "exercises": [
+          {
+            "exercise": "legpress",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "machine-press",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "pulldown",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "legcurl",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          }
+        ],
+        "cardioMinutes": 20,
+        "cardioExercise": "bike"
+      }
+    ],
+    "notes": {
+      "zh-CN": "抗阻加固定车；骑车不是治疗膝痛，症状需要单独评估。 每周60分钟有氧是起始量，尚未覆盖公共健康建议量。",
+      "en": "Resistance plus cycling; cycling is not knee-pain treatment and symptoms need assessment. The 60 weekly aerobic minutes are a starting dose, below public-health guidance."
+    },
+    "partial": false,
+    "warmup": {
+      "zh-CN": "每次先预留5–8分钟轻活动和动作热身；热身组不计入工作组。",
+      "en": "Allow 5–8 minutes for easy activity and task-specific warm-up; warm-up sets are not work sets."
+    },
+    "progression": {
+      "zh-CN": "前两次从较轻负荷与低组数开始。两次训练均能在可控行程内达到次数上限，且仍有约2次余力时，尝试最小加重；恢复不佳则减少一组或回退负荷。 有氧先以可持续的谈话强度完成当前时间；适应且恢复良好后，在可用时长内少量增加分钟数，不同时提高强度。若需更多周有氧量，另行安排时间，不挤掉热身或抗阻组间休息。",
+      "en": "Begin the first two sessions with light loads and low set counts. After two controlled sessions at the rep ceiling with about two reps left, try the smallest load increase. With poor recovery, remove a set or regress load. For aerobic work, first complete the current duration at a sustainable conversational effort. Once comfortable and recovering well, add a few minutes within available time without also increasing intensity. Schedule extra weekly aerobic time separately rather than cutting warm-up or resistance rest."
+    },
+    "stop": {
+      "zh-CN": "出现胸痛、晕厥、异常呼吸困难、神经症状或明显疼痛时停止，不用完成计划优先于安全。",
+      "en": "Stop for chest pain, fainting, unusual breathlessness, neurological symptoms or significant pain; completing a plan never takes priority over safety."
+    },
+    "sources": [
+      "resistance-obesity",
+      "aerobic-2024",
+      "who-2020"
+    ],
+    "evidenceScope": {
+      "zh-CN": "依据原则编排的示例，不是该整套计划经过随机试验验证；仅用于无已知限制的18–64岁成人。",
+      "en": "An editorial implementation of evidence-based principles, not a trial-validated complete program; for adults 18–64 without known limitations."
+    },
+    "reviewStatus": "editorial template; coach and clinician review pending"
+  },
+  {
+    "id": "fat-no-gear",
+    "name": {
+      "zh-CN": "无器材活动起步 · 2天",
+      "en": "No-equipment movement starter · 2 days"
+    },
+    "goal": "fat-loss",
+    "days": 2,
+    "minutes": 30,
+    "level": "beginner",
+    "settings": [
+      "home",
+      "outdoor"
+    ],
+    "sessions": [
+      {
+        "label": "A",
+        "exercises": [
+          {
+            "exercise": "squat",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "wall-push",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "bridge",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          }
+        ],
+        "cardioMinutes": 10,
+        "cardioExercise": "walk"
+      },
+      {
+        "label": "B",
+        "exercises": [
+          {
+            "exercise": "split-squat",
+            "sets": 2,
+            "reps": "8–12 / side",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "wall-push",
+            "sets": 2,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "bird-dog",
+            "sets": 2,
+            "reps": "6–10 / side",
+            "rir": "2–3",
+            "restSeconds": 60
+          }
+        ],
+        "cardioMinutes": 10,
+        "cardioExercise": "walk"
+      }
+    ],
+    "notes": {
+      "zh-CN": "局限：缺少有负荷的背部拉动，不是完整增肌计划。先建立习惯，再加长带或哑铃。",
+      "en": "Limitation: no loaded back-pulling pattern; not a complete hypertrophy program. Build the habit, then consider a long band or dumbbells."
+    },
+    "partial": true,
+    "warmup": {
+      "zh-CN": "每次先预留5–8分钟轻活动和动作热身；热身组不计入工作组。",
+      "en": "Allow 5–8 minutes for easy activity and task-specific warm-up; warm-up sets are not work sets."
+    },
+    "progression": {
+      "zh-CN": "先在稳定可控的行程内达到次数上限，再小幅调整徒手动作难度，例如墙面俯卧撑的站位；每次只改一项，并保持约2–3次余力。动作控制变差时回退难度或减少一组。有氧先以可持续的谈话强度完成当前时间；适应且恢复良好后，在可用时长内少量增加分钟数，不同时提高强度。若需更多周有氧量，另行安排时间，不挤掉热身或抗阻组间休息。",
+      "en": "Reach the rep ceiling through a stable controlled range before adjusting a bodyweight variation, such as stance distance for wall push-ups. Change one thing at a time and keep about 2–3 reps in reserve. Regress difficulty or remove a set if control declines. For aerobic work, first complete the current duration at a sustainable conversational effort. Once comfortable and recovering well, add a few minutes within available time without also increasing intensity. Schedule extra weekly aerobic time separately rather than cutting warm-up or resistance rest."
+    },
+    "stop": {
+      "zh-CN": "出现胸痛、晕厥、异常呼吸困难、神经症状或明显疼痛时停止，不用完成计划优先于安全。",
+      "en": "Stop for chest pain, fainting, unusual breathlessness, neurological symptoms or significant pain; completing a plan never takes priority over safety."
+    },
+    "sources": [
+      "resistance-obesity",
+      "aerobic-2024",
+      "who-2020"
+    ],
+    "evidenceScope": {
+      "zh-CN": "依据原则编排的示例，不是该整套计划经过随机试验验证；仅用于无已知限制的18–64岁成人。",
+      "en": "An editorial implementation of evidence-based principles, not a trial-validated complete program; for adults 18–64 without known limitations."
+    },
+    "reviewStatus": "editorial template; coach and clinician review pending"
+  },
+  {
+    "id": "fat-walk-cycle",
+    "name": {
+      "zh-CN": "有氧起步 · 骑行3天",
+      "en": "Aerobic starter · Cycling 3 days"
+    },
+    "goal": "fat-loss",
+    "days": 3,
+    "minutes": 30,
+    "level": "beginner",
+    "settings": [
+      "home",
+      "gym"
+    ],
+    "sessions": [
+      {
+        "label": "A",
+        "exercises": [],
+        "cardioMinutes": 20,
+        "cardioExercise": "bike"
+      },
+      {
+        "label": "B",
+        "exercises": [],
+        "cardioMinutes": 20,
+        "cardioExercise": "bike"
+      },
+      {
+        "label": "C",
+        "exercises": [],
+        "cardioMinutes": 20,
+        "cardioExercise": "bike"
+      }
+    ],
+    "notes": {
+      "zh-CN": "每周60分钟骑行仅为有氧起点，尚未覆盖公共健康建议量；缺少抗阻模块，不能替代完整体能计划。",
+      "en": "The 60 weekly cycling minutes are an aerobic starting point, below public-health guidance; this lacks resistance work and is not a complete fitness plan."
+    },
+    "partial": true,
+    "warmup": {
+      "zh-CN": "每次先轻松骑行5分钟，结束前再轻松骑行数分钟；都计入30分钟总时长。",
+      "en": "Start with 5 minutes of easy pedaling and finish with a few easy minutes; both count toward the 30-minute session budget."
+    },
+    "progression": {
+      "zh-CN": "先以可持续的谈话强度完成每次20分钟，必要时缩短并分段。适应且恢复良好后，在30分钟总时长内少量增加骑行分钟数，保留热身与轻松收尾，不同时提高强度；超过预算的有氧量另行安排。恢复不佳时缩短时间或降低强度。",
+      "en": "First build toward 20 minutes at a sustainable conversational effort; shorten or split it if needed. Once comfortable and recovering well, add a few minutes within the 30-minute session budget, keeping warm-up and an easy finish. Do not also increase intensity; schedule additional duration separately. Reduce duration or intensity if recovery is poor."
+    },
+    "stop": {
+      "zh-CN": "出现胸痛、晕厥、异常呼吸困难、神经症状或明显疼痛时停止，不用完成计划优先于安全。",
+      "en": "Stop for chest pain, fainting, unusual breathlessness, neurological symptoms or significant pain; completing a plan never takes priority over safety."
+    },
+    "sources": [
+      "resistance-obesity",
+      "aerobic-2024",
+      "who-2020"
+    ],
+    "evidenceScope": {
+      "zh-CN": "依据原则编排的示例，不是该整套计划经过随机试验验证；仅用于无已知限制的18–64岁成人。",
+      "en": "An editorial implementation of evidence-based principles, not a trial-validated complete program; for adults 18–64 without known limitations."
+    },
+    "reviewStatus": "editorial template; coach and clinician review pending"
+  },
+  {
+    "id": "muscle-db-upper-lower",
+    "name": {
+      "zh-CN": "家用哑铃上下肢 · 4天",
+      "en": "Home dumbbell upper / lower · 4 days"
+    },
+    "goal": "hypertrophy",
+    "days": 4,
+    "minutes": 50,
+    "level": "intermediate",
+    "settings": [
+      "home",
+      "gym"
+    ],
+    "sessions": [
+      {
+        "label": "Upper A",
+        "exercises": [
+          {
+            "exercise": "db-floor",
+            "sets": 3,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "db-row",
+            "sets": 3,
+            "reps": "8–12 / side",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "db-press",
+            "sets": 3,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "db-curl",
+            "sets": 3,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 60
+          }
+        ],
+        "cardioMinutes": 0,
+        "cardioExercise": null
+      },
+      {
+        "label": "Lower A",
+        "exercises": [
+          {
+            "exercise": "goblet",
+            "sets": 3,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "db-rdl",
+            "sets": 3,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "db-lunge",
+            "sets": 3,
+            "reps": "8–12 / side",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "calf-raise",
+            "sets": 3,
+            "reps": "10–15",
+            "rir": "2–3",
+            "restSeconds": 60
+          }
+        ],
+        "cardioMinutes": 0,
+        "cardioExercise": null
+      },
+      {
+        "label": "Upper B",
+        "exercises": [
+          {
+            "exercise": "db-floor",
+            "sets": 3,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "db-row",
+            "sets": 3,
+            "reps": "8–12 / side",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "db-lateral",
+            "sets": 3,
+            "reps": "10–15",
+            "rir": "2–3",
+            "restSeconds": 60
+          },
+          {
+            "exercise": "db-curl",
+            "sets": 3,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 60
+          }
+        ],
+        "cardioMinutes": 0,
+        "cardioExercise": null
+      },
+      {
+        "label": "Lower B",
+        "exercises": [
+          {
+            "exercise": "goblet",
+            "sets": 3,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "db-rdl",
+            "sets": 3,
+            "reps": "8–12",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "db-lunge",
+            "sets": 3,
+            "reps": "8–12 / side",
+            "rir": "2–3",
+            "restSeconds": 120
+          },
+          {
+            "exercise": "calf-raise",
+            "sets": 3,
+            "reps": "10–15",
+            "rir": "2–3",
+            "restSeconds": 60
+          }
+        ],
+        "cardioMinutes": 0,
+        "cardioExercise": null
+      }
+    ],
+    "notes": {
+      "zh-CN": "双侧和单侧练习结合；负荷上限不足时可能需要升级器材，而非无限加次数。",
+      "en": "Combines bilateral and unilateral work; limited available load may eventually require different equipment."
+    },
+    "partial": false,
+    "warmup": {
+      "zh-CN": "每次先预留5–8分钟轻活动和动作热身；热身组不计入工作组。",
+      "en": "Allow 5–8 minutes for easy activity and task-specific warm-up; warm-up sets are not work sets."
+    },
+    "progression": {
+      "zh-CN": "前两次从较轻负荷与低组数开始。两次训练均能在可控行程内达到次数上限，且仍有约2次余力时，尝试最小加重；恢复不佳则减少一组或回退负荷。",
+      "en": "Begin the first two sessions with light loads and low set counts. After two controlled sessions at the rep ceiling with about two reps left, try the smallest load increase. With poor recovery, remove a set or regress load."
+    },
+    "stop": {
+      "zh-CN": "出现胸痛、晕厥、异常呼吸困难、神经症状或明显疼痛时停止，不用完成计划优先于安全。",
+      "en": "Stop for chest pain, fainting, unusual breathlessness, neurological symptoms or significant pain; completing a plan never takes priority over safety."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "evidenceScope": {
+      "zh-CN": "依据原则编排的示例，不是该整套计划经过随机试验验证；仅用于无已知限制的18–64岁成人。",
+      "en": "An editorial implementation of evidence-based principles, not a trial-validated complete program; for adults 18–64 without known limitations."
+    },
+    "reviewStatus": "editorial template; coach and clinician review pending"
+  }
+]

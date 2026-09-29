@@ -1,0 +1,46 @@
+{
+  "id": "bia-scale",
+  "name": {
+    "zh-CN": "生物电阻抗体脂秤",
+    "en": "BIA body-composition scale"
+  },
+  "aliases": [
+    "生物电阻抗体脂秤",
+    "BIA body-composition scale",
+    "bia-scale"
+  ],
+  "category": "measurement",
+  "patterns": [
+    "measure"
+  ],
+  "regions": [
+    "not-applicable"
+  ],
+  "settings": [
+    "home",
+    "gym"
+  ],
+  "role": "measurement",
+  "path": "measurement",
+  "learning": "low",
+  "footprint": "small",
+  "use": {
+    "zh-CN": "模型估算体成分",
+    "en": "Estimates composition with a model"
+  },
+  "caution": {
+    "zh-CN": "体脂数值不可当精确真值或跨品牌直比",
+    "en": "Do not treat fat estimates as exact or compare brands directly"
+  },
+  "sources": [
+    "bia-2021",
+    "resistance-obesity"
+  ],
+  "evidenceScope": {
+    "zh-CN": "前者为特定体脂秤验证，后者说明结局指标区分；不构成所有监测设备的精度验证。",
+    "en": "One validates specific BIA scales; the other distinguishes body-composition outcomes. These do not validate all monitors."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "measurement.svg",
+  "alternatives": []
+}

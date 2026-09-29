@@ -1,0 +1,50 @@
+{
+  "id": "spin-bike",
+  "name": {
+    "zh-CN": "动感单车",
+    "en": "Indoor cycling bike"
+  },
+  "aliases": [
+    "动感单车",
+    "Indoor cycling bike",
+    "spin-bike"
+  ],
+  "category": "cardio",
+  "patterns": [
+    "cycle"
+  ],
+  "regions": [
+    "legs"
+  ],
+  "settings": [
+    "home",
+    "gym"
+  ],
+  "role": "aerobic",
+  "path": "cyclic",
+  "learning": "low",
+  "footprint": "medium",
+  "use": {
+    "zh-CN": "飞轮驱动的室内骑行",
+    "en": "Indoor cycling with a flywheel"
+  },
+  "caution": {
+    "zh-CN": "有些飞轮不能滑行，熟悉刹车",
+    "en": "Some flywheels do not coast; learn the brake"
+  },
+  "sources": [
+    "who-2020",
+    "cdc-activity"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "cardio.svg",
+  "alternatives": [
+    "upright-bike",
+    "recumbent-bike",
+    "air-bike"
+  ]
+}

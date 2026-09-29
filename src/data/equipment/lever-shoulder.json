@@ -1,0 +1,48 @@
+{
+  "id": "lever-shoulder",
+  "name": {
+    "zh-CN": "挂片肩推机",
+    "en": "Plate-loaded shoulder press"
+  },
+  "aliases": [
+    "挂片肩推机",
+    "Plate-loaded shoulder press",
+    "lever-shoulder"
+  ],
+  "category": "plate",
+  "patterns": [
+    "vertical-push"
+  ],
+  "regions": [
+    "arms",
+    "shoulders"
+  ],
+  "settings": [
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "guided",
+  "learning": "moderate",
+  "footprint": "large",
+  "use": {
+    "zh-CN": "靠背支持的上推",
+    "en": "Supported overhead press"
+  },
+  "caution": {
+    "zh-CN": "不要强行进入不适的起始角度",
+    "en": "Do not force an uncomfortable starting angle"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "plate.svg",
+  "alternatives": [
+    "shoulder-press"
+  ]
+}

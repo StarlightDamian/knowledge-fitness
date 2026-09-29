@@ -1,0 +1,49 @@
+{
+  "id": "flywheel",
+  "name": {
+    "zh-CN": "飞轮惯性训练器",
+    "en": "Flywheel resistance trainer"
+  },
+  "aliases": [
+    "飞轮惯性训练器",
+    "Flywheel resistance trainer",
+    "flywheel"
+  ],
+  "category": "special",
+  "patterns": [
+    "multi"
+  ],
+  "regions": [
+    "varies"
+  ],
+  "settings": [
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "guided",
+  "learning": "high",
+  "footprint": "medium",
+  "use": {
+    "zh-CN": "旋转惯性提供阻力",
+    "en": "Rotational inertia supplies resistance"
+  },
+  "caution": {
+    "zh-CN": "离心阶段需技术，不按公斤套传统计划",
+    "en": "Eccentric phase needs skill; do not map inertia directly to kilograms"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "special.svg",
+  "alternatives": [
+    "dumbbell",
+    "adjustable-dumbbell",
+    "barbell"
+  ]
+}

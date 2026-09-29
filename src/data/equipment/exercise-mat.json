@@ -1,0 +1,50 @@
+{
+  "id": "exercise-mat",
+  "name": {
+    "zh-CN": "训练垫",
+    "en": "Exercise mat"
+  },
+  "aliases": [
+    "训练垫",
+    "Exercise mat",
+    "exercise-mat",
+    "瑜伽垫",
+    "瑜伽墊",
+    "yoga mat",
+    "ヨガマット"
+  ],
+  "category": "support",
+  "patterns": [
+    "support"
+  ],
+  "regions": [
+    "not-applicable"
+  ],
+  "settings": [
+    "home",
+    "gym"
+  ],
+  "role": "support",
+  "path": "support",
+  "learning": "low",
+  "footprint": "small",
+  "use": {
+    "zh-CN": "地面支撑与缓冲",
+    "en": "Floor support and cushioning"
+  },
+  "caution": {
+    "zh-CN": "厚软垫不适合所有站姿负重",
+    "en": "Thick soft mats are not ideal for every loaded stance"
+  },
+  "sources": [
+    "lf-catalog",
+    "tg-catalog"
+  ],
+  "evidenceScope": {
+    "zh-CN": "厂商目录仅用于识别类别。配件安全与承重须逐型号查手册；没有“增肌效果”分数。",
+    "en": "Manufacturer catalogs identify categories only. Check each model manual for ratings and safe use; no hypertrophy score is assigned."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "support.svg",
+  "alternatives": []
+}

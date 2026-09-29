@@ -1,0 +1,50 @@
+{
+  "id": "suspension-trainer",
+  "name": {
+    "zh-CN": "悬挂训练带",
+    "en": "Suspension trainer"
+  },
+  "aliases": [
+    "悬挂训练带",
+    "Suspension trainer",
+    "suspension-trainer"
+  ],
+  "category": "body",
+  "patterns": [
+    "multi"
+  ],
+  "regions": [
+    "varies"
+  ],
+  "settings": [
+    "home",
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "self",
+  "learning": "moderate",
+  "footprint": "small",
+  "use": {
+    "zh-CN": "通过身体倾角调难度",
+    "en": "Body angle adjusts difficulty"
+  },
+  "caution": {
+    "zh-CN": "锚点须按厂商安装，不能随意挂门",
+    "en": "Install as specified, not on an arbitrary door"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "body.svg",
+  "alternatives": [
+    "dumbbell",
+    "adjustable-dumbbell",
+    "barbell"
+  ]
+}

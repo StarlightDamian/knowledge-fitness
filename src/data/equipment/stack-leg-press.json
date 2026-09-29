@@ -1,0 +1,50 @@
+{
+  "id": "stack-leg-press",
+  "name": {
+    "zh-CN": "插片腿举机",
+    "en": "Selectorized leg press"
+  },
+  "aliases": [
+    "插片腿举机",
+    "Selectorized leg press",
+    "stack-leg-press"
+  ],
+  "category": "stack",
+  "patterns": [
+    "squat"
+  ],
+  "regions": [
+    "glutes",
+    "legs"
+  ],
+  "settings": [
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "guided",
+  "learning": "low",
+  "footprint": "large",
+  "use": {
+    "zh-CN": "座位与踏板相对移动",
+    "en": "Seat or platform moves for a press"
+  },
+  "caution": {
+    "zh-CN": "调行程与座距，不比配重数字",
+    "en": "Adjust travel and seat distance; do not compare stack numbers"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "stack.svg",
+  "alternatives": [
+    "safety-bar",
+    "leg-press-45",
+    "leg-press-horizontal"
+  ]
+}

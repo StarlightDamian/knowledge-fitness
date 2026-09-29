@@ -1,0 +1,50 @@
+{
+  "id": "back-extension",
+  "name": {
+    "zh-CN": "背部伸展机",
+    "en": "Back extension machine"
+  },
+  "aliases": [
+    "背部伸展机",
+    "Back extension machine",
+    "back-extension"
+  ],
+  "category": "stack",
+  "patterns": [
+    "hinge"
+  ],
+  "regions": [
+    "glutes",
+    "posterior"
+  ],
+  "settings": [
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "guided",
+  "learning": "low",
+  "footprint": "large",
+  "use": {
+    "zh-CN": "支持下的躯干或髋伸",
+    "en": "Supported trunk or hip extension"
+  },
+  "caution": {
+    "zh-CN": "机器路径不同，不能用于自诊腰病",
+    "en": "Paths vary; not a tool for self-diagnosis"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "stack.svg",
+  "alternatives": [
+    "trap-bar",
+    "kettlebell",
+    "sandbag"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "lever-lat-pulldown",
+  "name": {
+    "zh-CN": "挂片高位下拉机",
+    "en": "Plate-loaded lat pulldown"
+  },
+  "aliases": [
+    "挂片高位下拉机",
+    "挂片下拉",
+    "Plate-loaded lat pulldown",
+    "lever-lat-pulldown"
+  ],
+  "category": "plate",
+  "patterns": [
+    "vertical-pull"
+  ],
+  "regions": [
+    "arms",
+    "back"
+  ],
+  "settings": [
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "guided",
+  "learning": "moderate",
+  "footprint": "large",
+  "use": {
+    "zh-CN": "挂片加载的杠杆式向下拉动",
+    "en": "Lever-based downward pulling loaded with weight plates"
+  },
+  "caution": {
+    "zh-CN": "调整座位与大腿垫，核对空机阻力；握把轨迹和片重不能直接对照插片机",
+    "en": "Adjust seat and thigh pads; check unloaded resistance. Handle paths and plate loads are not directly equivalent to a weight-stack machine"
+  },
+  "sources": [
+    "acsm-2026",
+    "hs-front-pulldown"
+  ],
+  "evidenceScope": {
+    "zh-CN": "ACSM支持一般抗阻训练原则；厂商页面只核对本条目的结构，不证明效果或安全性。具体使用以型号手册为准。",
+    "en": "ACSM supports general resistance-training principles; the manufacturer page identifies structure only, without establishing efficacy or safety. Consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "plate.svg",
+  "alternatives": [
+    "lat-pulldown",
+    "lat-row-combo",
+    "pullup-bar"
+  ]
+}

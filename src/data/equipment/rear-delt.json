@@ -1,0 +1,50 @@
+{
+  "id": "rear-delt",
+  "name": {
+    "zh-CN": "反向飞鸟机",
+    "en": "Reverse pec deck"
+  },
+  "aliases": [
+    "反向飞鸟机",
+    "Reverse pec deck",
+    "rear-delt"
+  ],
+  "category": "stack",
+  "patterns": [
+    "pull"
+  ],
+  "regions": [
+    "arms",
+    "back"
+  ],
+  "settings": [
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "guided",
+  "learning": "low",
+  "footprint": "large",
+  "use": {
+    "zh-CN": "上臂水平外展",
+    "en": "Horizontal shoulder abduction"
+  },
+  "caution": {
+    "zh-CN": "把手与胸垫先调到可达范围",
+    "en": "Set handles and chest pad within reach"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "stack.svg",
+  "alternatives": [
+    "lever-row",
+    "tbar-row",
+    "lat-row-combo"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "ghd",
+  "name": {
+    "zh-CN": "臀腿开发器",
+    "en": "Glute-ham developer"
+  },
+  "aliases": [
+    "臀腿开发器",
+    "Glute-ham developer",
+    "ghd"
+  ],
+  "category": "support",
+  "patterns": [
+    "hinge",
+    "knee"
+  ],
+  "regions": [
+    "glutes",
+    "legs",
+    "posterior"
+  ],
+  "settings": [
+    "home",
+    "gym"
+  ],
+  "role": "support",
+  "path": "support",
+  "learning": "high",
+  "footprint": "large",
+  "use": {
+    "zh-CN": "固定踝部的后链练习",
+    "en": "Posterior-chain work with ankle fixation"
+  },
+  "caution": {
+    "zh-CN": "高难度动作需回归版本",
+    "en": "Advanced exercises need regressions"
+  },
+  "sources": [
+    "lf-catalog",
+    "tg-catalog"
+  ],
+  "evidenceScope": {
+    "zh-CN": "厂商目录仅用于识别类别。配件安全与承重须逐型号查手册；没有“增肌效果”分数。",
+    "en": "Manufacturer catalogs identify categories only. Check each model manual for ratings and safe use; no hypertrophy score is assigned."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "support.svg",
+  "alternatives": []
+}

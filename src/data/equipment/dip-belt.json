@@ -1,0 +1,46 @@
+{
+  "id": "dip-belt",
+  "name": {
+    "zh-CN": "引体双杠负重腰带",
+    "en": "Dip / pull-up loading belt"
+  },
+  "aliases": [
+    "引体双杠负重腰带",
+    "Dip / pull-up loading belt",
+    "dip-belt"
+  ],
+  "category": "support",
+  "patterns": [
+    "support"
+  ],
+  "regions": [
+    "not-applicable"
+  ],
+  "settings": [
+    "gym",
+    "home"
+  ],
+  "role": "support",
+  "path": "support",
+  "learning": "moderate",
+  "footprint": "small",
+  "use": {
+    "zh-CN": "连接外部配重用于自重动作",
+    "en": "Connects external load for bodyweight exercises"
+  },
+  "caution": {
+    "zh-CN": "需另配承重装置与配重，核对链条扣具",
+    "en": "Requires compatible support and load; inspect chains and clips"
+  },
+  "sources": [
+    "lf-catalog",
+    "tg-catalog"
+  ],
+  "evidenceScope": {
+    "zh-CN": "厂商目录仅用于识别类别。配件安全与承重须逐型号查手册；没有“增肌效果”分数。",
+    "en": "Manufacturer catalogs identify categories only. Check each model manual for ratings and safe use; no hypertrophy score is assigned."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "support.svg",
+  "alternatives": []
+}

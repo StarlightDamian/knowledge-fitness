@@ -1,0 +1,48 @@
+{
+  "id": "club",
+  "name": {
+    "zh-CN": "训练棒铃",
+    "en": "Clubbell"
+  },
+  "aliases": [
+    "训练棒铃",
+    "Clubbell",
+    "club"
+  ],
+  "category": "free",
+  "patterns": [
+    "rotation"
+  ],
+  "regions": [
+    "trunk"
+  ],
+  "settings": [
+    "home",
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "self",
+  "learning": "high",
+  "footprint": "small",
+  "use": {
+    "zh-CN": "长力臂旋转控制",
+    "en": "Long-lever rotational control"
+  },
+  "caution": {
+    "zh-CN": "远离他人，先练慢速可控路径",
+    "en": "Clear people away; learn slow control"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "free.svg",
+  "alternatives": [
+    "rotary-torso"
+  ]
+}

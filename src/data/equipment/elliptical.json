@@ -1,0 +1,50 @@
+{
+  "id": "elliptical",
+  "name": {
+    "zh-CN": "椭圆机",
+    "en": "Elliptical trainer"
+  },
+  "aliases": [
+    "椭圆机",
+    "Elliptical trainer",
+    "elliptical"
+  ],
+  "category": "cardio",
+  "patterns": [
+    "gait"
+  ],
+  "regions": [
+    "legs"
+  ],
+  "settings": [
+    "home",
+    "gym"
+  ],
+  "role": "aerobic",
+  "path": "cyclic",
+  "learning": "low",
+  "footprint": "large",
+  "use": {
+    "zh-CN": "踏板持续接触的周期运动",
+    "en": "Cyclic motion with continuous pedal contact"
+  },
+  "caution": {
+    "zh-CN": "步幅合适再增阻力",
+    "en": "Check stride fit before increasing resistance"
+  },
+  "sources": [
+    "who-2020",
+    "cdc-activity"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "cardio.svg",
+  "alternatives": [
+    "treadmill",
+    "walking-pad",
+    "curved-treadmill"
+  ]
+}

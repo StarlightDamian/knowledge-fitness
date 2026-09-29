@@ -1,0 +1,50 @@
+{
+  "id": "tbar-row",
+  "name": {
+    "zh-CN": "胸托T杠划船机",
+    "en": "Chest-supported T-bar row"
+  },
+  "aliases": [
+    "胸托T杠划船机",
+    "Chest-supported T-bar row",
+    "tbar-row"
+  ],
+  "category": "plate",
+  "patterns": [
+    "pull"
+  ],
+  "regions": [
+    "arms",
+    "back"
+  ],
+  "settings": [
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "guided",
+  "learning": "moderate",
+  "footprint": "large",
+  "use": {
+    "zh-CN": "胸部支持的杠杆划船",
+    "en": "Chest-supported lever row"
+  },
+  "caution": {
+    "zh-CN": "胸垫与把手距离须合适",
+    "en": "Adjust pad and handle reach"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "plate.svg",
+  "alternatives": [
+    "rear-delt",
+    "seated-row",
+    "lat-row-combo"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "weight-plate",
+  "name": {
+    "zh-CN": "杠铃片",
+    "en": "Weight plates"
+  },
+  "aliases": [
+    "杠铃片",
+    "Weight plates",
+    "weight-plate"
+  ],
+  "category": "free",
+  "patterns": [
+    "multi"
+  ],
+  "regions": [
+    "varies"
+  ],
+  "settings": [
+    "home",
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "self",
+  "learning": "moderate",
+  "footprint": "small",
+  "use": {
+    "zh-CN": "用于杠铃或专用挂片设备",
+    "en": "Loads a bar or compatible machine"
+  },
+  "caution": {
+    "zh-CN": "孔径、承重与固定方式须匹配",
+    "en": "Match bore, rating and retention"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "free.svg",
+  "alternatives": [
+    "smith",
+    "functional-trainer",
+    "cable-crossover"
+  ]
+}

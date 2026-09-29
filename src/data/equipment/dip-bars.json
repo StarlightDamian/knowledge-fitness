@@ -1,0 +1,54 @@
+{
+  "id": "dip-bars",
+  "name": {
+    "zh-CN": "双杠架",
+    "en": "Dip bars"
+  },
+  "aliases": [
+    "双杠架",
+    "Dip bars",
+    "dip-bars",
+    "户外双杠",
+    "Parallel bars"
+  ],
+  "category": "body",
+  "patterns": [
+    "push"
+  ],
+  "regions": [
+    "arms",
+    "chest"
+  ],
+  "settings": [
+    "home",
+    "gym",
+    "outdoor"
+  ],
+  "role": "resistance",
+  "path": "self",
+  "learning": "moderate",
+  "footprint": "small",
+  "use": {
+    "zh-CN": "支撑身体的推举",
+    "en": "Press with body supported on bars"
+  },
+  "caution": {
+    "zh-CN": "检查固定与设施状态，先练支撑，勿强求深度",
+    "en": "Check anchoring and condition; learn support first and do not force depth"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "body.svg",
+  "alternatives": [
+    "lever-chest",
+    "chest-press",
+    "pec-deck"
+  ]
+}

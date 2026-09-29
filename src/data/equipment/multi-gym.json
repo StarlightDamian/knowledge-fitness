@@ -1,0 +1,49 @@
+{
+  "id": "multi-gym",
+  "name": {
+    "zh-CN": "多功能综合训练机",
+    "en": "Multi-gym station"
+  },
+  "aliases": [
+    "多功能综合训练机",
+    "Multi-gym station",
+    "multi-gym"
+  ],
+  "category": "cable",
+  "patterns": [
+    "multi"
+  ],
+  "regions": [
+    "varies"
+  ],
+  "settings": [
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "self",
+  "learning": "moderate",
+  "footprint": "large",
+  "use": {
+    "zh-CN": "共享配重的多训练站",
+    "en": "Multiple stations sharing a stack"
+  },
+  "caution": {
+    "zh-CN": "共享配重时确认能否同时使用",
+    "en": "Verify whether simultaneous use is allowed"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "cable.svg",
+  "alternatives": [
+    "dumbbell",
+    "adjustable-dumbbell",
+    "barbell"
+  ]
+}

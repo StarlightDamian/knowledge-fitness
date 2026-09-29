@@ -1,0 +1,54 @@
+{
+  "id": "functional-trainer",
+  "name": {
+    "zh-CN": "双滑轮功能训练器",
+    "en": "Dual adjustable pulley trainer"
+  },
+  "aliases": [
+    "双滑轮功能训练器",
+    "Dual adjustable pulley trainer",
+    "functional-trainer",
+    "大飞鸟",
+    "龙门架",
+    "双滑轮",
+    "cable machine",
+    "functional trainer"
+  ],
+  "category": "cable",
+  "patterns": [
+    "multi"
+  ],
+  "regions": [
+    "varies"
+  ],
+  "settings": [
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "self",
+  "learning": "moderate",
+  "footprint": "large",
+  "use": {
+    "zh-CN": "两侧独立调高度和方向",
+    "en": "Independently adjustable pulley heights"
+  },
+  "caution": {
+    "zh-CN": "检查滑轮锁定、钢索及配件额定值",
+    "en": "Check pulley locks, cables and attachment ratings"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "cable.svg",
+  "alternatives": [
+    "dumbbell",
+    "adjustable-dumbbell",
+    "barbell"
+  ]
+}

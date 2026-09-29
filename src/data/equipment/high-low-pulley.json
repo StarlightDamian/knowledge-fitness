@@ -1,0 +1,49 @@
+{
+  "id": "high-low-pulley",
+  "name": {
+    "zh-CN": "高低位滑轮塔",
+    "en": "High / low pulley tower"
+  },
+  "aliases": [
+    "高低位滑轮塔",
+    "High / low pulley tower",
+    "high-low-pulley"
+  ],
+  "category": "cable",
+  "patterns": [
+    "multi"
+  ],
+  "regions": [
+    "varies"
+  ],
+  "settings": [
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "self",
+  "learning": "moderate",
+  "footprint": "large",
+  "use": {
+    "zh-CN": "单塔高低位动作",
+    "en": "High and low positions on one tower"
+  },
+  "caution": {
+    "zh-CN": "滑轮倍率影响手端负荷",
+    "en": "Pulley ratio changes handle force"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "cable.svg",
+  "alternatives": [
+    "dumbbell",
+    "adjustable-dumbbell",
+    "barbell"
+  ]
+}

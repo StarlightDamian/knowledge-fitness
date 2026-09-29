@@ -1,0 +1,50 @@
+{
+  "id": "treadmill",
+  "name": {
+    "zh-CN": "电动跑步机",
+    "en": "Motorized treadmill"
+  },
+  "aliases": [
+    "电动跑步机",
+    "Motorized treadmill",
+    "treadmill"
+  ],
+  "category": "cardio",
+  "patterns": [
+    "gait"
+  ],
+  "regions": [
+    "legs"
+  ],
+  "settings": [
+    "home",
+    "gym"
+  ],
+  "role": "aerobic",
+  "path": "cyclic",
+  "learning": "low",
+  "footprint": "large",
+  "use": {
+    "zh-CN": "速度与坡度可设的步行跑步",
+    "en": "Walking or running at set speed and incline"
+  },
+  "caution": {
+    "zh-CN": "熟悉急停，不在快转履带上上下机",
+    "en": "Learn emergency stop; do not step onto a fast belt"
+  },
+  "sources": [
+    "who-2020",
+    "cdc-activity"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "cardio.svg",
+  "alternatives": [
+    "walking-pad",
+    "curved-treadmill",
+    "elliptical"
+  ]
+}

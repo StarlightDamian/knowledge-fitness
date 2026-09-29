@@ -1,0 +1,49 @@
+{
+  "id": "hack-squat",
+  "name": {
+    "zh-CN": "哈克深蹲机",
+    "en": "Hack squat machine"
+  },
+  "aliases": [
+    "哈克深蹲机",
+    "Hack squat machine",
+    "hack-squat"
+  ],
+  "category": "plate",
+  "patterns": [
+    "squat"
+  ],
+  "regions": [
+    "glutes",
+    "legs"
+  ],
+  "settings": [
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "guided",
+  "learning": "moderate",
+  "footprint": "large",
+  "use": {
+    "zh-CN": "肩背支撑，沿轨道蹲起",
+    "en": "Supported rail-guided squat"
+  },
+  "caution": {
+    "zh-CN": "检查挡块并调整站位",
+    "en": "Test stops and adjust foot position"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "plate.svg",
+  "alternatives": [
+    "safety-bar",
+    "stack-leg-press"
+  ]
+}

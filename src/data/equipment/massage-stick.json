@@ -1,0 +1,46 @@
+{
+  "id": "massage-stick",
+  "name": {
+    "zh-CN": "按摩棒",
+    "en": "Massage stick"
+  },
+  "aliases": [
+    "按摩棒",
+    "Massage stick",
+    "massage-stick"
+  ],
+  "category": "recovery",
+  "patterns": [
+    "mobility"
+  ],
+  "regions": [
+    "varies"
+  ],
+  "settings": [
+    "home",
+    "gym"
+  ],
+  "role": "recovery",
+  "path": "support",
+  "learning": "low",
+  "footprint": "small",
+  "use": {
+    "zh-CN": "手控压力的局部滚动",
+    "en": "Hand-controlled local rolling"
+  },
+  "caution": {
+    "zh-CN": "更大压力不等于更好恢复",
+    "en": "More pressure does not mean better recovery"
+  },
+  "sources": [
+    "foam-2019",
+    "stretching-2011"
+  ],
+  "evidenceScope": {
+    "zh-CN": "恢复文献只支持相应干预，不可把泡沫轴证据迁移成筋膜枪、按摩球或其他设备的有效性证明。",
+    "en": "Recovery evidence applies to the studied interventions. Foam-rolling evidence does not validate percussion guns or other devices."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "recovery.svg",
+  "alternatives": []
+}

@@ -1,0 +1,46 @@
+{
+  "id": "stability-ball",
+  "name": {
+    "zh-CN": "健身球",
+    "en": "Stability ball"
+  },
+  "aliases": [
+    "健身球",
+    "Stability ball",
+    "stability-ball"
+  ],
+  "category": "support",
+  "patterns": [
+    "core"
+  ],
+  "regions": [
+    "trunk"
+  ],
+  "settings": [
+    "home",
+    "gym"
+  ],
+  "role": "support",
+  "path": "support",
+  "learning": "low",
+  "footprint": "medium",
+  "use": {
+    "zh-CN": "可变支撑面控制练习",
+    "en": "Variable support for control drills"
+  },
+  "caution": {
+    "zh-CN": "核对尺寸、承重、防爆和地面",
+    "en": "Check size, rating, burst specification and floor"
+  },
+  "sources": [
+    "lf-catalog",
+    "tg-catalog"
+  ],
+  "evidenceScope": {
+    "zh-CN": "厂商目录仅用于识别类别。配件安全与承重须逐型号查手册；没有“增肌效果”分数。",
+    "en": "Manufacturer catalogs identify categories only. Check each model manual for ratings and safe use; no hypertrophy score is assigned."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "support.svg",
+  "alternatives": []
+}

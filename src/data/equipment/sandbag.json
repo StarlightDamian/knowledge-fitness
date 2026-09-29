@@ -1,0 +1,54 @@
+{
+  "id": "sandbag",
+  "name": {
+    "zh-CN": "训练沙袋",
+    "en": "Training sandbag"
+  },
+  "aliases": [
+    "训练沙袋",
+    "Training sandbag",
+    "sandbag"
+  ],
+  "category": "free",
+  "patterns": [
+    "carry",
+    "hinge"
+  ],
+  "regions": [
+    "full-body",
+    "glutes",
+    "posterior"
+  ],
+  "settings": [
+    "home",
+    "gym",
+    "outdoor"
+  ],
+  "role": "resistance",
+  "path": "self",
+  "learning": "moderate",
+  "footprint": "small",
+  "use": {
+    "zh-CN": "不规则负重的抱持与搬运",
+    "en": "Irregular load for holds and carries"
+  },
+  "caution": {
+    "zh-CN": "内容物移动，不等同稳定杠铃",
+    "en": "Shifting fill differs from a stable bar"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "free.svg",
+  "alternatives": [
+    "hip-thrust-machine",
+    "reverse-hyper",
+    "kickback"
+  ]
+}

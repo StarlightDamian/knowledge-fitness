@@ -1,0 +1,52 @@
+{
+  "id": "pullup-bar",
+  "name": {
+    "zh-CN": "引体向上杆",
+    "en": "Pull-up bar"
+  },
+  "aliases": [
+    "引体向上杆",
+    "Pull-up bar",
+    "pullup-bar"
+  ],
+  "category": "body",
+  "patterns": [
+    "vertical-pull"
+  ],
+  "regions": [
+    "arms",
+    "back"
+  ],
+  "settings": [
+    "home",
+    "gym",
+    "outdoor"
+  ],
+  "role": "resistance",
+  "path": "self",
+  "learning": "moderate",
+  "footprint": "small",
+  "use": {
+    "zh-CN": "悬垂和垂直拉动",
+    "en": "Hanging and vertical pulling"
+  },
+  "caution": {
+    "zh-CN": "锚固与承重必须核对",
+    "en": "Verify anchoring and load rating"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "body.svg",
+  "alternatives": [
+    "lat-pulldown",
+    "assisted-pullup",
+    "lat-row-combo"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "ab-crunch",
+  "name": {
+    "zh-CN": "腹部卷曲机",
+    "en": "Abdominal crunch machine"
+  },
+  "aliases": [
+    "腹部卷曲机",
+    "Abdominal crunch machine",
+    "ab-crunch"
+  ],
+  "category": "stack",
+  "patterns": [
+    "core"
+  ],
+  "regions": [
+    "trunk"
+  ],
+  "settings": [
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "guided",
+  "learning": "low",
+  "footprint": "large",
+  "use": {
+    "zh-CN": "受控躯干屈曲",
+    "en": "Controlled trunk flexion"
+  },
+  "caution": {
+    "zh-CN": "不以颈部猛拉传力",
+    "en": "Do not jerk through the neck"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "stack.svg",
+  "alternatives": [
+    "parallettes",
+    "ab-wheel"
+  ]
+}

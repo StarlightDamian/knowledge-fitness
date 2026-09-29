@@ -1,0 +1,46 @@
+{
+  "id": "stretch-strap",
+  "name": {
+    "zh-CN": "拉伸带",
+    "en": "Stretching strap"
+  },
+  "aliases": [
+    "拉伸带",
+    "Stretching strap",
+    "stretch-strap"
+  ],
+  "category": "recovery",
+  "patterns": [
+    "mobility"
+  ],
+  "regions": [
+    "varies"
+  ],
+  "settings": [
+    "home",
+    "gym"
+  ],
+  "role": "recovery",
+  "path": "support",
+  "learning": "low",
+  "footprint": "small",
+  "use": {
+    "zh-CN": "帮助控制伸展位置",
+    "en": "Assists controlled stretching positions"
+  },
+  "caution": {
+    "zh-CN": "不以带子强拉进入疼痛",
+    "en": "Do not pull forcefully into pain"
+  },
+  "sources": [
+    "foam-2019",
+    "stretching-2011"
+  ],
+  "evidenceScope": {
+    "zh-CN": "恢复文献只支持相应干预，不可把泡沫轴证据迁移成筋膜枪、按摩球或其他设备的有效性证明。",
+    "en": "Recovery evidence applies to the studied interventions. Foam-rolling evidence does not validate percussion guns or other devices."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "recovery.svg",
+  "alternatives": []
+}

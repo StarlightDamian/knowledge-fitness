@@ -1,0 +1,287 @@
+{
+  "mode": "http",
+  "passed": 70,
+  "checks": [
+    {
+      "name": "home contains current catalog count",
+      "passed": true
+    },
+    {
+      "name": "initial JS has no uncaught errors",
+      "passed": true
+    },
+    {
+      "name": "route renders equipment",
+      "passed": true
+    },
+    {
+      "name": "route renders compare",
+      "passed": true
+    },
+    {
+      "name": "route renders plans",
+      "passed": true
+    },
+    {
+      "name": "route renders knowledge",
+      "passed": true
+    },
+    {
+      "name": "route renders methods",
+      "passed": true
+    },
+    {
+      "name": "route renders populations",
+      "passed": true
+    },
+    {
+      "name": "route renders metrics",
+      "passed": true
+    },
+    {
+      "name": "route renders evidence",
+      "passed": true
+    },
+    {
+      "name": "Chinese equipment filter",
+      "passed": true
+    },
+    {
+      "name": "compare contains all catalog rows",
+      "passed": true
+    },
+    {
+      "name": "two selected equipment columns",
+      "passed": true
+    },
+    {
+      "name": "sorting retains complete table",
+      "passed": true
+    },
+    {
+      "name": "full CSV exported",
+      "passed": true
+    },
+    {
+      "name": "equipment detail renders unique record",
+      "passed": true
+    },
+    {
+      "name": "reference links use HTTPS",
+      "passed": true
+    },
+    {
+      "name": "unknown safety answers fail closed",
+      "passed": true
+    },
+    {
+      "name": "known dumbbell inventory returns feasible plan",
+      "passed": true
+    },
+    {
+      "name": "changing constraints invalidates old results",
+      "passed": true
+    },
+    {
+      "name": "time budget not relaxed automatically",
+      "passed": true
+    },
+    {
+      "name": "symptom query blocks recommendation",
+      "passed": true
+    },
+    {
+      "name": "pregnancy routes to assessment",
+      "passed": true
+    },
+    {
+      "name": "older adult route is educational, not standard template",
+      "passed": true
+    },
+    {
+      "name": "plan includes sets, reps and RIR",
+      "passed": true
+    },
+    {
+      "name": "unilateral 8-12 reps are translated per side",
+      "passed": true
+    },
+    {
+      "name": "English unilateral reps retain per-side meaning",
+      "passed": true
+    },
+    {
+      "name": "cycling progression uses duration without rep-ceiling instructions",
+      "passed": true
+    },
+    {
+      "name": "search query is escaped, not inserted as markup",
+      "passed": true
+    },
+    {
+      "name": "Korean symptom gate works in browser",
+      "passed": true
+    },
+    {
+      "name": "knowledge detail opens accessible dialog",
+      "passed": true
+    },
+    {
+      "name": "dialog closes on Escape",
+      "passed": true
+    },
+    {
+      "name": "language en has correct document language",
+      "passed": true
+    },
+    {
+      "name": "language zh-TW has correct document language",
+      "passed": true
+    },
+    {
+      "name": "fallback disclosure zh-TW",
+      "passed": true
+    },
+    {
+      "name": "language es has correct document language",
+      "passed": true
+    },
+    {
+      "name": "fallback disclosure es",
+      "passed": true
+    },
+    {
+      "name": "language fr has correct document language",
+      "passed": true
+    },
+    {
+      "name": "fallback disclosure fr",
+      "passed": true
+    },
+    {
+      "name": "language de has correct document language",
+      "passed": true
+    },
+    {
+      "name": "fallback disclosure de",
+      "passed": true
+    },
+    {
+      "name": "language pt has correct document language",
+      "passed": true
+    },
+    {
+      "name": "fallback disclosure pt",
+      "passed": true
+    },
+    {
+      "name": "language ja has correct document language",
+      "passed": true
+    },
+    {
+      "name": "fallback disclosure ja",
+      "passed": true
+    },
+    {
+      "name": "language ko has correct document language",
+      "passed": true
+    },
+    {
+      "name": "fallback disclosure ko",
+      "passed": true
+    },
+    {
+      "name": "language ru has correct document language",
+      "passed": true
+    },
+    {
+      "name": "fallback disclosure ru",
+      "passed": true
+    },
+    {
+      "name": "language ar has correct document language",
+      "passed": true
+    },
+    {
+      "name": "fallback disclosure ar",
+      "passed": true
+    },
+    {
+      "name": "language hi has correct document language",
+      "passed": true
+    },
+    {
+      "name": "fallback disclosure hi",
+      "passed": true
+    },
+    {
+      "name": "language zh-CN has correct document language",
+      "passed": true
+    },
+    {
+      "name": "Arabic document RTL",
+      "passed": true
+    },
+    {
+      "name": "dark theme toggles",
+      "passed": true
+    },
+    {
+      "name": "BMI computed with cm->m conversion",
+      "passed": true
+    },
+    {
+      "name": "explicitly consented record enters history",
+      "passed": true
+    },
+    {
+      "name": "weight chart has accessible title",
+      "passed": true
+    },
+    {
+      "name": "no accidental zero values in missing optional fields",
+      "passed": true
+    },
+    {
+      "name": "HTTP-origin localStorage persists on reload",
+      "passed": true
+    },
+    {
+      "name": "explicit delete clears records",
+      "passed": true
+    },
+    {
+      "name": "home no viewport overflow at 390",
+      "passed": true
+    },
+    {
+      "name": "comparison scroll contained at 390",
+      "passed": true
+    },
+    {
+      "name": "home no viewport overflow at 768",
+      "passed": true
+    },
+    {
+      "name": "comparison scroll contained at 768",
+      "passed": true
+    },
+    {
+      "name": "home no viewport overflow at 1440",
+      "passed": true
+    },
+    {
+      "name": "comparison scroll contained at 1440",
+      "passed": true
+    },
+    {
+      "name": "all tested routes free of uncaught JS errors",
+      "passed": true
+    },
+    {
+      "name": "no external runtime network requests",
+      "passed": true
+    }
+  ],
+  "limitations": "Local HTTP only; does not verify live GitHub Pages or file://."
+}

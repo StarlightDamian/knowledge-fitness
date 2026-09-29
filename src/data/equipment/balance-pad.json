@@ -1,0 +1,46 @@
+{
+  "id": "balance-pad",
+  "name": {
+    "zh-CN": "平衡软垫",
+    "en": "Balance pad"
+  },
+  "aliases": [
+    "平衡软垫",
+    "Balance pad",
+    "balance-pad"
+  ],
+  "category": "support",
+  "patterns": [
+    "core"
+  ],
+  "regions": [
+    "trunk"
+  ],
+  "settings": [
+    "gym",
+    "home"
+  ],
+  "role": "support",
+  "path": "support",
+  "learning": "moderate",
+  "footprint": "small",
+  "use": {
+    "zh-CN": "改变站立支撑面的柔软程度",
+    "en": "Changes compliance of a standing support surface"
+  },
+  "caution": {
+    "zh-CN": "不稳定训练不能替代负重训练或跌倒风险评估",
+    "en": "Balance challenge does not replace resistance work or fall-risk assessment"
+  },
+  "sources": [
+    "lf-catalog",
+    "tg-catalog"
+  ],
+  "evidenceScope": {
+    "zh-CN": "厂商目录仅用于识别类别。配件安全与承重须逐型号查手册；没有“增肌效果”分数。",
+    "en": "Manufacturer catalogs identify categories only. Check each model manual for ratings and safe use; no hypertrophy score is assigned."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "support.svg",
+  "alternatives": []
+}

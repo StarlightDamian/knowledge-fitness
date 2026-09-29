@@ -1,0 +1,29 @@
+{
+  "name": "Lift Atlas",
+  "version": "1.0.0",
+  "reviewedAt": "2026-09-29",
+  "codeLicense": "MIT",
+  "contentLicense": "CC-BY-4.0",
+  "professionalReview": "pending",
+  "measuredEquipmentCoverage": null,
+  "coverageTarget": 0.95,
+  "contentLocales": [
+    "zh-CN",
+    "en"
+  ],
+  "navigationLocales": [
+    "zh-CN",
+    "en",
+    "zh-TW",
+    "es",
+    "fr",
+    "de",
+    "pt",
+    "ja",
+    "ko",
+    "ru",
+    "ar",
+    "hi"
+  ],
+  "imageProvenance": "Original programmatic SVG schematics. Image-generation connector failed to authenticate; no claim of AI image generation."
+}

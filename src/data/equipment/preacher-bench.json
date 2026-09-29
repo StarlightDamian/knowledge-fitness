@@ -1,0 +1,48 @@
+{
+  "id": "preacher-bench",
+  "name": {
+    "zh-CN": "牧师凳",
+    "en": "Preacher curl bench"
+  },
+  "aliases": [
+    "牧师凳",
+    "斜托弯举凳",
+    "Preacher curl bench",
+    "Seated arm curl bench",
+    "preacher-bench"
+  ],
+  "category": "support",
+  "patterns": [
+    "elbow"
+  ],
+  "regions": [
+    "arms"
+  ],
+  "settings": [
+    "home",
+    "gym"
+  ],
+  "role": "support",
+  "path": "support",
+  "learning": "low",
+  "footprint": "medium",
+  "use": {
+    "zh-CN": "支撑上臂进行弯举，需另配哑铃或曲杆等负重",
+    "en": "Supports the upper arms for curls using separate dumbbells or a curl bar"
+  },
+  "caution": {
+    "zh-CN": "调节座高与垫位，不以底端弹震借力；凳本身不提供阻力",
+    "en": "Adjust seat and pad position; avoid bouncing at the bottom. The bench supplies no resistance itself"
+  },
+  "sources": [
+    "acsm-2026",
+    "hs-preacher-bench"
+  ],
+  "evidenceScope": {
+    "zh-CN": "ACSM支持一般抗阻训练原则；厂商页面只核对本条目的结构，不证明效果或安全性。具体使用以型号手册为准。",
+    "en": "ACSM supports general resistance-training principles; the manufacturer page identifies structure only, without establishing efficacy or safety. Consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "support.svg",
+  "alternatives": []
+}

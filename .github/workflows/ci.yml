@@ -1,0 +1,34 @@
+name: Validate and test
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  core:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+          package-manager-cache: false
+      - run: npm run check
+  browser:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+          package-manager-cache: false
+      - run: npm run build
+      - name: Install isolated browser test dependencies
+        run: |
+          python3 -m venv .venv
+          .venv/bin/python -m pip install -r tests/requirements.txt
+          .venv/bin/python -m playwright install --with-deps chromium
+      - name: Test local HTTP origin and UI
+        run: .venv/bin/python tests/browser_smoke.py --mode http

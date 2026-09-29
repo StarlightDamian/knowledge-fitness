@@ -1,0 +1,56 @@
+{
+  "id": "barbell",
+  "name": {
+    "zh-CN": "直杆杠铃",
+    "en": "Straight barbell"
+  },
+  "aliases": [
+    "直杆杠铃",
+    "Straight barbell",
+    "barbell",
+    "杠铃",
+    "槓鈴",
+    "Olympic bar",
+    "杠子",
+    "バーベル",
+    "штанга"
+  ],
+  "category": "free",
+  "patterns": [
+    "multi"
+  ],
+  "regions": [
+    "varies"
+  ],
+  "settings": [
+    "home",
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "self",
+  "learning": "moderate",
+  "footprint": "medium",
+  "use": {
+    "zh-CN": "双侧复合动作与小幅加重",
+    "en": "Bilateral lifts with incremental loading"
+  },
+  "caution": {
+    "zh-CN": "需要合适支架、卡箍与保护杆",
+    "en": "Use suitable racks, collars and safety arms"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "free.svg",
+  "alternatives": [
+    "smith",
+    "functional-trainer",
+    "cable-crossover"
+  ]
+}

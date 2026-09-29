@@ -1,0 +1,47 @@
+{
+  "id": "ankle-weights",
+  "name": {
+    "zh-CN": "踝部负重沙袋",
+    "en": "Ankle weights"
+  },
+  "aliases": [
+    "踝部负重沙袋",
+    "Ankle weights",
+    "ankle-weights"
+  ],
+  "category": "free",
+  "patterns": [
+    "hip",
+    "knee"
+  ],
+  "regions": [
+    "legs"
+  ],
+  "settings": [
+    "gym",
+    "home"
+  ],
+  "role": "resistance",
+  "path": "self",
+  "learning": "low",
+  "footprint": "small",
+  "use": {
+    "zh-CN": "在特定慢速动作中增加远端质量",
+    "en": "Adds distal mass during selected controlled movements"
+  },
+  "caution": {
+    "zh-CN": "不自动加到跑跳或康复动作，先确认适用性",
+    "en": "Do not automatically add to running, jumping or rehab; assess suitability"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "free.svg",
+  "alternatives": []
+}

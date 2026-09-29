@@ -1,0 +1,51 @@
+{
+  "id": "prone-leg-curl",
+  "name": {
+    "zh-CN": "俯卧腿弯举机",
+    "en": "Prone leg curl"
+  },
+  "aliases": [
+    "俯卧腿弯举机",
+    "Prone leg curl",
+    "prone-leg-curl",
+    "卧式腿弯举",
+    "俯卧勾腿",
+    "lying leg curl"
+  ],
+  "category": "stack",
+  "patterns": [
+    "knee"
+  ],
+  "regions": [
+    "legs"
+  ],
+  "settings": [
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "guided",
+  "learning": "low",
+  "footprint": "large",
+  "use": {
+    "zh-CN": "俯卧位屈膝",
+    "en": "Prone knee flexion"
+  },
+  "caution": {
+    "zh-CN": "骨盆保持支持，避免猛抬髋",
+    "en": "Keep the pelvis supported; avoid jerking"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "stack.svg",
+  "alternatives": [
+    "leg-extension",
+    "seated-leg-curl"
+  ]
+}

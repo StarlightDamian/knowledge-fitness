@@ -1,0 +1,50 @@
+{
+  "id": "lever-chest",
+  "name": {
+    "zh-CN": "挂片推胸机",
+    "en": "Plate-loaded chest press"
+  },
+  "aliases": [
+    "挂片推胸机",
+    "Plate-loaded chest press",
+    "lever-chest"
+  ],
+  "category": "plate",
+  "patterns": [
+    "push"
+  ],
+  "regions": [
+    "arms",
+    "chest"
+  ],
+  "settings": [
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "guided",
+  "learning": "moderate",
+  "footprint": "large",
+  "use": {
+    "zh-CN": "固定或收敛杠杆推举",
+    "en": "Fixed or converging lever press"
+  },
+  "caution": {
+    "zh-CN": "调座高，让起始位可控",
+    "en": "Adjust seat height for a controlled start"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "plate.svg",
+  "alternatives": [
+    "chest-press",
+    "pec-deck",
+    "assisted-pullup"
+  ]
+}

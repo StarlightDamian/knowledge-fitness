@@ -1,0 +1,50 @@
+{
+  "id": "lever-row",
+  "name": {
+    "zh-CN": "挂片划船机",
+    "en": "Plate-loaded row"
+  },
+  "aliases": [
+    "挂片划船机",
+    "Plate-loaded row",
+    "lever-row"
+  ],
+  "category": "plate",
+  "patterns": [
+    "pull"
+  ],
+  "regions": [
+    "arms",
+    "back"
+  ],
+  "settings": [
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "guided",
+  "learning": "moderate",
+  "footprint": "large",
+  "use": {
+    "zh-CN": "杠杆式背部拉动",
+    "en": "Lever-based pulling"
+  },
+  "caution": {
+    "zh-CN": "避免用躯干猛甩代替拉动",
+    "en": "Avoid jerking the torso to move the load"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "plate.svg",
+  "alternatives": [
+    "rear-delt",
+    "seated-row",
+    "lat-row-combo"
+  ]
+}

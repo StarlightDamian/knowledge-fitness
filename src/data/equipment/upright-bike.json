@@ -1,0 +1,50 @@
+{
+  "id": "upright-bike",
+  "name": {
+    "zh-CN": "立式健身车",
+    "en": "Upright exercise bike"
+  },
+  "aliases": [
+    "立式健身车",
+    "Upright exercise bike",
+    "upright-bike"
+  ],
+  "category": "cardio",
+  "patterns": [
+    "cycle"
+  ],
+  "regions": [
+    "legs"
+  ],
+  "settings": [
+    "home",
+    "gym"
+  ],
+  "role": "aerobic",
+  "path": "cyclic",
+  "learning": "low",
+  "footprint": "medium",
+  "use": {
+    "zh-CN": "坐姿周期踩踏",
+    "en": "Seated cyclic pedaling"
+  },
+  "caution": {
+    "zh-CN": "座高和把位需调整",
+    "en": "Adjust saddle and handlebar position"
+  },
+  "sources": [
+    "who-2020",
+    "cdc-activity"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "cardio.svg",
+  "alternatives": [
+    "spin-bike",
+    "recumbent-bike",
+    "air-bike"
+  ]
+}

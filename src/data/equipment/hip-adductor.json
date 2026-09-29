@@ -1,0 +1,47 @@
+{
+  "id": "hip-adductor",
+  "name": {
+    "zh-CN": "髋内收机",
+    "en": "Hip adductor machine"
+  },
+  "aliases": [
+    "髋内收机",
+    "Hip adductor machine",
+    "hip-adductor"
+  ],
+  "category": "stack",
+  "patterns": [
+    "hip"
+  ],
+  "regions": [
+    "hips"
+  ],
+  "settings": [
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "guided",
+  "learning": "low",
+  "footprint": "large",
+  "use": {
+    "zh-CN": "向内合拢双腿",
+    "en": "Move thighs inward"
+  },
+  "caution": {
+    "zh-CN": "先试舒适行程，勿强行拉开",
+    "en": "Use tolerable range; do not force the start"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "stack.svg",
+  "alternatives": [
+    "mini-band"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "knee-sleeves",
+  "name": {
+    "zh-CN": "力量训练护膝",
+    "en": "Lifting knee sleeves"
+  },
+  "aliases": [
+    "力量训练护膝",
+    "Lifting knee sleeves",
+    "knee-sleeves"
+  ],
+  "category": "support",
+  "patterns": [
+    "support"
+  ],
+  "regions": [
+    "not-applicable"
+  ],
+  "settings": [
+    "gym",
+    "home"
+  ],
+  "role": "support",
+  "path": "support",
+  "learning": "low",
+  "footprint": "small",
+  "use": {
+    "zh-CN": "膝周保暖与支撑配件",
+    "en": "Warmth and support accessory around the knee"
+  },
+  "caution": {
+    "zh-CN": "不是损伤诊断或治疗装具的自动替代",
+    "en": "Not an automatic substitute for injury assessment or prescribed bracing"
+  },
+  "sources": [
+    "lf-catalog",
+    "tg-catalog"
+  ],
+  "evidenceScope": {
+    "zh-CN": "厂商目录仅用于识别类别。配件安全与承重须逐型号查手册；没有“增肌效果”分数。",
+    "en": "Manufacturer catalogs identify categories only. Check each model manual for ratings and safe use; no hypertrophy score is assigned."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "support.svg",
+  "alternatives": []
+}

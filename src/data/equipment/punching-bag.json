@@ -1,0 +1,48 @@
+{
+  "id": "punching-bag",
+  "name": {
+    "zh-CN": "拳击沙袋",
+    "en": "Punching bag"
+  },
+  "aliases": [
+    "拳击沙袋",
+    "Punching bag",
+    "punching-bag"
+  ],
+  "category": "conditioning",
+  "patterns": [
+    "multi"
+  ],
+  "regions": [
+    "varies"
+  ],
+  "settings": [
+    "home",
+    "gym"
+  ],
+  "role": "conditioning",
+  "path": "self",
+  "learning": "high",
+  "footprint": "medium",
+  "use": {
+    "zh-CN": "击打技术与间歇体能",
+    "en": "Striking technique and interval conditioning"
+  },
+  "caution": {
+    "zh-CN": "护具及击打技术另需学习",
+    "en": "Learn striking technique and protective equipment use"
+  },
+  "sources": [
+    "who-2020",
+    "cdc-activity"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "conditioning.svg",
+  "alternatives": [
+    "battle-ropes"
+  ]
+}

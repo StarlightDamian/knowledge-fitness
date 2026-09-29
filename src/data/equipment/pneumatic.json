@@ -1,0 +1,49 @@
+{
+  "id": "pneumatic",
+  "name": {
+    "zh-CN": "气阻力量训练器",
+    "en": "Pneumatic resistance machine"
+  },
+  "aliases": [
+    "气阻力量训练器",
+    "Pneumatic resistance machine",
+    "pneumatic"
+  ],
+  "category": "special",
+  "patterns": [
+    "multi"
+  ],
+  "regions": [
+    "varies"
+  ],
+  "settings": [
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "guided",
+  "learning": "high",
+  "footprint": "medium",
+  "use": {
+    "zh-CN": "压缩气体提供阻力",
+    "en": "Compressed gas provides resistance"
+  },
+  "caution": {
+    "zh-CN": "显示值和设备标定相关",
+    "en": "Displayed resistance depends on calibration"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "special.svg",
+  "alternatives": [
+    "dumbbell",
+    "adjustable-dumbbell",
+    "barbell"
+  ]
+}

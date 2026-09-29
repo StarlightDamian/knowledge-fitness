@@ -1,0 +1,98 @@
+{
+  "multi": {
+    "zh-CN": "多动作",
+    "en": "Multiple patterns"
+  },
+  "squat": {
+    "zh-CN": "蹲 / 腿推",
+    "en": "Squat / leg press"
+  },
+  "hinge": {
+    "zh-CN": "髋铰链 / 髋伸",
+    "en": "Hinge / hip extension"
+  },
+  "push": {
+    "zh-CN": "水平推 / 内收",
+    "en": "Horizontal push / adduction"
+  },
+  "pull": {
+    "zh-CN": "水平拉 / 外展",
+    "en": "Horizontal pull / abduction"
+  },
+  "vertical-push": {
+    "zh-CN": "垂直推",
+    "en": "Vertical push"
+  },
+  "vertical-pull": {
+    "zh-CN": "垂直拉",
+    "en": "Vertical pull"
+  },
+  "elbow": {
+    "zh-CN": "肘屈伸",
+    "en": "Elbow flexion / extension"
+  },
+  "grip-wrist": {
+    "zh-CN": "抓握 / 腕部",
+    "en": "Grip / wrist movement"
+  },
+  "knee": {
+    "zh-CN": "膝屈伸",
+    "en": "Knee flexion / extension"
+  },
+  "hip": {
+    "zh-CN": "髋外展 / 内收",
+    "en": "Hip abduction / adduction"
+  },
+  "calf": {
+    "zh-CN": "踝跖屈",
+    "en": "Plantar flexion"
+  },
+  "core": {
+    "zh-CN": "躯干控制",
+    "en": "Trunk control"
+  },
+  "rotation": {
+    "zh-CN": "旋转 / 抗旋转",
+    "en": "Rotation / anti-rotation"
+  },
+  "shoulder": {
+    "zh-CN": "肩外展",
+    "en": "Shoulder abduction"
+  },
+  "gait": {
+    "zh-CN": "步行 / 踏步",
+    "en": "Walking / stepping"
+  },
+  "cycle": {
+    "zh-CN": "周期踩踏 / 曲柄",
+    "en": "Pedaling / cranking"
+  },
+  "row": {
+    "zh-CN": "周期划行",
+    "en": "Cyclic rowing"
+  },
+  "ski": {
+    "zh-CN": "滑雪式拉动",
+    "en": "Ski-like pulling"
+  },
+  "jump": {
+    "zh-CN": "跳跃",
+    "en": "Jumping"
+  },
+  "carry": {
+    "zh-CN": "负重搬运 / 推拉",
+    "en": "Loaded carry / push / drag"
+  },
+  "support": {
+    "zh-CN": "支撑辅助",
+    "en": "Support"
+  },
+  "mobility": {
+    "zh-CN": "活动度辅助",
+    "en": "Mobility support"
+  },
+  "measure": {
+    "zh-CN": "测量",
+    "en": "Measurement"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "barbell-collars",
+  "name": {
+    "zh-CN": "杠铃卡箍",
+    "en": "Barbell collars"
+  },
+  "aliases": [
+    "杠铃卡箍",
+    "Barbell collars",
+    "barbell-collars"
+  ],
+  "category": "support",
+  "patterns": [
+    "support"
+  ],
+  "regions": [
+    "not-applicable"
+  ],
+  "settings": [
+    "home",
+    "gym"
+  ],
+  "role": "support",
+  "path": "support",
+  "learning": "low",
+  "footprint": "pocket",
+  "use": {
+    "zh-CN": "固定适配杠铃上的配重片",
+    "en": "Retains plates on compatible bars"
+  },
+  "caution": {
+    "zh-CN": "尺寸、锁止与器材规定须匹配",
+    "en": "Match size, lock and equipment instructions"
+  },
+  "sources": [
+    "lf-catalog",
+    "tg-catalog"
+  ],
+  "evidenceScope": {
+    "zh-CN": "厂商目录仅用于识别类别。配件安全与承重须逐型号查手册；没有“增肌效果”分数。",
+    "en": "Manufacturer catalogs identify categories only. Check each model manual for ratings and safe use; no hypertrophy score is assigned."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "support.svg",
+  "alternatives": []
+}

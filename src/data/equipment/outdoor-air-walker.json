@@ -1,0 +1,45 @@
+{
+  "id": "outdoor-air-walker",
+  "name": {
+    "zh-CN": "户外太空漫步机",
+    "en": "Outdoor air walker"
+  },
+  "aliases": [
+    "户外太空漫步机",
+    "Outdoor air walker",
+    "outdoor-air-walker"
+  ],
+  "category": "cardio",
+  "patterns": [
+    "gait"
+  ],
+  "regions": [
+    "legs"
+  ],
+  "settings": [
+    "outdoor"
+  ],
+  "role": "aerobic",
+  "path": "cyclic",
+  "learning": "low",
+  "footprint": "large",
+  "use": {
+    "zh-CN": "公共健身场的交替摆腿设备",
+    "en": "Alternating leg-swing equipment at outdoor fitness sites"
+  },
+  "caution": {
+    "zh-CN": "先查轴承、踏板和固定状态，不跨越设计摆幅",
+    "en": "Inspect bearings, pedals and fixings; stay within intended travel"
+  },
+  "sources": [
+    "who-2020",
+    "cdc-activity"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "cardio.svg",
+  "alternatives": []
+}

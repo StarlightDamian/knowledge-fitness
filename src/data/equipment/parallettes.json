@@ -1,0 +1,53 @@
+{
+  "id": "parallettes",
+  "name": {
+    "zh-CN": "小双杠",
+    "en": "Parallettes"
+  },
+  "aliases": [
+    "小双杠",
+    "Parallettes",
+    "parallettes"
+  ],
+  "category": "body",
+  "patterns": [
+    "push",
+    "core"
+  ],
+  "regions": [
+    "arms",
+    "chest",
+    "trunk"
+  ],
+  "settings": [
+    "home",
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "self",
+  "learning": "moderate",
+  "footprint": "small",
+  "use": {
+    "zh-CN": "低位支撑与自重控制",
+    "en": "Low support for bodyweight control"
+  },
+  "caution": {
+    "zh-CN": "支点稳定优先于动作难度",
+    "en": "Stable support before harder skills"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "body.svg",
+  "alternatives": [
+    "lever-chest",
+    "chest-press",
+    "pec-deck"
+  ]
+}

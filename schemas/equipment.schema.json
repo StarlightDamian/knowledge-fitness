@@ -1,0 +1,252 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:lift-atlas:equipment:1",
+  "title": "Lift Atlas equipment record",
+  "description": "Primary classification plus orthogonal facets. Validation is not clinical approval.",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "aliases",
+    "category",
+    "patterns",
+    "regions",
+    "settings",
+    "role",
+    "path",
+    "learning",
+    "footprint",
+    "use",
+    "caution",
+    "sources",
+    "evidenceScope",
+    "reviewStatus",
+    "image",
+    "alternatives"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*$"
+    },
+    "name": {
+      "type": "object",
+      "required": [
+        "zh-CN",
+        "en"
+      ],
+      "properties": {
+        "zh-CN": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "use": {
+      "type": "object",
+      "required": [
+        "zh-CN",
+        "en"
+      ],
+      "properties": {
+        "zh-CN": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "caution": {
+      "type": "object",
+      "required": [
+        "zh-CN",
+        "en"
+      ],
+      "properties": {
+        "zh-CN": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "evidenceScope": {
+      "type": "object",
+      "required": [
+        "zh-CN",
+        "en"
+      ],
+      "properties": {
+        "zh-CN": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "category": {
+      "enum": [
+        "free",
+        "plate",
+        "stack",
+        "cable",
+        "elastic",
+        "body",
+        "cardio",
+        "conditioning",
+        "support",
+        "recovery",
+        "measurement",
+        "special"
+      ]
+    },
+    "patterns": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "multi",
+          "squat",
+          "hinge",
+          "push",
+          "pull",
+          "vertical-push",
+          "vertical-pull",
+          "elbow",
+          "grip-wrist",
+          "knee",
+          "hip",
+          "calf",
+          "core",
+          "rotation",
+          "shoulder",
+          "gait",
+          "cycle",
+          "row",
+          "ski",
+          "jump",
+          "carry",
+          "support",
+          "mobility",
+          "measure"
+        ]
+      }
+    },
+    "regions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "settings": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "home",
+          "gym",
+          "outdoor"
+        ]
+      }
+    },
+    "role": {
+      "enum": [
+        "resistance",
+        "aerobic",
+        "conditioning",
+        "support",
+        "recovery",
+        "measurement"
+      ]
+    },
+    "path": {
+      "enum": [
+        "self",
+        "guided",
+        "cyclic",
+        "support",
+        "measurement"
+      ]
+    },
+    "learning": {
+      "enum": [
+        "low",
+        "moderate",
+        "high"
+      ]
+    },
+    "footprint": {
+      "enum": [
+        "pocket",
+        "small",
+        "medium",
+        "large"
+      ]
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 2,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "reviewStatus": {
+      "type": "string",
+      "minLength": 1
+    },
+    "image": {
+      "type": "string",
+      "pattern": "^[a-z-]+\\.svg$"
+    },
+    "alternatives": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}

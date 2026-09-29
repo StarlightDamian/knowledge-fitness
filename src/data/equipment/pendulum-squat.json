@@ -1,0 +1,49 @@
+{
+  "id": "pendulum-squat",
+  "name": {
+    "zh-CN": "钟摆深蹲机",
+    "en": "Pendulum squat machine"
+  },
+  "aliases": [
+    "钟摆深蹲机",
+    "Pendulum squat machine",
+    "pendulum-squat"
+  ],
+  "category": "plate",
+  "patterns": [
+    "squat"
+  ],
+  "regions": [
+    "glutes",
+    "legs"
+  ],
+  "settings": [
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "guided",
+  "learning": "moderate",
+  "footprint": "large",
+  "use": {
+    "zh-CN": "沿摆臂弧线蹲起",
+    "en": "Squat along a lever arc"
+  },
+  "caution": {
+    "zh-CN": "同片重不等于哈克机负荷",
+    "en": "Equal plates do not equal a hack squat load"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "plate.svg",
+  "alternatives": [
+    "safety-bar",
+    "stack-leg-press"
+  ]
+}

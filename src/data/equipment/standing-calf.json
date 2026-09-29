@@ -1,0 +1,47 @@
+{
+  "id": "standing-calf",
+  "name": {
+    "zh-CN": "站姿提踵机",
+    "en": "Standing calf raise machine"
+  },
+  "aliases": [
+    "站姿提踵机",
+    "Standing calf raise machine",
+    "standing-calf"
+  ],
+  "category": "plate",
+  "patterns": [
+    "calf"
+  ],
+  "regions": [
+    "calves"
+  ],
+  "settings": [
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "guided",
+  "learning": "moderate",
+  "footprint": "large",
+  "use": {
+    "zh-CN": "负重踝跖屈",
+    "en": "Loaded plantar flexion"
+  },
+  "caution": {
+    "zh-CN": "保持脚掌支撑，不在底端弹震",
+    "en": "Maintain foot support; avoid bouncing"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "plate.svg",
+  "alternatives": [
+    "seated-calf"
+  ]
+}

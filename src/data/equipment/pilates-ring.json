@@ -1,0 +1,49 @@
+{
+  "id": "pilates-ring",
+  "name": {
+    "zh-CN": "普拉提环",
+    "en": "Pilates resistance ring"
+  },
+  "aliases": [
+    "普拉提环",
+    "普拉提圈",
+    "魔力圈",
+    "Pilates resistance ring",
+    "Magic circle",
+    "pilates-ring"
+  ],
+  "category": "elastic",
+  "patterns": [
+    "multi"
+  ],
+  "regions": [
+    "varies"
+  ],
+  "settings": [
+    "home",
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "self",
+  "learning": "low",
+  "footprint": "small",
+  "use": {
+    "zh-CN": "弹性环受压形变，为手臂或腿部控制练习提供阻力",
+    "en": "An elastic ring deforms under compression to resist selected arm or leg control exercises"
+  },
+  "caution": {
+    "zh-CN": "检查环体和接触垫，缓慢施压；不是承重吊环，勿悬挂身体",
+    "en": "Check the ring and contact pads; apply pressure slowly. It is not a suspension ring and must not support body weight"
+  },
+  "sources": [
+    "acsm-2026",
+    "domyos-pilates-ring"
+  ],
+  "evidenceScope": {
+    "zh-CN": "ACSM支持一般抗阻训练原则；厂商页面只核对本条目的结构，不证明效果或安全性。具体使用以型号手册为准。",
+    "en": "ACSM supports general resistance-training principles; the manufacturer page identifies structure only, without establishing efficacy or safety. Consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "elastic.svg",
+  "alternatives": []
+}

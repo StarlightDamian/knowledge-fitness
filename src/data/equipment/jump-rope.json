@@ -1,0 +1,54 @@
+{
+  "id": "jump-rope",
+  "name": {
+    "zh-CN": "跳绳",
+    "en": "Jump rope"
+  },
+  "aliases": [
+    "跳绳",
+    "Jump rope",
+    "jump-rope",
+    "跳繩",
+    "skipping rope",
+    "縄跳び"
+  ],
+  "category": "conditioning",
+  "patterns": [
+    "jump"
+  ],
+  "regions": [
+    "legs"
+  ],
+  "settings": [
+    "home",
+    "gym",
+    "outdoor"
+  ],
+  "role": "conditioning",
+  "path": "self",
+  "learning": "moderate",
+  "footprint": "medium",
+  "use": {
+    "zh-CN": "连续小幅弹跳与节奏",
+    "en": "Repeated small jumps and rhythm"
+  },
+  "caution": {
+    "zh-CN": "逐渐适应冲击，不靠超长首课",
+    "en": "Build impact tolerance gradually"
+  },
+  "sources": [
+    "who-2020",
+    "cdc-activity"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "conditioning.svg",
+  "alternatives": [
+    "plyo-box",
+    "hurdles",
+    "rebounder"
+  ]
+}

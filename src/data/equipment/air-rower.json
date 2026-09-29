@@ -1,0 +1,49 @@
+{
+  "id": "air-rower",
+  "name": {
+    "zh-CN": "风阻划船机",
+    "en": "Air-resistance rower"
+  },
+  "aliases": [
+    "风阻划船机",
+    "Air-resistance rower",
+    "air-rower"
+  ],
+  "category": "cardio",
+  "patterns": [
+    "row"
+  ],
+  "regions": [
+    "full-body"
+  ],
+  "settings": [
+    "home",
+    "gym"
+  ],
+  "role": "aerobic",
+  "path": "cyclic",
+  "learning": "moderate",
+  "footprint": "large",
+  "use": {
+    "zh-CN": "下肢躯干上肢协调划行",
+    "en": "Coordinated leg, trunk and arm rowing"
+  },
+  "caution": {
+    "zh-CN": "风门档位不等于训练强度",
+    "en": "Damper setting is not exercise intensity"
+  },
+  "sources": [
+    "concept2-damper",
+    "who-2020"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "cardio.svg",
+  "alternatives": [
+    "water-rower",
+    "magnetic-rower"
+  ]
+}

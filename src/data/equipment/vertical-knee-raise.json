@@ -1,0 +1,51 @@
+{
+  "id": "vertical-knee-raise",
+  "name": {
+    "zh-CN": "肘垫支撑举腿架",
+    "en": "Vertical knee raise station"
+  },
+  "aliases": [
+    "肘垫支撑举腿架",
+    "举腿架",
+    "双杠举腿架",
+    "船长椅",
+    "Vertical knee raise station",
+    "Captain’s chair",
+    "vertical-knee-raise"
+  ],
+  "category": "body",
+  "patterns": [
+    "core"
+  ],
+  "regions": [
+    "trunk",
+    "hips"
+  ],
+  "settings": [
+    "home",
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "self",
+  "learning": "moderate",
+  "footprint": "medium",
+  "use": {
+    "zh-CN": "肘垫和背垫支撑身体，受控抬膝或举腿",
+    "en": "Elbow and back pads support the body during controlled knee or leg raises"
+  },
+  "caution": {
+    "zh-CN": "先确认上下台阶与支撑稳定，从屈膝开始；不借摆荡追求高度",
+    "en": "Check access steps and stable support; begin with bent knees and avoid swinging for height"
+  },
+  "sources": [
+    "acsm-2026",
+    "lf-leg-raise"
+  ],
+  "evidenceScope": {
+    "zh-CN": "ACSM支持一般抗阻训练原则；厂商页面只核对本条目的结构，不证明效果或安全性。具体使用以型号手册为准。",
+    "en": "ACSM supports general resistance-training principles; the manufacturer page identifies structure only, without establishing efficacy or safety. Consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "body.svg",
+  "alternatives": []
+}

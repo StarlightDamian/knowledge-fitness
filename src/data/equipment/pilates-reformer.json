@@ -1,0 +1,45 @@
+{
+  "id": "pilates-reformer",
+  "name": {
+    "zh-CN": "普拉提核心床",
+    "en": "Pilates reformer"
+  },
+  "aliases": [
+    "普拉提核心床",
+    "Pilates reformer",
+    "pilates-reformer"
+  ],
+  "category": "elastic",
+  "patterns": [
+    "multi"
+  ],
+  "regions": [
+    "varies"
+  ],
+  "settings": [
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "guided",
+  "learning": "high",
+  "footprint": "large",
+  "use": {
+    "zh-CN": "弹簧阻力下的滑车与支撑练习",
+    "en": "Carriage and support exercises against spring resistance"
+  },
+  "caution": {
+    "zh-CN": "弹簧与上下机方式需具体指导，不自行套用康复处方",
+    "en": "Spring settings and transfers need instruction; do not self-prescribe rehabilitation"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "elastic.svg",
+  "alternatives": []
+}

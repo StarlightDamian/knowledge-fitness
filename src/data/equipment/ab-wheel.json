@@ -1,0 +1,48 @@
+{
+  "id": "ab-wheel",
+  "name": {
+    "zh-CN": "健腹轮",
+    "en": "Ab wheel"
+  },
+  "aliases": [
+    "健腹轮",
+    "Ab wheel",
+    "ab-wheel"
+  ],
+  "category": "body",
+  "patterns": [
+    "core"
+  ],
+  "regions": [
+    "trunk"
+  ],
+  "settings": [
+    "home",
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "self",
+  "learning": "high",
+  "footprint": "small",
+  "use": {
+    "zh-CN": "滚动增加躯干抗伸展要求",
+    "en": "Rolling increases anti-extension demand"
+  },
+  "caution": {
+    "zh-CN": "从短行程开始，不以塌腰换距离",
+    "en": "Begin short; do not sag to gain distance"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "body.svg",
+  "alternatives": [
+    "ab-crunch"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "safety-bar",
+  "name": {
+    "zh-CN": "安全深蹲杠",
+    "en": "Safety squat bar"
+  },
+  "aliases": [
+    "安全深蹲杠",
+    "Safety squat bar",
+    "safety-bar"
+  ],
+  "category": "free",
+  "patterns": [
+    "squat"
+  ],
+  "regions": [
+    "glutes",
+    "legs"
+  ],
+  "settings": [
+    "home",
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "self",
+  "learning": "moderate",
+  "footprint": "medium",
+  "use": {
+    "zh-CN": "带肩垫及前握把的蹲举工具",
+    "en": "Padded squat bar with front handles"
+  },
+  "caution": {
+    "zh-CN": "名称不意味着无需保护杆",
+    "en": "The name does not remove the need for safeties"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "free.svg",
+  "alternatives": [
+    "leg-press-45",
+    "leg-press-horizontal",
+    "hack-squat"
+  ]
+}

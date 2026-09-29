@@ -1,0 +1,47 @@
+{
+  "id": "medicine-ball",
+  "name": {
+    "zh-CN": "药球",
+    "en": "Medicine ball"
+  },
+  "aliases": [
+    "药球",
+    "Medicine ball",
+    "medicine-ball"
+  ],
+  "category": "conditioning",
+  "patterns": [
+    "rotation",
+    "multi"
+  ],
+  "regions": [
+    "full-body"
+  ],
+  "settings": [
+    "gym",
+    "home"
+  ],
+  "role": "conditioning",
+  "path": "self",
+  "learning": "moderate",
+  "footprint": "medium",
+  "use": {
+    "zh-CN": "抛接或负重动作的球形工具",
+    "en": "Ball-shaped tool for throws, catches or loaded movement"
+  },
+  "caution": {
+    "zh-CN": "是否允许投墙或砸地须按球体说明确认",
+    "en": "Check whether the ball is rated for wall throws or slams"
+  },
+  "sources": [
+    "who-2020",
+    "cdc-activity"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "conditioning.svg",
+  "alternatives": []
+}

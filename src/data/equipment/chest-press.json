@@ -1,0 +1,54 @@
+{
+  "id": "chest-press",
+  "name": {
+    "zh-CN": "插片推胸机",
+    "en": "Selectorized chest press"
+  },
+  "aliases": [
+    "插片推胸机",
+    "Selectorized chest press",
+    "chest-press",
+    "坐姿推胸",
+    "推胸器",
+    "胸推机",
+    "seated chest press"
+  ],
+  "category": "stack",
+  "patterns": [
+    "push"
+  ],
+  "regions": [
+    "arms",
+    "chest"
+  ],
+  "settings": [
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "guided",
+  "learning": "low",
+  "footprint": "large",
+  "use": {
+    "zh-CN": "快速插销调重的水平推举",
+    "en": "Pin-adjustable horizontal press"
+  },
+  "caution": {
+    "zh-CN": "插销完全插入，先空载适配",
+    "en": "Fully seat the pin; check fit before loading"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "stack.svg",
+  "alternatives": [
+    "lever-chest",
+    "dip-bars",
+    "pushup-handles"
+  ]
+}

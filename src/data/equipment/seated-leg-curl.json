@@ -1,0 +1,51 @@
+{
+  "id": "seated-leg-curl",
+  "name": {
+    "zh-CN": "坐姿腿弯举机",
+    "en": "Seated leg curl"
+  },
+  "aliases": [
+    "坐姿腿弯举机",
+    "Seated leg curl",
+    "seated-leg-curl",
+    "坐姿屈腿",
+    "坐姿腿屈曲",
+    "seated hamstring curl"
+  ],
+  "category": "stack",
+  "patterns": [
+    "knee"
+  ],
+  "regions": [
+    "legs"
+  ],
+  "settings": [
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "guided",
+  "learning": "low",
+  "footprint": "large",
+  "use": {
+    "zh-CN": "屈髋坐姿屈膝",
+    "en": "Knee flexion while seated"
+  },
+  "caution": {
+    "zh-CN": "固定大腿垫但不要压迫不适",
+    "en": "Secure the thigh pad without painful pressure"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "stack.svg",
+  "alternatives": [
+    "leg-extension",
+    "prone-leg-curl"
+  ]
+}

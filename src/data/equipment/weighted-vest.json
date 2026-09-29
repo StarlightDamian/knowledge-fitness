@@ -1,0 +1,53 @@
+{
+  "id": "weighted-vest",
+  "name": {
+    "zh-CN": "负重背心",
+    "en": "Weighted vest"
+  },
+  "aliases": [
+    "负重背心",
+    "Weighted vest",
+    "weighted-vest"
+  ],
+  "category": "free",
+  "patterns": [
+    "carry",
+    "multi"
+  ],
+  "regions": [
+    "full-body",
+    "varies"
+  ],
+  "settings": [
+    "home",
+    "gym",
+    "outdoor"
+  ],
+  "role": "resistance",
+  "path": "self",
+  "learning": "moderate",
+  "footprint": "small",
+  "use": {
+    "zh-CN": "在步行或自重动作中增载",
+    "en": "Adds load to walking or bodyweight work"
+  },
+  "caution": {
+    "zh-CN": "先确认耐受及固定，不用于盲目加跳跃",
+    "en": "Check fit and tolerance before impact work"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "free.svg",
+  "alternatives": [
+    "smith",
+    "functional-trainer",
+    "cable-crossover"
+  ]
+}

@@ -1,0 +1,1801 @@
+[
+  {
+    "id": "start",
+    "layer": "foundation",
+    "title": {
+      "zh-CN": "先练得下去，再追求最优",
+      "en": "Start repeatable, then optimize"
+    },
+    "summary": {
+      "zh-CN": "健康收益不要求先拥有完整器材；抗阻和有氧解决不同问题。",
+      "en": "A complete gym is not a prerequisite. Resistance and aerobic work address different outcomes."
+    },
+    "action": {
+      "zh-CN": "先固定能完成的训练时段；进阶前检查实际完成率。",
+      "en": "Start with feasible times; check adherence before adding complexity."
+    },
+    "scope": {
+      "zh-CN": "适用于一般健康成人；不是疾病处方。",
+      "en": "For generally healthy adults; not a disease prescription."
+    },
+    "sources": [
+      "who-2020",
+      "acsm-2026"
+    ],
+    "kind": "synthesis",
+    "goals": [
+      "hypertrophy",
+      "fat-loss"
+    ],
+    "reviewStatus": "desk-reviewed; expert sign-off pending",
+    "checked": "2026-09-29",
+    "sourceRoles": [
+      {
+        "source": "who-2020",
+        "role": {
+          "zh-CN": "WHO规定活动类型与公共健康范围，不直接验证本网站的排程。",
+          "en": "WHO supports activity types and public-health scope, not this site’s exact schedule."
+        }
+      },
+      {
+        "source": "acsm-2026",
+        "role": {
+          "zh-CN": "ACSM支持多种抗阻方式与持续参与；固定时段是编辑落实建议。",
+          "en": "ACSM supports resistance options and participation; fixing feasible times is an editorial implementation."
+        }
+      }
+    ],
+    "auditLabel": {
+      "zh-CN": "指南综合 / 编辑行动建议",
+      "en": "Guideline synthesis / editorial action"
+    }
+  },
+  {
+    "id": "two-goals",
+    "layer": "foundation",
+    "title": {
+      "zh-CN": "增肌与减脂不是两套对立世界",
+      "en": "Hypertrophy and fat loss are not opposites"
+    },
+    "summary": {
+      "zh-CN": "增肌关注肌肉适应；减脂关注脂肪变化并保留功能。体重不能独自代表两者。",
+      "en": "Hypertrophy targets muscle adaptation; fat loss targets fat while retaining function. Scale weight cannot represent both alone."
+    },
+    "action": {
+      "zh-CN": "减脂入口仍保留抗阻；增肌入口仍保留日常活动。",
+      "en": "Retain resistance work during fat loss and daily activity during muscle gain."
+    },
+    "scope": {
+      "zh-CN": "体成分研究的平均结果不保证个体同时增肌减脂。",
+      "en": "Average body-composition results do not guarantee individual recomposition."
+    },
+    "sources": [
+      "resistance-obesity",
+      "concurrent-2022"
+    ],
+    "kind": "synthesis",
+    "goals": [
+      "hypertrophy",
+      "fat-loss"
+    ],
+    "reviewStatus": "desk-reviewed; expert sign-off pending",
+    "checked": "2026-09-29",
+    "sourceRoles": [
+      {
+        "source": "resistance-obesity",
+        "role": {
+          "zh-CN": "体重与脂肪、瘦体重结局不同；超重/肥胖研究不能保证个人重组。",
+          "en": "Weight, fat and lean outcomes differ; overweight/obesity evidence cannot guarantee recomposition."
+        }
+      },
+      {
+        "source": "concurrent-2022",
+        "role": {
+          "zh-CN": "并行有氧与抗阻平均兼容性；不是减脂饮食试验。",
+          "en": "Concurrent-training compatibility on average; not a weight-loss diet trial."
+        }
+      }
+    ],
+    "auditLabel": {
+      "zh-CN": "跨结局综合",
+      "en": "Cross-outcome synthesis"
+    }
+  },
+  {
+    "id": "activity-dose",
+    "layer": "foundation",
+    "title": {
+      "zh-CN": "有氧的公共健康基线",
+      "en": "The public-health aerobic baseline"
+    },
+    "summary": {
+      "zh-CN": "成人每周150–300分钟中等强度，或75–150分钟高强度；另安排至少2天肌力活动。",
+      "en": "Adults: 150–300 minutes of moderate activity or 75–150 vigorous minutes weekly, plus muscle strengthening on at least two days."
+    },
+    "action": {
+      "zh-CN": "从当前水平逐渐增加，不必第一周达标；少量也有价值。",
+      "en": "Build gradually from current capacity; some activity still matters."
+    },
+    "scope": {
+      "zh-CN": "这是群体健康建议，不是保证减重的最低门槛。",
+      "en": "A population-health target, not a guaranteed weight-loss threshold."
+    },
+    "sources": [
+      "who-2020",
+      "cdc-activity"
+    ],
+    "kind": "synthesis",
+    "goals": [
+      "hypertrophy",
+      "fat-loss"
+    ],
+    "reviewStatus": "desk-reviewed; expert sign-off pending",
+    "checked": "2026-09-29",
+    "sourceRoles": [
+      {
+        "source": "who-2020",
+        "role": {
+          "zh-CN": "WHO给出成人有氧与肌力活动基线。",
+          "en": "WHO provides adult aerobic and strengthening targets."
+        }
+      },
+      {
+        "source": "cdc-activity",
+        "role": {
+          "zh-CN": "CDC面向成人的相近公共健康建议；共享证据基础，不能算第二项独立试验。",
+          "en": "CDC gives aligned public-health advice; shared evidence, not a second independent trial."
+        }
+      }
+    ],
+    "auditLabel": {
+      "zh-CN": "指南范围一致；非独立试验",
+      "en": "Concordant guidance; not independent trials"
+    }
+  },
+  {
+    "id": "intensity",
+    "layer": "foundation",
+    "title": {
+      "zh-CN": "用谈话测试理解有氧强度",
+      "en": "Use the talk test for aerobic intensity"
+    },
+    "summary": {
+      "zh-CN": "中等强度一般能说话但难以唱歌；高强度往往难以连续说完整句子。",
+      "en": "Moderate activity generally permits talking but not singing; vigorous activity makes sustained conversation difficult."
+    },
+    "action": {
+      "zh-CN": "先用可持续的强度，心率设备只作辅助。",
+      "en": "Begin at a sustainable effort; heart-rate devices are supporting tools."
+    },
+    "scope": {
+      "zh-CN": "疾病、药物和环境可改变心率反应；这不是医疗分诊测试。",
+      "en": "Disease, medication and environment alter heart-rate responses; this is not medical triage."
+    },
+    "sources": [
+      "nhs-activity",
+      "cdc-activity"
+    ],
+    "kind": "synthesis",
+    "goals": [
+      "hypertrophy",
+      "fat-loss"
+    ],
+    "reviewStatus": "desk-reviewed; expert sign-off pending",
+    "checked": "2026-09-29",
+    "sourceRoles": [
+      {
+        "source": "nhs-activity",
+        "role": {
+          "zh-CN": "NHS对中等与高强度活动的日常解释。",
+          "en": "NHS provides everyday intensity descriptions."
+        }
+      },
+      {
+        "source": "cdc-activity",
+        "role": {
+          "zh-CN": "CDC成人活动建议提供强度背景；不是以谈话测试排除心脏病。",
+          "en": "CDC provides activity-intensity context; not a cardiac screening test."
+        }
+      }
+    ],
+    "auditLabel": {
+      "zh-CN": "官方解释交叉核对",
+      "en": "Official explanations cross-checked"
+    }
+  },
+  {
+    "id": "specificity",
+    "layer": "training",
+    "title": {
+      "zh-CN": "力量进步与肌肉增长分开看",
+      "en": "Separate strength from muscle size"
+    },
+    "summary": {
+      "zh-CN": "力量测试会偏向练过的动作与器材；不同测试结果不能直接归因为肌肉量差异。",
+      "en": "Strength testing favors practiced tasks and equipment. Test differences need not imply muscle-size differences."
+    },
+    "action": {
+      "zh-CN": "固定动作、行程和记录方式，再比较自身趋势。",
+      "en": "Standardize exercise, range and logging before comparing personal trends."
+    },
+    "scope": {
+      "zh-CN": "训练迁移具有任务特异性。",
+      "en": "Training transfer is task-specific."
+    },
+    "sources": [
+      "machines-2023",
+      "currier-2023"
+    ],
+    "kind": "synthesis",
+    "goals": [
+      "hypertrophy",
+      "fat-loss"
+    ],
+    "reviewStatus": "desk-reviewed; expert sign-off pending",
+    "checked": "2026-09-29",
+    "sourceRoles": [
+      {
+        "source": "machines-2023",
+        "role": {
+          "zh-CN": "器械/自由重量对比中的测试特异性与不同结局。",
+          "en": "Device-comparison review addresses test specificity and distinct outcomes."
+        }
+      },
+      {
+        "source": "currier-2023",
+        "role": {
+          "zh-CN": "负荷、频率、组数与力量/肌肥大结局；不支持跨器材直接比较公斤数。",
+          "en": "Loading, frequency, sets and strength/hypertrophy outcomes; not cross-device kilogram equivalence."
+        }
+      }
+    ],
+    "auditLabel": {
+      "zh-CN": "比较证据与处方综述",
+      "en": "Comparative evidence plus prescription review"
+    }
+  },
+  {
+    "id": "equipment-choice",
+    "layer": "training",
+    "title": {
+      "zh-CN": "器械和自由重量都能有用",
+      "en": "Machines and free weights can both work"
+    },
+    "summary": {
+      "zh-CN": "比较研究没有建立普适的增肌冠军；练习任务、可承受负荷与适配程度更值得先比较。",
+      "en": "Comparative studies do not establish a universal hypertrophy winner. Compare task, tolerable loading and fit first."
+    },
+    "action": {
+      "zh-CN": "选能控制动作、持续渐进、愿意长期使用的工具。",
+      "en": "Choose a tool you can control, progress and keep using."
+    },
+    "scope": {
+      "zh-CN": "未发现显著差异不等于证明绝对等效；证据不是逐型号测试。",
+      "en": "No significant difference is not proof of equivalence; evidence is not model-by-model."
+    },
+    "sources": [
+      "machines-2023",
+      "acsm-2026"
+    ],
+    "kind": "synthesis",
+    "goals": [
+      "hypertrophy",
+      "fat-loss"
+    ],
+    "reviewStatus": "desk-reviewed; expert sign-off pending",
+    "checked": "2026-09-29",
+    "sourceRoles": [
+      {
+        "source": "machines-2023",
+        "role": {
+          "zh-CN": "器械与自由重量的比较；无显著差异不等于已证明等效，肌肥大研究数量有限。",
+          "en": "Machines vs free weights; no significant difference is not proof of equivalence, and hypertrophy evidence is limited."
+        }
+      },
+      {
+        "source": "acsm-2026",
+        "role": {
+          "zh-CN": "多种抗阻工具的适用性；与已有综述可能共享原始研究。",
+          "en": "Applicability of several resistance tools; possible overlap with included reviews."
+        }
+      }
+    ],
+    "auditLabel": {
+      "zh-CN": "直接比较 + 上位综述；可能重叠",
+      "en": "Direct comparison + umbrella review; possible overlap"
+    }
+  },
+  {
+    "id": "volume",
+    "layer": "training",
+    "title": {
+      "zh-CN": "训练量是可调旋钮，不是越多越好",
+      "en": "Volume is adjustable, not limitless"
+    },
+    "summary": {
+      "zh-CN": "多组安排常用于增肌；可恢复的训练量因经验、肌群和生活条件而变化。",
+      "en": "Multiple sets are commonly used for hypertrophy; tolerable volume varies with experience, muscles and life context."
+    },
+    "action": {
+      "zh-CN": "先采用模板的较低组数，记录表现与恢复后再加。",
+      "en": "Begin at the lower set count and adjust using performance and recovery."
+    },
+    "scope": {
+      "zh-CN": "本项目的起始组数属于保守编辑方案，不是研究确定的个人最优值。",
+      "en": "Starting sets here are conservative editorial choices, not a scientifically identified personal optimum."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "kind": "synthesis",
+    "goals": [
+      "hypertrophy",
+      "fat-loss"
+    ],
+    "reviewStatus": "desk-reviewed; expert sign-off pending",
+    "checked": "2026-09-29",
+    "sourceRoles": [
+      {
+        "source": "acsm-2026",
+        "role": {
+          "zh-CN": "ACSM讨论抗阻剂量；不保证任何固定周组数最适合所有人。",
+          "en": "ACSM addresses dose; no fixed weekly set total is best for everyone."
+        }
+      },
+      {
+        "source": "currier-2023",
+        "role": {
+          "zh-CN": "网络荟萃分析比较处方组合；网络排序不等于个人最优。",
+          "en": "Network comparisons of prescriptions; rankings are not individual optima."
+        }
+      }
+    ],
+    "auditLabel": {
+      "zh-CN": "综述综合；不提供个人最优阈值",
+      "en": "Review synthesis; no individual optimum"
+    }
+  },
+  {
+    "id": "frequency",
+    "layer": "training",
+    "title": {
+      "zh-CN": "频率服务于周计划",
+      "en": "Frequency serves the weekly plan"
+    },
+    "summary": {
+      "zh-CN": "训练频率帮助分配总训练量；不是每天练同一部位才有效。",
+      "en": "Frequency distributes weekly work; daily training of the same region is not required."
+    },
+    "action": {
+      "zh-CN": "全身计划可从每周2次非连续日开始，再按恢复调整。",
+      "en": "A full-body plan can start with two non-consecutive days and be adjusted."
+    },
+    "scope": {
+      "zh-CN": "2天是实用起点，不是所有目标的唯一最优频率。",
+      "en": "Two days is a practical starting point, not a uniquely optimal frequency."
+    },
+    "sources": [
+      "who-2020",
+      "currier-2023"
+    ],
+    "kind": "synthesis",
+    "goals": [
+      "hypertrophy",
+      "fat-loss"
+    ],
+    "reviewStatus": "desk-reviewed; expert sign-off pending",
+    "checked": "2026-09-29",
+    "sourceRoles": [
+      {
+        "source": "who-2020",
+        "role": {
+          "zh-CN": "WHO的至少2天是公共健康肌力目标。",
+          "en": "WHO’s two-day target is public-health guidance."
+        }
+      },
+      {
+        "source": "currier-2023",
+        "role": {
+          "zh-CN": "抗阻频率与周处方结局；不能把公共健康基线当增肌唯一频率。",
+          "en": "Frequency and program outcomes; the public-health minimum is not the only hypertrophy schedule."
+        }
+      }
+    ],
+    "auditLabel": {
+      "zh-CN": "不同层面证据",
+      "en": "Evidence at different levels"
+    }
+  },
+  {
+    "id": "failure",
+    "layer": "training",
+    "title": {
+      "zh-CN": "力竭不是每组必修课",
+      "en": "Failure is not mandatory on every set"
+    },
+    "summary": {
+      "zh-CN": "长期适应不要求每组都练到无法再完成一次；力竭还会增加当次任务难度。",
+      "en": "Long-term adaptation does not require every set to reach inability to complete another repetition."
+    },
+    "action": {
+      "zh-CN": "模板以保留2–3次可完成次数（RIR）作为起点；新手估计误差较大。",
+      "en": "Templates begin around 2–3 repetitions in reserve (RIR); novice estimates can be inaccurate."
+    },
+    "scope": {
+      "zh-CN": "精确RIR起点是编辑实施规则；不是试验证实适合每个人。",
+      "en": "The exact RIR starting point is an editorial implementation rule, not individually validated."
+    },
+    "sources": [
+      "failure-2022",
+      "acsm-2026"
+    ],
+    "kind": "synthesis",
+    "goals": [
+      "hypertrophy",
+      "fat-loss"
+    ],
+    "reviewStatus": "desk-reviewed; expert sign-off pending",
+    "checked": "2026-09-29",
+    "sourceRoles": [
+      {
+        "source": "failure-2022",
+        "role": {
+          "zh-CN": "力竭与非力竭对比的长期力量/肌肥大平均结局。",
+          "en": "Long-term strength and hypertrophy comparisons of failure/non-failure."
+        }
+      },
+      {
+        "source": "acsm-2026",
+        "role": {
+          "zh-CN": "ACSM更新用于综合核对，可能纳入同一批原始研究。",
+          "en": "ACSM provides updated context and may incorporate the same original trials."
+        }
+      }
+    ],
+    "auditLabel": {
+      "zh-CN": "系统综述与更新综合；可能重叠",
+      "en": "Systematic and updated review; possible overlap"
+    }
+  },
+  {
+    "id": "progression",
+    "layer": "training",
+    "title": {
+      "zh-CN": "先增加稳定表现，再增加重量",
+      "en": "Progress repeatable performance first"
+    },
+    "summary": {
+      "zh-CN": "长期记录帮助分辨真实进步和偶然好状态；不同动作的公斤数不能直接合并为效果。",
+      "en": "Logs help distinguish repeatable progress from a good day; kilograms across tasks are not an effectiveness measure."
+    },
+    "action": {
+      "zh-CN": "达到次数上限且动作稳定后，尝试器材允许的最小增量；不适则回退。",
+      "en": "After reaching the repetition ceiling with control, try the smallest available increment; regress if poorly tolerated."
+    },
+    "scope": {
+      "zh-CN": "双进阶是本项目采用的执行策略，不是唯一正确方法。",
+      "en": "Double progression is this project’s implementation choice, not the only valid method."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "kind": "synthesis",
+    "goals": [
+      "hypertrophy",
+      "fat-loss"
+    ],
+    "reviewStatus": "desk-reviewed; expert sign-off pending",
+    "checked": "2026-09-29",
+    "sourceRoles": [
+      {
+        "source": "acsm-2026",
+        "role": {
+          "zh-CN": "训练刺激与渐进的原则依据。",
+          "en": "Principles for stimulus and progression."
+        }
+      },
+      {
+        "source": "currier-2023",
+        "role": {
+          "zh-CN": "处方比较提供剂量背景；本网站双进阶规则不是该研究直接验证的算法。",
+          "en": "Prescription comparisons supply dose context; this site’s double-progression rule was not directly validated by that review."
+        }
+      }
+    ],
+    "auditLabel": {
+      "zh-CN": "原则依据 + 编辑进阶规则",
+      "en": "Evidence-informed principle + editorial rule"
+    }
+  },
+  {
+    "id": "range",
+    "layer": "training",
+    "title": {
+      "zh-CN": "记录可控活动范围",
+      "en": "Log controlled range of motion"
+    },
+    "summary": {
+      "zh-CN": "动作行程属于训练剂量的一部分；缩短行程后的加重不一定是同一任务的进步。",
+      "en": "Range of motion is part of the task; adding load with shorter range is not necessarily progress on the same task."
+    },
+    "action": {
+      "zh-CN": "用可控制且适合自己的行程，疼痛不靠强行拉深解决。",
+      "en": "Use a controllable, suitable range; do not force depth through pain."
+    },
+    "scope": {
+      "zh-CN": "受伤、术后或疾病相关活动范围由专业人员评估。",
+      "en": "Injury, postoperative or disease-related range needs professional assessment."
+    },
+    "sources": [
+      "acsm-2026",
+      "nhs-sprain"
+    ],
+    "kind": "synthesis",
+    "goals": [
+      "hypertrophy",
+      "fat-loss"
+    ],
+    "reviewStatus": "desk-reviewed; expert sign-off pending",
+    "checked": "2026-09-29",
+    "sourceRoles": [
+      {
+        "source": "acsm-2026",
+        "role": {
+          "zh-CN": "活动范围属于抗阻训练条件。",
+          "en": "Range is a resistance-training condition."
+        }
+      },
+      {
+        "source": "nhs-sprain",
+        "role": {
+          "zh-CN": "损伤后活动需适配的边界背景；不是健康人某个关节角度的效果试验。",
+          "en": "Injury adaptation context; not an efficacy trial of a joint angle in healthy people."
+        }
+      }
+    ],
+    "auditLabel": {
+      "zh-CN": "训练任务定义 + 安全边界",
+      "en": "Task definition + safety boundary"
+    }
+  },
+  {
+    "id": "rest",
+    "layer": "training",
+    "title": {
+      "zh-CN": "休息到能完成下一组",
+      "en": "Rest enough to perform the next set"
+    },
+    "summary": {
+      "zh-CN": "组间休息会影响后续表现；心率很高、动作失控并不证明训练更有效。",
+      "en": "Between-set rest affects subsequent performance; breathlessness or loss of control is not proof of effectiveness."
+    },
+    "action": {
+      "zh-CN": "复合动作可先留约2–3分钟；再依据表现调整，而非抢秒数。",
+      "en": "For compound work, allow roughly 2–3 minutes initially, then adjust to performance."
+    },
+    "scope": {
+      "zh-CN": "具体分钟为模板起点；相关试验人群有限，不能外推成统一阈值。",
+      "en": "Minutes are a template starting point; trial populations are limited, not a universal threshold."
+    },
+    "sources": [
+      "rest-2016",
+      "acsm-2026"
+    ],
+    "kind": "synthesis",
+    "goals": [
+      "hypertrophy",
+      "fat-loss"
+    ],
+    "reviewStatus": "desk-reviewed; expert sign-off pending",
+    "checked": "2026-09-29",
+    "sourceRoles": [
+      {
+        "source": "rest-2016",
+        "role": {
+          "zh-CN": "训练男性中长短组间休息的试验；小样本不能推广为所有人的硬规则。",
+          "en": "Rest-interval trial in trained men; not a universal hard rule."
+        }
+      },
+      {
+        "source": "acsm-2026",
+        "role": {
+          "zh-CN": "更新综合用于解释不同休息与训练目标；模板休息值为编排起点。",
+          "en": "Updated synthesis provides context; template rest values are programming starting points."
+        }
+      }
+    ],
+    "auditLabel": {
+      "zh-CN": "单项随机试验 + 综合；限人群",
+      "en": "Single randomized trial + synthesis; scoped"
+    }
+  },
+  {
+    "id": "concurrent",
+    "layer": "training",
+    "title": {
+      "zh-CN": "有氧不必从增肌计划里删除",
+      "en": "Do not automatically remove cardio"
+    },
+    "summary": {
+      "zh-CN": "并行训练对肌肉量、最大力量和爆发力的影响不是同一个问题。",
+      "en": "Concurrent training has distinct implications for muscle size, maximal strength and explosive strength."
+    },
+    "action": {
+      "zh-CN": "把最重视的任务安排在精力较好时；高疲劳任务可分开。",
+      "en": "Schedule the priority task when fresh; separate highly fatiguing sessions where useful."
+    },
+    "scope": {
+      "zh-CN": "爆发力运动员的安排不能直接套用普通健身者。",
+      "en": "Power-athlete scheduling should not be directly imposed on recreational trainees."
+    },
+    "sources": [
+      "concurrent-2022",
+      "who-2020"
+    ],
+    "kind": "synthesis",
+    "goals": [
+      "hypertrophy",
+      "fat-loss"
+    ],
+    "reviewStatus": "desk-reviewed; expert sign-off pending",
+    "checked": "2026-09-29",
+    "sourceRoles": [
+      {
+        "source": "concurrent-2022",
+        "role": {
+          "zh-CN": "同时训练的平均肌肥大/最大力量结果；爆发力与同节安排可能不同。",
+          "en": "Average concurrent-training outcomes; explosive strength and same-session scheduling can differ."
+        }
+      },
+      {
+        "source": "who-2020",
+        "role": {
+          "zh-CN": "同时保留有氧和肌力的公共健康理由；不等于证明无任何干扰。",
+          "en": "Public-health rationale for both modalities; not proof of zero interference."
+        }
+      }
+    ],
+    "auditLabel": {
+      "zh-CN": "系统综述 + 公共健康范围",
+      "en": "Systematic review + public-health context"
+    }
+  },
+  {
+    "id": "fat-loss",
+    "layer": "nutrition",
+    "title": {
+      "zh-CN": "减脂不靠一台“燃脂神器”",
+      "en": "Fat loss is not a machine feature"
+    },
+    "summary": {
+      "zh-CN": "饮食习惯和活动共同影响体重管理；单次器材热量显示不能证明长期减脂效果。",
+      "en": "Dietary habits and activity jointly influence weight management; one machine calorie display cannot establish long-term fat loss."
+    },
+    "action": {
+      "zh-CN": "先改变可持续的饮食和活动习惯，结合多周体重、围度和表现观察。",
+      "en": "Make sustainable food/activity changes and observe multi-week weight, circumference and performance."
+    },
+    "scope": {
+      "zh-CN": "不提供极低热量、速瘦承诺或局部减脂处方。",
+      "en": "No very-low-calorie prescriptions, rapid-loss promises or spot-fat-loss prescriptions."
+    },
+    "sources": [
+      "nhs-weight",
+      "aerobic-2024"
+    ],
+    "kind": "synthesis",
+    "goals": [
+      "fat-loss"
+    ],
+    "reviewStatus": "desk-reviewed; expert sign-off pending",
+    "checked": "2026-09-29",
+    "sourceRoles": [
+      {
+        "source": "nhs-weight",
+        "role": {
+          "zh-CN": "NHS说明可持续饮食和活动的管理方向。",
+          "en": "NHS addresses sustainable food and activity habits."
+        }
+      },
+      {
+        "source": "aerobic-2024",
+        "role": {
+          "zh-CN": "有氧剂量与体重/腰围/脂肪平均变化；不用于器材燃脂排行榜。",
+          "en": "Aerobic dose and average weight/waist/fat outcomes; not machine fat-loss rankings."
+        }
+      }
+    ],
+    "auditLabel": {
+      "zh-CN": "官方管理建议 + 随机试验综述",
+      "en": "Official management advice + trial synthesis"
+    }
+  },
+  {
+    "id": "protein",
+    "layer": "nutrition",
+    "title": {
+      "zh-CN": "蛋白质先看全天总量",
+      "en": "Look at daily protein first"
+    },
+    "summary": {
+      "zh-CN": "健康训练成人可把约1.4–2.0克/公斤/天作为常见参考；研究中的平均拐点不是个人硬上限。",
+      "en": "For healthy exercising adults, about 1.4–2.0 g/kg/day is a common reference; an average research breakpoint is not a personal hard ceiling."
+    },
+    "action": {
+      "zh-CN": "优先普通食物；补充剂仅补缺口，不代替训练或均衡饮食。",
+      "en": "Prioritize food; supplements fill gaps, not replace training or balanced meals."
+    },
+    "scope": {
+      "zh-CN": "肾病、孕期、未成年人及明显肥胖者不能直接套用体重乘法；需个体评估。",
+      "en": "Kidney disease, pregnancy, minors and marked obesity need individualized interpretation, not automatic multiplication."
+    },
+    "sources": [
+      "issn-protein",
+      "protein-2018"
+    ],
+    "kind": "synthesis",
+    "goals": [
+      "hypertrophy",
+      "fat-loss"
+    ],
+    "reviewStatus": "desk-reviewed; expert sign-off pending",
+    "checked": "2026-09-29",
+    "sourceRoles": [
+      {
+        "source": "issn-protein",
+        "role": {
+          "zh-CN": "ISSN给出健康训练成人常见蛋白质参考范围。",
+          "en": "ISSN gives a common reference range for healthy exercising adults."
+        }
+      },
+      {
+        "source": "protein-2018",
+        "role": {
+          "zh-CN": "补充蛋白与抗阻适应的平均剂量关系；1.62不是个人硬上限或肾病建议。",
+          "en": "Average protein-supplementation response; 1.62 is neither a personal ceiling nor kidney-disease advice."
+        }
+      }
+    ],
+    "auditLabel": {
+      "zh-CN": "立场声明与荟萃回归；范围不同",
+      "en": "Position stand and meta-regression; different scope"
+    }
+  },
+  {
+    "id": "retain-muscle",
+    "layer": "nutrition",
+    "title": {
+      "zh-CN": "减脂也要维护肌肉与功能",
+      "en": "Retain muscle and function during fat loss"
+    },
+    "summary": {
+      "zh-CN": "抗阻训练的价值不应只用秤上的下降评价；脂肪和瘦体重可能朝不同方向变化。",
+      "en": "Resistance training should not be judged only by scale loss; fat and lean mass can move differently."
+    },
+    "action": {
+      "zh-CN": "保留可恢复的抗阻安排，并观察表现是否持续下降。",
+      "en": "Keep recoverable resistance work and watch for persistent performance decline."
+    },
+    "scope": {
+      "zh-CN": "瘦体重不等于纯骨骼肌；短期水分会影响估算。",
+      "en": "Lean mass is not pure skeletal muscle; short-term water changes influence estimates."
+    },
+    "sources": [
+      "resistance-obesity",
+      "protein-2018"
+    ],
+    "kind": "synthesis",
+    "goals": [
+      "fat-loss"
+    ],
+    "reviewStatus": "desk-reviewed; expert sign-off pending",
+    "checked": "2026-09-29",
+    "sourceRoles": [
+      {
+        "source": "resistance-obesity",
+        "role": {
+          "zh-CN": "抗阻训练与超重/肥胖人群体成分变化。",
+          "en": "Resistance training and composition in overweight/obesity."
+        }
+      },
+      {
+        "source": "protein-2018",
+        "role": {
+          "zh-CN": "健康成人蛋白补充与训练适应，不能单独证明所有减脂期方案。",
+          "en": "Healthy-adult protein and training adaptation; not proof for every energy-restricted program."
+        }
+      }
+    ],
+    "auditLabel": {
+      "zh-CN": "直接体成分综述 + 营养背景",
+      "en": "Direct composition review + nutrition context"
+    }
+  },
+  {
+    "id": "nutrition-habits",
+    "layer": "nutrition",
+    "title": {
+      "zh-CN": "先做饮食基础，不堆补剂",
+      "en": "Build food habits before a supplement stack"
+    },
+    "summary": {
+      "zh-CN": "规律饮食与足够蛋白质比不断更换器材或补剂更适合成为可追踪的行动。",
+      "en": "Regular food habits and adequate protein make more useful trackable actions than repeatedly changing tools or supplements."
+    },
+    "action": {
+      "zh-CN": "记录可坚持的一项习惯；不自动开热量处方，不提供药物或激素方案。",
+      "en": "Track one sustainable habit; this app does not prescribe calories, drugs or hormones."
+    },
+    "scope": {
+      "zh-CN": "具体食物安排需兼顾过敏、文化、预算与医疗要求。",
+      "en": "Food choices must account for allergies, culture, budget and medical requirements."
+    },
+    "sources": [
+      "nhs-weight",
+      "issn-protein"
+    ],
+    "kind": "synthesis",
+    "goals": [
+      "hypertrophy",
+      "fat-loss"
+    ],
+    "reviewStatus": "desk-reviewed; expert sign-off pending",
+    "checked": "2026-09-29",
+    "sourceRoles": [
+      {
+        "source": "nhs-weight",
+        "role": {
+          "zh-CN": "饮食习惯与体重管理的官方建议。",
+          "en": "Official food-habit and weight-management guidance."
+        }
+      },
+      {
+        "source": "issn-protein",
+        "role": {
+          "zh-CN": "蛋白质摄入途径与补充背景；不代表已审查所有补剂。",
+          "en": "Protein sources and supplementation context; not a review of every supplement."
+        }
+      }
+    ],
+    "auditLabel": {
+      "zh-CN": "官方建议 + 蛋白质背景",
+      "en": "Official advice + protein context"
+    }
+  },
+  {
+    "id": "weight-trend",
+    "layer": "metrics",
+    "title": {
+      "zh-CN": "体重看趋势，不看单日胜负",
+      "en": "Read weight as a trend"
+    },
+    "summary": {
+      "zh-CN": "体重与体成分不同；单次测量不能判断增肌或减脂成败。",
+      "en": "Body weight and body composition differ; one measurement cannot decide success or failure."
+    },
+    "action": {
+      "zh-CN": "本网站展示最近7个日历日的可用测量均值，并显示实际样本数。",
+      "en": "The app averages available measurements within the last seven calendar days and reports the count."
+    },
+    "scope": {
+      "zh-CN": "7日均值是降噪展示方式，不是诊断工具；缺测不补零。",
+      "en": "A seven-day mean is a display choice, not a diagnostic test; missing days are not zeros."
+    },
+    "sources": [
+      "bia-2021",
+      "resistance-obesity"
+    ],
+    "kind": "synthesis",
+    "goals": [
+      "hypertrophy",
+      "fat-loss"
+    ],
+    "reviewStatus": "desk-reviewed; expert sign-off pending",
+    "checked": "2026-09-29",
+    "sourceRoles": [
+      {
+        "source": "bia-2021",
+        "role": {
+          "zh-CN": "体重与体成分测量误差背景。",
+          "en": "Measurement error in weight and estimated composition."
+        }
+      },
+      {
+        "source": "resistance-obesity",
+        "role": {
+          "zh-CN": "体重与体成分结局不同；两篇均未验证本网站7日均值的临床意义。",
+          "en": "Weight and composition are different outcomes; neither paper validates this site’s seven-day mean clinically."
+        }
+      }
+    ],
+    "auditLabel": {
+      "zh-CN": "测量背景 + 编辑展示规则",
+      "en": "Measurement context + editorial display rule"
+    }
+  },
+  {
+    "id": "bmi",
+    "layer": "metrics",
+    "title": {
+      "zh-CN": "BMI是筛查工具，不是体脂率",
+      "en": "BMI is a screen, not body-fat percentage"
+    },
+    "summary": {
+      "zh-CN": "BMI由体重和身高计算，不能分辨脂肪与肌肉；体脂秤也不能自动补足所有误差。",
+      "en": "BMI uses weight and height but does not distinguish fat from muscle; BIA scales do not automatically resolve all error."
+    },
+    "action": {
+      "zh-CN": "结合腰围、功能和临床背景；本网站只算数值，不给体型打分。",
+      "en": "Consider waist, function and clinical context; this app calculates values without rating bodies."
+    },
+    "scope": {
+      "zh-CN": "BMI计算展示限定20岁及以上、非孕哺期；不提供儿童阈值或诊断。",
+      "en": "BMI display is limited to non-pregnant/non-postpartum adults aged 20+; no pediatric thresholds or diagnosis."
+    },
+    "sources": [
+      "cdc-bmi",
+      "bia-2021"
+    ],
+    "kind": "synthesis",
+    "goals": [
+      "hypertrophy",
+      "fat-loss"
+    ],
+    "reviewStatus": "desk-reviewed; expert sign-off pending",
+    "checked": "2026-09-29",
+    "sourceRoles": [
+      {
+        "source": "cdc-bmi",
+        "role": {
+          "zh-CN": "CDC：BMI不是直接体脂率，不区分脂肪与肌肉。",
+          "en": "CDC: BMI is not direct fat percentage and cannot distinguish fat from muscle."
+        }
+      },
+      {
+        "source": "bia-2021",
+        "role": {
+          "zh-CN": "家用体重/体成分设备误差；不是新的BMI诊断界值。",
+          "en": "Consumer measurement errors; not new BMI diagnostic thresholds."
+        }
+      }
+    ],
+    "auditLabel": {
+      "zh-CN": "官方定义 + 设备测量背景",
+      "en": "Official definition + device context"
+    }
+  },
+  {
+    "id": "measurement-quality",
+    "layer": "metrics",
+    "title": {
+      "zh-CN": "固定测量方法比增加小数位重要",
+      "en": "Standardization beats extra decimal places"
+    },
+    "summary": {
+      "zh-CN": "家用体成分估算存在设备和方法误差；更精细的显示位数不等于更准确。",
+      "en": "Consumer composition estimates contain device and method error; additional decimals do not establish accuracy."
+    },
+    "action": {
+      "zh-CN": "相近时段、相同设备、固定围度位置；不要把跨设备差值当进步。",
+      "en": "Use similar timing, the same device and consistent circumference sites; do not treat cross-device changes as progress."
+    },
+    "scope": {
+      "zh-CN": "精确设备误差需逐型号验证；本项目未验证全部设备。",
+      "en": "Exact device error requires model-specific validation; this project has not validated every device."
+    },
+    "sources": [
+      "bia-2021",
+      "cdc-bmi"
+    ],
+    "kind": "synthesis",
+    "goals": [
+      "hypertrophy",
+      "fat-loss"
+    ],
+    "reviewStatus": "desk-reviewed; expert sign-off pending",
+    "checked": "2026-09-29",
+    "sourceRoles": [
+      {
+        "source": "bia-2021",
+        "role": {
+          "zh-CN": "特定智能秤对体重/体成分的验证，不能外推全部品牌误差数值。",
+          "en": "Validation of selected scales; cannot generalize exact errors to every model."
+        }
+      },
+      {
+        "source": "cdc-bmi",
+        "role": {
+          "zh-CN": "BMI与体脂概念区分；固定测量流程是编辑质量控制建议。",
+          "en": "BMI/composition distinction; standardizing the process is editorial quality control."
+        }
+      }
+    ],
+    "auditLabel": {
+      "zh-CN": "直接设备研究 + 概念解释",
+      "en": "Direct device study + conceptual explanation"
+    }
+  },
+  {
+    "id": "performance-log",
+    "layer": "metrics",
+    "title": {
+      "zh-CN": "记录动作条件，而不只记公斤",
+      "en": "Record task conditions, not just kilograms"
+    },
+    "summary": {
+      "zh-CN": "机器滑轮倍率、行程和测试任务不同，负重数字不可随意横比。",
+      "en": "Pulley ratios, range and test tasks differ; displayed loads are not automatically comparable."
+    },
+    "action": {
+      "zh-CN": "日志同时记录动作、次数、组数、RIR和训练时长。",
+      "en": "Log exercise, repetitions, sets, RIR and duration together."
+    },
+    "scope": {
+      "zh-CN": "厂商资料解释特定设备机制；这里的统一日志字段是编辑设计。",
+      "en": "Manufacturer material explains specific mechanisms; common log fields are an editorial design."
+    },
+    "sources": [
+      "machines-2023",
+      "concept2-damper"
+    ],
+    "kind": "synthesis",
+    "goals": [
+      "hypertrophy",
+      "fat-loss"
+    ],
+    "reviewStatus": "desk-reviewed; expert sign-off pending",
+    "checked": "2026-09-29",
+    "sourceRoles": [
+      {
+        "source": "machines-2023",
+        "role": {
+          "zh-CN": "不同训练测试的特异性。",
+          "en": "Specificity of training tests."
+        }
+      },
+      {
+        "source": "concept2-damper",
+        "role": {
+          "zh-CN": "Concept2解释阻尼档与强度不同；只适用于相关设备。",
+          "en": "Concept2 explains damper setting versus intensity; device-family-specific."
+        }
+      }
+    ],
+    "auditLabel": {
+      "zh-CN": "任务特异性 + 厂商结构说明",
+      "en": "Task specificity + manufacturer mechanics"
+    }
+  },
+  {
+    "id": "sleep",
+    "layer": "recovery",
+    "title": {
+      "zh-CN": "睡眠先于恢复小工具",
+      "en": "Sleep before recovery gadgets"
+    },
+    "summary": {
+      "zh-CN": "健康成人通常需要规律地睡够至少7小时；运动者需求可能不同。",
+      "en": "Healthy adults generally need at least seven hours regularly; athletes may have different needs."
+    },
+    "action": {
+      "zh-CN": "先保证睡眠机会与规律；持续失眠、打鼾伴日间嗜睡应寻求评估。",
+      "en": "Protect sleep opportunity and regularity; persistent insomnia or snoring with daytime sleepiness deserves assessment."
+    },
+    "scope": {
+      "zh-CN": "不是每个人恰好7小时就足够，也不把手表恢复分数当诊断。",
+      "en": "Exactly seven hours is not enough for everyone; watch readiness scores are not diagnoses."
+    },
+    "sources": [
+      "sleep-2015",
+      "sleep-athlete"
+    ],
+    "kind": "synthesis",
+    "goals": [
+      "hypertrophy",
+      "fat-loss"
+    ],
+    "reviewStatus": "desk-reviewed; expert sign-off pending",
+    "checked": "2026-09-29",
+    "sourceRoles": [
+      {
+        "source": "sleep-2015",
+        "role": {
+          "zh-CN": "规律至少7小时的健康成人共识，不保证7小时对每个人足够。",
+          "en": "Regular seven-hour minimum consensus, not proof that seven suffices for everyone."
+        }
+      },
+      {
+        "source": "sleep-athlete",
+        "role": {
+          "zh-CN": "运动者睡眠需求和评估；不是证明某个恢复工具无效的试验。",
+          "en": "Athlete sleep needs and assessment; not a direct trial disproving all recovery devices."
+        }
+      }
+    ],
+    "auditLabel": {
+      "zh-CN": "成人共识 + 运动者共识",
+      "en": "Adult consensus + athlete consensus"
+    }
+  },
+  {
+    "id": "fatigue",
+    "layer": "recovery",
+    "title": {
+      "zh-CN": "疲劳用多条线索判断",
+      "en": "Read fatigue from several signals"
+    },
+    "summary": {
+      "zh-CN": "睡眠、主观疲劳、动作表现和生活压力应一起看；一个指标不宜独自决定加量。",
+      "en": "Consider sleep, perceived fatigue, performance and life stress together; one signal should not dictate progression."
+    },
+    "action": {
+      "zh-CN": "连续表现下降时先减量或休息；无法解释的持续异常及时评估。",
+      "en": "With persistent decline, reduce work or rest; unexplained persistent abnormalities need assessment."
+    },
+    "scope": {
+      "zh-CN": "这是保守自我管理策略，未验证为可预测伤病的算法。",
+      "en": "A conservative self-management strategy, not a validated injury-prediction algorithm."
+    },
+    "sources": [
+      "sleep-athlete",
+      "failure-2022"
+    ],
+    "kind": "synthesis",
+    "goals": [
+      "hypertrophy",
+      "fat-loss"
+    ],
+    "reviewStatus": "desk-reviewed; expert sign-off pending",
+    "checked": "2026-09-29",
+    "sourceRoles": [
+      {
+        "source": "sleep-athlete",
+        "role": {
+          "zh-CN": "运动者睡眠及疲劳背景。",
+          "en": "Athlete sleep and fatigue context."
+        }
+      },
+      {
+        "source": "failure-2022",
+        "role": {
+          "zh-CN": "力竭对比提供训练负担背景；不是对生活压力或伤病预测的直接验证。",
+          "en": "Failure comparisons provide training-load context, not validation of stress or injury prediction."
+        }
+      }
+    ],
+    "auditLabel": {
+      "zh-CN": "综合自我管理建议；未验证算法",
+      "en": "Synthesis for self-management; not validated algorithm"
+    }
+  },
+  {
+    "id": "soreness",
+    "layer": "recovery",
+    "title": {
+      "zh-CN": "不要为了酸痛而训练",
+      "en": "Do not train to manufacture soreness"
+    },
+    "summary": {
+      "zh-CN": "追求力竭或课后酸痛不能代替长期表现与体成分评估。",
+      "en": "Chasing failure or soreness is not a substitute for assessing longer-term performance and composition."
+    },
+    "action": {
+      "zh-CN": "分开记录普通肌肉不适与关节痛、神经症状；后者不靠硬扛。",
+      "en": "Separate general muscle discomfort from joint pain or neurological symptoms; do not push through the latter."
+    },
+    "scope": {
+      "zh-CN": "本网站不能在线区分所有正常酸痛与损伤。",
+      "en": "This website cannot distinguish every benign soreness from injury online."
+    },
+    "sources": [
+      "failure-2022",
+      "damage-2016",
+      "nhs-sprain"
+    ],
+    "kind": "synthesis",
+    "goals": [
+      "hypertrophy",
+      "fat-loss"
+    ],
+    "reviewStatus": "desk-reviewed; expert sign-off pending",
+    "checked": "2026-09-29",
+    "sourceRoles": [
+      {
+        "source": "failure-2022",
+        "role": {
+          "zh-CN": "力竭不是所有长期适应的必要条件。",
+          "en": "Failure is not necessary for every long-term adaptation."
+        }
+      },
+      {
+        "source": "damage-2016",
+        "role": {
+          "zh-CN": "小样本机制研究提示肌肉损伤与生长不是简单正比；不用于诊断主观酸痛。",
+          "en": "Small mechanistic study: damage and growth are not simply proportional; not diagnosis of subjective soreness."
+        }
+      },
+      {
+        "source": "nhs-sprain",
+        "role": {
+          "zh-CN": "损伤症状与就医边界；不能在线确认某人只有正常酸痛。",
+          "en": "Injury symptoms and assessment boundaries; cannot confirm benign soreness online."
+        }
+      }
+    ],
+    "auditLabel": {
+      "zh-CN": "不把代理指标当结局",
+      "en": "Do not substitute proxies for outcomes"
+    }
+  },
+  {
+    "id": "recovery-tools",
+    "layer": "recovery",
+    "title": {
+      "zh-CN": "滚压和拉伸有边界",
+      "en": "Rolling and stretching have limits"
+    },
+    "summary": {
+      "zh-CN": "泡沫轴可能带来小幅短期收益；拉伸并不能可靠地大幅减少运动后酸痛。",
+      "en": "Foam rolling may offer small short-term benefits; stretching does not reliably produce a meaningful reduction in post-exercise soreness."
+    },
+    "action": {
+      "zh-CN": "作为舒适或活动度辅助，不代替睡眠、合理负荷或康复评估。",
+      "en": "Use for comfort or mobility support, not instead of sleep, sensible loading or rehabilitation assessment."
+    },
+    "scope": {
+      "zh-CN": "两项文献分别支持不同干预，不能互相替代；不外推为筋膜枪疗效。",
+      "en": "The papers address different interventions; neither establishes percussion-gun efficacy."
+    },
+    "sources": [
+      "foam-2019",
+      "stretching-2011"
+    ],
+    "kind": "synthesis",
+    "goals": [
+      "hypertrophy",
+      "fat-loss"
+    ],
+    "reviewStatus": "desk-reviewed; expert sign-off pending",
+    "checked": "2026-09-29",
+    "sourceRoles": [
+      {
+        "source": "foam-2019",
+        "role": {
+          "zh-CN": "滚压对短期表现/恢复的平均结果；不是筋膜枪或组织愈合证据。",
+          "en": "Foam-rolling outcomes; not massage-gun or tissue-healing evidence."
+        }
+      },
+      {
+        "source": "stretching-2011",
+        "role": {
+          "zh-CN": "训练前后拉伸对酸痛的作用有限；不否定拉伸对活动度的其他用途。",
+          "en": "Limited effect of stretching on soreness; does not negate other mobility uses."
+        }
+      }
+    ],
+    "auditLabel": {
+      "zh-CN": "两种干预分开解释",
+      "en": "Separate two different interventions"
+    }
+  },
+  {
+    "id": "pain-gate",
+    "layer": "rehab",
+    "title": {
+      "zh-CN": "疼痛先分流，再谈训练",
+      "en": "Triage pain before programming"
+    },
+    "summary": {
+      "zh-CN": "突发严重症状、明显外伤或进行性神经症状不能通过换一台器材解决。",
+      "en": "Severe sudden symptoms, significant trauma or progressive neurological symptoms cannot be managed just by choosing another machine."
+    },
+    "action": {
+      "zh-CN": "暂停触发症状的动作；紧急警示联系当地急救，持续或加重问题寻求评估。",
+      "en": "Stop the provoking task; use local emergency services for warning signs and seek assessment for persistent or worsening problems."
+    },
+    "scope": {
+      "zh-CN": "警示列表不穷尽所有紧急情况；无警示也不证明适合训练。",
+      "en": "The warning list is not exhaustive; absence of warnings is not exercise clearance."
+    },
+    "sources": [
+      "nhs-back",
+      "nhs-sprain",
+      "nhs-chest"
+    ],
+    "kind": "synthesis",
+    "goals": [
+      "hypertrophy",
+      "fat-loss"
+    ],
+    "reviewStatus": "desk-reviewed; expert sign-off pending",
+    "checked": "2026-09-29",
+    "sourceRoles": [
+      {
+        "source": "nhs-back",
+        "role": {
+          "zh-CN": "腰痛相关的严重神经等警示。",
+          "en": "Serious neurological/back-pain warnings."
+        }
+      },
+      {
+        "source": "nhs-sprain",
+        "role": {
+          "zh-CN": "扭伤拉伤的损伤评估范围。",
+          "en": "Sprain/strain assessment scope."
+        }
+      },
+      {
+        "source": "nhs-chest",
+        "role": {
+          "zh-CN": "胸痛伴危险表现的急救建议；应使用当地急救系统。",
+          "en": "Emergency guidance for concerning chest pain; use local emergency services."
+        }
+      }
+    ],
+    "auditLabel": {
+      "zh-CN": "官方分诊边界；不是完整筛查表",
+      "en": "Official triage boundaries; not a complete screener"
+    }
+  },
+  {
+    "id": "back-pain",
+    "layer": "rehab",
+    "title": {
+      "zh-CN": "腰痛不是一个统一诊断",
+      "en": "Back pain is not one diagnosis"
+    },
+    "summary": {
+      "zh-CN": "慢性原发性腰痛的管理可包含教育与运动；这不能套用急性外伤或神经急症。",
+      "en": "Chronic primary low-back-pain care can include education and exercise; this does not apply unchanged to trauma or neurological emergencies."
+    },
+    "action": {
+      "zh-CN": "先明确诊断和限制，再由专业人员安排逐步回归。",
+      "en": "Clarify diagnosis and restrictions, then plan a graded return with a professional."
+    },
+    "scope": {
+      "zh-CN": "本项目不自动输出腰痛或术后康复处方。",
+      "en": "The project does not automatically generate back-pain or postoperative rehabilitation prescriptions."
+    },
+    "sources": [
+      "who-back-2023",
+      "nhs-back"
+    ],
+    "kind": "synthesis",
+    "goals": [
+      "hypertrophy",
+      "fat-loss"
+    ],
+    "reviewStatus": "desk-reviewed; expert sign-off pending",
+    "checked": "2026-09-29",
+    "sourceRoles": [
+      {
+        "source": "who-back-2023",
+        "role": {
+          "zh-CN": "慢性原发性腰痛的综合照护，不是全部急性/术后腰痛。",
+          "en": "Chronic primary low-back-pain care, not every acute or postoperative cause."
+        }
+      },
+      {
+        "source": "nhs-back",
+        "role": {
+          "zh-CN": "背痛危险表现与就医建议；不会给出统一器械处方。",
+          "en": "Red flags and seeking care; no universal equipment prescription."
+        }
+      }
+    ],
+    "auditLabel": {
+      "zh-CN": "特定诊断指南 + 危险边界",
+      "en": "Condition-specific guidance + red flags"
+    }
+  },
+  {
+    "id": "joint-pain",
+    "layer": "rehab",
+    "title": {
+      "zh-CN": "关节问题按诊断适配",
+      "en": "Adapt joint problems to the diagnosis"
+    },
+    "summary": {
+      "zh-CN": "确诊骨关节炎的运动建议和急性扭伤处理不是同一个流程。",
+      "en": "Exercise advice for diagnosed osteoarthritis is not the same pathway as care after an acute sprain."
+    },
+    "action": {
+      "zh-CN": "记录部位、起因、肿胀、功能受限和诊断，供康复人员选择负荷与动作。",
+      "en": "Record site, onset, swelling, limitations and diagnosis for a professional to select movements and loading."
+    },
+    "scope": {
+      "zh-CN": "低冲击不等于零风险；不提供按疼痛分数自动加量。",
+      "en": "Low impact is not zero risk; no automatic progression based solely on pain scores."
+    },
+    "sources": [
+      "acr-oa",
+      "nhs-sprain"
+    ],
+    "kind": "synthesis",
+    "goals": [
+      "hypertrophy",
+      "fat-loss"
+    ],
+    "reviewStatus": "desk-reviewed; expert sign-off pending",
+    "checked": "2026-09-29",
+    "sourceRoles": [
+      {
+        "source": "acr-oa",
+        "role": {
+          "zh-CN": "手、髋、膝骨关节炎指南；不能推断所有关节痛。",
+          "en": "Hand, hip and knee osteoarthritis; not every joint-pain diagnosis."
+        }
+      },
+      {
+        "source": "nhs-sprain",
+        "role": {
+          "zh-CN": "急性扭伤拉伤背景；不支持把同一康复流程通用化。",
+          "en": "Acute sprain/strain context; no universal rehabilitation pathway."
+        }
+      }
+    ],
+    "auditLabel": {
+      "zh-CN": "特定病种与急性损伤分开",
+      "en": "Condition-specific versus acute injury"
+    }
+  },
+  {
+    "id": "pregnancy",
+    "layer": "population",
+    "title": {
+      "zh-CN": "孕产期不走自动减脂路径",
+      "en": "Pregnancy is not an automatic fat-loss pathway"
+    },
+    "summary": {
+      "zh-CN": "无禁忌的孕产期可有适宜运动，但体位、强度和目标需要适配。",
+      "en": "Suitable activity can be appropriate in uncomplicated pregnancy/postpartum, but position, effort and goals need adaptation."
+    },
+    "action": {
+      "zh-CN": "进入产科或相关专业人员评估，不使用普通成人减脂模板。",
+      "en": "Use obstetric or relevant professional assessment, not a general adult fat-loss template."
+    },
+    "scope": {
+      "zh-CN": "产后时间、分娩方式、症状和禁忌会改变方案。",
+      "en": "Postpartum timing, delivery, symptoms and contraindications change the plan."
+    },
+    "sources": [
+      "acog-2020",
+      "who-2020"
+    ],
+    "kind": "synthesis",
+    "goals": [
+      "hypertrophy",
+      "fat-loss"
+    ],
+    "reviewStatus": "desk-reviewed; expert sign-off pending",
+    "checked": "2026-09-29",
+    "sourceRoles": [
+      {
+        "source": "acog-2020",
+        "role": {
+          "zh-CN": "ACOG给出孕产期适配与限制框架。",
+          "en": "ACOG provides adaptation and limitation frameworks."
+        }
+      },
+      {
+        "source": "who-2020",
+        "role": {
+          "zh-CN": "WHO孕产期活动范围；两者均不是自动减脂处方。",
+          "en": "WHO provides activity scope; neither is an automatic fat-loss prescription."
+        }
+      }
+    ],
+    "auditLabel": {
+      "zh-CN": "妇产科与公共健康指南",
+      "en": "Obstetric and public-health guidance"
+    }
+  },
+  {
+    "id": "diabetes",
+    "layer": "population",
+    "title": {
+      "zh-CN": "慢性病不是简单加一个标签",
+      "en": "Chronic disease is not just a tag"
+    },
+    "summary": {
+      "zh-CN": "糖尿病训练要考虑用药、低血糖和并发症；一般活动建议不能替代个体管理。",
+      "en": "Diabetes programming must consider medication, hypoglycemia and complications; general activity guidance is not individual management."
+    },
+    "action": {
+      "zh-CN": "携带用药与诊断信息找专业人员制定方案；不自行调药。",
+      "en": "Bring medication and diagnosis details to a professional; do not adjust medication yourself."
+    },
+    "scope": {
+      "zh-CN": "心血管、肾脏、神经或足部问题可能改变器材和强度选择。",
+      "en": "Cardiovascular, renal, neurological or foot problems may change equipment and intensity choices."
+    },
+    "sources": [
+      "diabetes-2022",
+      "who-2020"
+    ],
+    "kind": "synthesis",
+    "goals": [
+      "hypertrophy",
+      "fat-loss"
+    ],
+    "reviewStatus": "desk-reviewed; expert sign-off pending",
+    "checked": "2026-09-29",
+    "sourceRoles": [
+      {
+        "source": "diabetes-2022",
+        "role": {
+          "zh-CN": "2型糖尿病运动、用药和并发症适配。",
+          "en": "Type 2 diabetes, medication and complication considerations."
+        }
+      },
+      {
+        "source": "who-2020",
+        "role": {
+          "zh-CN": "慢性病的公共活动范围；不能用来覆盖全部慢病临床处方。",
+          "en": "Broad chronic-condition activity scope, not all disease-specific prescriptions."
+        }
+      }
+    ],
+    "auditLabel": {
+      "zh-CN": "病种共识 + 广义活动指南",
+      "en": "Disease consensus + broad activity guidance"
+    }
+  },
+  {
+    "id": "older",
+    "layer": "population",
+    "title": {
+      "zh-CN": "年长者补上平衡与功能目标",
+      "en": "Add balance and function for older adults"
+    },
+    "summary": {
+      "zh-CN": "年长者不仅关注肌肉量；力量、平衡和日常功能同样重要。",
+      "en": "Older adults need more than muscle-size goals; strength, balance and daily function matter too."
+    },
+    "action": {
+      "zh-CN": "活动能力良好且无警示者可采用经适配的保守活动安排；跌倒、骨折或功能受限先评估。本项目标准模板不替代年长者适配。",
+      "en": "Fit older adults without warnings can begin with conservatively adapted activities; falls, fractures or functional limitation need assessment. This project's standard templates do not replace older-adult adaptation."
+    },
+    "scope": {
+      "zh-CN": "本项目自动计划仅用于18–64岁；65岁以上提供教育分流，非禁止运动。",
+      "en": "Automatic plans in this release cover ages 18–64; older users receive educational routing, not a ban on exercise."
+    },
+    "sources": [
+      "who-2020",
+      "acsm-2026"
+    ],
+    "kind": "synthesis",
+    "goals": [
+      "hypertrophy",
+      "fat-loss"
+    ],
+    "reviewStatus": "desk-reviewed; expert sign-off pending",
+    "checked": "2026-09-29",
+    "sourceRoles": [
+      {
+        "source": "who-2020",
+        "role": {
+          "zh-CN": "老年人肌力、平衡与多组分活动建议。",
+          "en": "Older-adult strength, balance and multicomponent guidance."
+        }
+      },
+      {
+        "source": "acsm-2026",
+        "role": {
+          "zh-CN": "健康成人抗阻适应背景；65岁自动分流是产品边界，不是医学禁练。",
+          "en": "Resistance adaptation context; age-65 routing is a product boundary, not a medical prohibition."
+        }
+      }
+    ],
+    "auditLabel": {
+      "zh-CN": "人群指南 + 抗阻综述",
+      "en": "Population guidance + resistance review"
+    }
+  },
+  {
+    "id": "youth",
+    "layer": "population",
+    "title": {
+      "zh-CN": "未成年人不是缩小版成人",
+      "en": "Young people are not miniature adults"
+    },
+    "summary": {
+      "zh-CN": "儿童青少年的活动建议与成人不同；体重分类和减脂目标不能照搬成人。",
+      "en": "Youth activity guidance differs from adult guidance; adult weight classification and fat-loss goals cannot simply be copied."
+    },
+    "action": {
+      "zh-CN": "以发展、技能和监督为先；本网站不输出未成年人减脂或最大重量计划。",
+      "en": "Prioritize development, skills and supervision; no youth fat-loss or maximal-load plans are generated."
+    },
+    "scope": {
+      "zh-CN": "具体力量训练需合格指导和监护人参与。",
+      "en": "Specific strength programming requires qualified guidance and guardian involvement."
+    },
+    "sources": [
+      "who-2020",
+      "cdc-bmi"
+    ],
+    "kind": "synthesis",
+    "goals": [
+      "hypertrophy",
+      "fat-loss"
+    ],
+    "reviewStatus": "desk-reviewed; expert sign-off pending",
+    "checked": "2026-09-29",
+    "sourceRoles": [
+      {
+        "source": "who-2020",
+        "role": {
+          "zh-CN": "儿童青少年活动建议与成人不同。",
+          "en": "Youth activity guidance differs from adult guidance."
+        }
+      },
+      {
+        "source": "cdc-bmi",
+        "role": {
+          "zh-CN": "儿童/青少年BMI解释不能直接用成人框架。",
+          "en": "Child/adolescent BMI interpretation is not interchangeable with adult interpretation."
+        }
+      }
+    ],
+    "auditLabel": {
+      "zh-CN": "人群边界，不提供成人处方",
+      "en": "Population boundary, not adult prescriptions"
+    }
+  },
+  {
+    "id": "accessibility",
+    "layer": "population",
+    "title": {
+      "zh-CN": "无障碍适配先看任务与通道",
+      "en": "Adapt access to tasks and transfers"
+    },
+    "summary": {
+      "zh-CN": "残障或活动受限者仍可从适宜活动获益；器材可达性与上下机条件很重要。",
+      "en": "People with disability or mobility limitations can benefit from suitable activity; reach and transfers matter."
+    },
+    "action": {
+      "zh-CN": "核对上下机、座高、支撑、握把和陪同需求，再选择设备。",
+      "en": "Check transfers, seat height, supports, grip and assistance before selecting equipment."
+    },
+    "scope": {
+      "zh-CN": "平台不假定所有残障者有相同能力或医疗限制。",
+      "en": "The platform does not assume the same abilities or medical restrictions for all disabilities."
+    },
+    "sources": [
+      "who-2020",
+      "cdc-activity"
+    ],
+    "kind": "synthesis",
+    "goals": [
+      "hypertrophy",
+      "fat-loss"
+    ],
+    "reviewStatus": "desk-reviewed; expert sign-off pending",
+    "checked": "2026-09-29",
+    "sourceRoles": [
+      {
+        "source": "who-2020",
+        "role": {
+          "zh-CN": "残障人群活动原则与个体适配。",
+          "en": "Disability-inclusive activity principles and adaptation."
+        }
+      },
+      {
+        "source": "cdc-activity",
+        "role": {
+          "zh-CN": "一般成人活动背景；通道/座椅/转移清单是编辑可用性检查，不是建筑规范认证。",
+          "en": "General adult context; access/seat/transfer checks are editorial usability checks, not code certification."
+        }
+      }
+    ],
+    "auditLabel": {
+      "zh-CN": "包容活动范围 + 编辑环境清单",
+      "en": "Inclusive activity scope + editorial access checklist"
+    }
+  },
+  {
+    "id": "return",
+    "layer": "population",
+    "title": {
+      "zh-CN": "停训回归先找当前起点",
+      "en": "Return at current capacity"
+    },
+    "summary": {
+      "zh-CN": "过去完成的训练量不自动等于现在可恢复的训练量。",
+      "en": "Previously tolerated work is not automatically recoverable today."
+    },
+    "action": {
+      "zh-CN": "回到较低组数和较轻负荷，按当下表现调整；伤后回归走康复流程。",
+      "en": "Return with fewer sets and lighter loads, then adjust; post-injury return follows rehabilitation."
+    },
+    "scope": {
+      "zh-CN": "回归步长是个体决策，不承诺固定几周恢复。",
+      "en": "Progression is individual; no fixed recovery timeline is promised."
+    },
+    "sources": [
+      "acsm-2026",
+      "nhs-sprain"
+    ],
+    "kind": "synthesis",
+    "goals": [
+      "hypertrophy",
+      "fat-loss"
+    ],
+    "reviewStatus": "desk-reviewed; expert sign-off pending",
+    "checked": "2026-09-29",
+    "sourceRoles": [
+      {
+        "source": "acsm-2026",
+        "role": {
+          "zh-CN": "负荷从当前能力起步的训练背景。",
+          "en": "Training at current capacity."
+        }
+      },
+      {
+        "source": "nhs-sprain",
+        "role": {
+          "zh-CN": "伤后活动需重新适配；不是固定停训天数后的恢复保证。",
+          "en": "Post-injury adaptation; no guarantee based on a fixed number of days off."
+        }
+      }
+    ],
+    "auditLabel": {
+      "zh-CN": "训练原则 + 损伤边界",
+      "en": "Training principles + injury boundaries"
+    }
+  },
+  {
+    "id": "evidence",
+    "layer": "foundation",
+    "title": {
+      "zh-CN": "看研究适用条件，而不只看期刊名",
+      "en": "Read applicability, not only the journal name"
+    },
+    "summary": {
+      "zh-CN": "系统综述可能共享试验；厂商介绍能说明结构，却不能证明减脂或康复效果。",
+      "en": "Reviews may share trials. Manufacturer descriptions can explain structure but cannot establish fat-loss or rehabilitation efficacy."
+    },
+    "action": {
+      "zh-CN": "打开证据卡的适用范围、局限和来源角色；没有直接证据时保留未知。",
+      "en": "Read scope, limitations and source roles; retain unknowns when direct evidence is absent."
+    },
+    "scope": {
+      "zh-CN": "这是项目的证据治理规则，不是正式GRADE评级。",
+      "en": "This is project evidence governance, not a formal GRADE assessment."
+    },
+    "sources": [
+      "machines-2023",
+      "lf-catalog"
+    ],
+    "kind": "editorial",
+    "goals": [
+      "hypertrophy",
+      "fat-loss"
+    ],
+    "reviewStatus": "desk-reviewed; expert sign-off pending",
+    "checked": "2026-09-29",
+    "sourceRoles": [
+      {
+        "source": "machines-2023",
+        "role": {
+          "zh-CN": "训练效果比较研究，可讨论结局与不确定性。",
+          "en": "Comparative outcomes evidence illustrates uncertainty."
+        }
+      },
+      {
+        "source": "lf-catalog",
+        "role": {
+          "zh-CN": "厂商目录能确认设备类别存在，不能证明增肌效果；两者证据用途不同。",
+          "en": "Manufacturer catalog confirms equipment classes, not efficacy; these sources serve different purposes."
+        }
+      }
+    ],
+    "auditLabel": {
+      "zh-CN": "证据治理的对照示例",
+      "en": "Illustration of evidence governance"
+    }
+  }
+]

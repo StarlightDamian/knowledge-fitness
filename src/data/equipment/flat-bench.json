@@ -1,0 +1,46 @@
+{
+  "id": "flat-bench",
+  "name": {
+    "zh-CN": "平板卧推凳",
+    "en": "Flat bench"
+  },
+  "aliases": [
+    "平板卧推凳",
+    "Flat bench",
+    "flat-bench"
+  ],
+  "category": "support",
+  "patterns": [
+    "support"
+  ],
+  "regions": [
+    "not-applicable"
+  ],
+  "settings": [
+    "home",
+    "gym"
+  ],
+  "role": "support",
+  "path": "support",
+  "learning": "low",
+  "footprint": "medium",
+  "use": {
+    "zh-CN": "水平支撑",
+    "en": "Horizontal support surface"
+  },
+  "caution": {
+    "zh-CN": "额定承重包括使用者与外部负荷",
+    "en": "Rating must include user and external load"
+  },
+  "sources": [
+    "lf-catalog",
+    "tg-catalog"
+  ],
+  "evidenceScope": {
+    "zh-CN": "厂商目录仅用于识别类别。配件安全与承重须逐型号查手册；没有“增肌效果”分数。",
+    "en": "Manufacturer catalogs identify categories only. Check each model manual for ratings and safe use; no hypertrophy score is assigned."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "support.svg",
+  "alternatives": []
+}

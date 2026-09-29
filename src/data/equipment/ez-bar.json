@@ -1,0 +1,49 @@
+{
+  "id": "ez-bar",
+  "name": {
+    "zh-CN": "曲杆杠铃",
+    "en": "EZ curl bar"
+  },
+  "aliases": [
+    "曲杆杠铃",
+    "EZ curl bar",
+    "ez-bar"
+  ],
+  "category": "free",
+  "patterns": [
+    "elbow"
+  ],
+  "regions": [
+    "arms"
+  ],
+  "settings": [
+    "home",
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "self",
+  "learning": "moderate",
+  "footprint": "small",
+  "use": {
+    "zh-CN": "可选择不同握角的屈伸动作",
+    "en": "Angled grips for elbow exercises"
+  },
+  "caution": {
+    "zh-CN": "握角舒适不代表适合所有腕部",
+    "en": "An angled grip is not comfortable for every wrist"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "free.svg",
+  "alternatives": [
+    "biceps-machine",
+    "triceps-machine"
+  ]
+}

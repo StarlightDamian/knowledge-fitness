@@ -1,0 +1,50 @@
+{
+  "id": "water-bag",
+  "name": {
+    "zh-CN": "水袋负重",
+    "en": "Water-filled training bag"
+  },
+  "aliases": [
+    "水袋负重",
+    "Water-filled training bag",
+    "water-bag"
+  ],
+  "category": "free",
+  "patterns": [
+    "carry"
+  ],
+  "regions": [
+    "full-body"
+  ],
+  "settings": [
+    "home",
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "self",
+  "learning": "moderate",
+  "footprint": "small",
+  "use": {
+    "zh-CN": "流动质量用于控制练习",
+    "en": "Moving mass for control practice"
+  },
+  "caution": {
+    "zh-CN": "降低起始重量，检查密封",
+    "en": "Start lighter; inspect seals"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "free.svg",
+  "alternatives": [
+    "trap-bar",
+    "kettlebell",
+    "sandbag"
+  ]
+}

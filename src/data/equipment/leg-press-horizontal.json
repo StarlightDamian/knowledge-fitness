@@ -1,0 +1,49 @@
+{
+  "id": "leg-press-horizontal",
+  "name": {
+    "zh-CN": "挂片水平腿举机",
+    "en": "Plate-loaded horizontal leg press"
+  },
+  "aliases": [
+    "挂片水平腿举机",
+    "Plate-loaded horizontal leg press",
+    "leg-press-horizontal"
+  ],
+  "category": "plate",
+  "patterns": [
+    "squat"
+  ],
+  "regions": [
+    "glutes",
+    "legs"
+  ],
+  "settings": [
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "guided",
+  "learning": "moderate",
+  "footprint": "large",
+  "use": {
+    "zh-CN": "水平或近水平踏板路径",
+    "en": "Horizontal or near-horizontal press path"
+  },
+  "caution": {
+    "zh-CN": "不同杠杆比不能直接比较片重",
+    "en": "Plate loads are not comparable across lever ratios"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "plate.svg",
+  "alternatives": [
+    "safety-bar",
+    "stack-leg-press"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "pec-deck",
+  "name": {
+    "zh-CN": "蝴蝶夹胸机",
+    "en": "Pec deck"
+  },
+  "aliases": [
+    "蝴蝶夹胸机",
+    "Pec deck",
+    "pec-deck",
+    "蝴蝶机",
+    "夹胸",
+    "飞鸟机",
+    "butterfly machine"
+  ],
+  "category": "stack",
+  "patterns": [
+    "push"
+  ],
+  "regions": [
+    "arms",
+    "chest"
+  ],
+  "settings": [
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "guided",
+  "learning": "low",
+  "footprint": "large",
+  "use": {
+    "zh-CN": "水平内收动作",
+    "en": "Horizontal adduction"
+  },
+  "caution": {
+    "zh-CN": "勿强行拉到过深后方",
+    "en": "Do not force a deep backward stretch"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "stack.svg",
+  "alternatives": [
+    "lever-chest",
+    "dip-bars",
+    "pushup-handles"
+  ]
+}

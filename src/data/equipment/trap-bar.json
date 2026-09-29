@@ -1,0 +1,53 @@
+{
+  "id": "trap-bar",
+  "name": {
+    "zh-CN": "六角杠铃",
+    "en": "Trap bar"
+  },
+  "aliases": [
+    "六角杠铃",
+    "Trap bar",
+    "trap-bar"
+  ],
+  "category": "free",
+  "patterns": [
+    "hinge",
+    "carry"
+  ],
+  "regions": [
+    "full-body",
+    "glutes",
+    "posterior"
+  ],
+  "settings": [
+    "home",
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "self",
+  "learning": "moderate",
+  "footprint": "medium",
+  "use": {
+    "zh-CN": "站在框内进行髋伸或负重行走",
+    "en": "Stand within the frame for hinges or carries"
+  },
+  "caution": {
+    "zh-CN": "高低把手改变起始高度，分开记录",
+    "en": "Handle height changes the start; log it"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "free.svg",
+  "alternatives": [
+    "hip-thrust-machine",
+    "reverse-hyper",
+    "kickback"
+  ]
+}

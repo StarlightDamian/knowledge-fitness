@@ -1,0 +1,50 @@
+{
+  "id": "tube-band",
+  "name": {
+    "zh-CN": "带柄管状拉力器",
+    "en": "Handled resistance tube"
+  },
+  "aliases": [
+    "带柄管状拉力器",
+    "Handled resistance tube",
+    "tube-band"
+  ],
+  "category": "elastic",
+  "patterns": [
+    "multi"
+  ],
+  "regions": [
+    "varies"
+  ],
+  "settings": [
+    "home",
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "self",
+  "learning": "low",
+  "footprint": "pocket",
+  "use": {
+    "zh-CN": "把手连接弹性阻力",
+    "en": "Handled elastic resistance"
+  },
+  "caution": {
+    "zh-CN": "确认把手连接与门锚安全",
+    "en": "Inspect handles and door anchor"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "elastic.svg",
+  "alternatives": [
+    "dumbbell",
+    "adjustable-dumbbell",
+    "barbell"
+  ]
+}

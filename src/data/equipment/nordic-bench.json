@@ -1,0 +1,45 @@
+{
+  "id": "nordic-bench",
+  "name": {
+    "zh-CN": "北欧腿弯举凳",
+    "en": "Nordic curl bench"
+  },
+  "aliases": [
+    "北欧腿弯举凳",
+    "Nordic curl bench",
+    "nordic-bench"
+  ],
+  "category": "support",
+  "patterns": [
+    "knee"
+  ],
+  "regions": [
+    "posterior"
+  ],
+  "settings": [
+    "gym"
+  ],
+  "role": "support",
+  "path": "support",
+  "learning": "high",
+  "footprint": "medium",
+  "use": {
+    "zh-CN": "固定踝部以练习受控前倾",
+    "en": "Fixes the ankles for controlled forward leaning"
+  },
+  "caution": {
+    "zh-CN": "使用回归幅度和稳固固定，不直接追求全程下降",
+    "en": "Use a regression and secure fixation, not immediate full-range lowering"
+  },
+  "sources": [
+    "lf-catalog",
+    "tg-catalog"
+  ],
+  "evidenceScope": {
+    "zh-CN": "厂商目录仅用于识别类别。配件安全与承重须逐型号查手册；没有“增肌效果”分数。",
+    "en": "Manufacturer catalogs identify categories only. Check each model manual for ratings and safe use; no hypertrophy score is assigned."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "support.svg",
+  "alternatives": []
+}

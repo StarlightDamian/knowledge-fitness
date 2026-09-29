@@ -1,0 +1,49 @@
+{
+  "id": "hydraulic",
+  "name": {
+    "zh-CN": "液压循环训练器",
+    "en": "Hydraulic resistance machine"
+  },
+  "aliases": [
+    "液压循环训练器",
+    "Hydraulic resistance machine",
+    "hydraulic"
+  ],
+  "category": "special",
+  "patterns": [
+    "multi"
+  ],
+  "regions": [
+    "varies"
+  ],
+  "settings": [
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "guided",
+  "learning": "high",
+  "footprint": "medium",
+  "use": {
+    "zh-CN": "流体阻尼提供阻力",
+    "en": "Fluid damping supplies resistance"
+  },
+  "caution": {
+    "zh-CN": "速度可能改变阻力，不简单类比配重块",
+    "en": "Speed may change resistance; not equivalent to a weight stack"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "special.svg",
+  "alternatives": [
+    "dumbbell",
+    "adjustable-dumbbell",
+    "barbell"
+  ]
+}

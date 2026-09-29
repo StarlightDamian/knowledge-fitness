@@ -1,0 +1,51 @@
+{
+  "id": "pushup-handles",
+  "name": {
+    "zh-CN": "俯卧撑支架",
+    "en": "Push-up handles"
+  },
+  "aliases": [
+    "俯卧撑支架",
+    "Push-up handles",
+    "pushup-handles"
+  ],
+  "category": "body",
+  "patterns": [
+    "push"
+  ],
+  "regions": [
+    "arms",
+    "chest"
+  ],
+  "settings": [
+    "home",
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "self",
+  "learning": "low",
+  "footprint": "small",
+  "use": {
+    "zh-CN": "改变手腕角度和支撑高度",
+    "en": "Alters wrist angle and support height"
+  },
+  "caution": {
+    "zh-CN": "防滑，增加深度并非人人合适",
+    "en": "Prevent sliding; extra depth is not for everyone"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "body.svg",
+  "alternatives": [
+    "lever-chest",
+    "chest-press",
+    "pec-deck"
+  ]
+}

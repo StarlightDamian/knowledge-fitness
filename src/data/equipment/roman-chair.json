@@ -1,0 +1,51 @@
+{
+  "id": "roman-chair",
+  "name": {
+    "zh-CN": "罗马椅挺身凳",
+    "en": "Hyperextension bench"
+  },
+  "aliases": [
+    "罗马椅挺身凳",
+    "Hyperextension bench",
+    "roman-chair",
+    "山羊挺身",
+    "罗马凳",
+    "背伸凳",
+    "Roman chair"
+  ],
+  "category": "support",
+  "patterns": [
+    "hinge"
+  ],
+  "regions": [
+    "glutes",
+    "posterior"
+  ],
+  "settings": [
+    "home",
+    "gym"
+  ],
+  "role": "support",
+  "path": "support",
+  "learning": "low",
+  "footprint": "medium",
+  "use": {
+    "zh-CN": "髋部支撑的伸展练习",
+    "en": "Hip-supported extension practice"
+  },
+  "caution": {
+    "zh-CN": "垫位决定活动位置，不强行过伸",
+    "en": "Pad position changes motion; do not force hyperextension"
+  },
+  "sources": [
+    "lf-catalog",
+    "tg-catalog"
+  ],
+  "evidenceScope": {
+    "zh-CN": "厂商目录仅用于识别类别。配件安全与承重须逐型号查手册；没有“增肌效果”分数。",
+    "en": "Manufacturer catalogs identify categories only. Check each model manual for ratings and safe use; no hypertrophy score is assigned."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "support.svg",
+  "alternatives": []
+}

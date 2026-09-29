@@ -1,0 +1,170 @@
+[
+  {
+    "id": "free",
+    "name": {
+      "zh-CN": "自由负重",
+      "en": "Free weights"
+    },
+    "definition": {
+      "zh-CN": "外部质量由使用者控制路径",
+      "en": "User controls the path of an external mass"
+    },
+    "path": "self",
+    "footprint": "small",
+    "learning": "moderate"
+  },
+  {
+    "id": "plate",
+    "name": {
+      "zh-CN": "挂片导向器械",
+      "en": "Plate-loaded machines"
+    },
+    "definition": {
+      "zh-CN": "挂片加载，杠杆或导轨约束主运动",
+      "en": "Plate-loaded lever or rail constrains the main movement"
+    },
+    "path": "guided",
+    "footprint": "large",
+    "learning": "moderate"
+  },
+  {
+    "id": "stack",
+    "name": {
+      "zh-CN": "插片专用器械",
+      "en": "Selectorized machines"
+    },
+    "definition": {
+      "zh-CN": "配重块调重，以特定动作为主",
+      "en": "Weight-stack selection with a dedicated exercise station"
+    },
+    "path": "guided",
+    "footprint": "large",
+    "learning": "low"
+  },
+  {
+    "id": "cable",
+    "name": {
+      "zh-CN": "多用途滑轮系统",
+      "en": "Cable systems"
+    },
+    "definition": {
+      "zh-CN": "可重设拉力方向的多用途滑轮",
+      "en": "Reconfigurable multi-exercise pulley system"
+    },
+    "path": "self",
+    "footprint": "large",
+    "learning": "moderate"
+  },
+  {
+    "id": "elastic",
+    "name": {
+      "zh-CN": "弹性与弹簧阻力",
+      "en": "Elastic resistance"
+    },
+    "definition": {
+      "zh-CN": "弹性形变提供主阻力",
+      "en": "Elastic deformation supplies the main resistance"
+    },
+    "path": "self",
+    "footprint": "pocket",
+    "learning": "low"
+  },
+  {
+    "id": "body",
+    "name": {
+      "zh-CN": "自重支撑与悬挂",
+      "en": "Bodyweight & suspension"
+    },
+    "definition": {
+      "zh-CN": "主要承载或移动身体自重",
+      "en": "Supports or moves body mass as the main load"
+    },
+    "path": "self",
+    "footprint": "small",
+    "learning": "moderate"
+  },
+  {
+    "id": "cardio",
+    "name": {
+      "zh-CN": "周期性有氧设备",
+      "en": "Cyclic cardio"
+    },
+    "definition": {
+      "zh-CN": "连续重复的步行、骑行、划行等",
+      "en": "Continuous repeated walking, cycling or ergometry"
+    },
+    "path": "cyclic",
+    "footprint": "large",
+    "learning": "low"
+  },
+  {
+    "id": "conditioning",
+    "name": {
+      "zh-CN": "体能与跳跃工具",
+      "en": "Conditioning tools"
+    },
+    "definition": {
+      "zh-CN": "投掷、跳跃、拖推、节奏或击打为主",
+      "en": "Throwing, jumping, dragging, rhythm or striking"
+    },
+    "path": "self",
+    "footprint": "medium",
+    "learning": "moderate"
+  },
+  {
+    "id": "support",
+    "name": {
+      "zh-CN": "支撑与辅助配件",
+      "en": "Supports & accessories"
+    },
+    "definition": {
+      "zh-CN": "不独立提供主要训练阻力",
+      "en": "Does not independently supply the main training load"
+    },
+    "path": "support",
+    "footprint": "small",
+    "learning": "low"
+  },
+  {
+    "id": "recovery",
+    "name": {
+      "zh-CN": "活动度与恢复工具",
+      "en": "Mobility & recovery"
+    },
+    "definition": {
+      "zh-CN": "以活动度或短期舒适辅助为主",
+      "en": "Mobility or short-term comfort assistance"
+    },
+    "path": "support",
+    "footprint": "small",
+    "learning": "low"
+  },
+  {
+    "id": "measurement",
+    "name": {
+      "zh-CN": "测量与监测设备",
+      "en": "Measurement devices"
+    },
+    "definition": {
+      "zh-CN": "首要功能为记录而非产生训练负荷",
+      "en": "Primarily measures rather than loads the body"
+    },
+    "path": "measurement",
+    "footprint": "pocket",
+    "learning": "low"
+  },
+  {
+    "id": "special",
+    "name": {
+      "zh-CN": "特殊阻力系统",
+      "en": "Special resistance"
+    },
+    "definition": {
+      "zh-CN": "飞轮惯性、气动或液压，独立于前类",
+      "en": "Flywheel inertia, pneumatic or hydraulic systems"
+    },
+    "path": "guided",
+    "footprint": "medium",
+    "learning": "high"
+  }
+]

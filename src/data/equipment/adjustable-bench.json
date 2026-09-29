@@ -1,0 +1,46 @@
+{
+  "id": "adjustable-bench",
+  "name": {
+    "zh-CN": "可调训练凳",
+    "en": "Adjustable bench"
+  },
+  "aliases": [
+    "可调训练凳",
+    "Adjustable bench",
+    "adjustable-bench"
+  ],
+  "category": "support",
+  "patterns": [
+    "support"
+  ],
+  "regions": [
+    "not-applicable"
+  ],
+  "settings": [
+    "home",
+    "gym"
+  ],
+  "role": "support",
+  "path": "support",
+  "learning": "low",
+  "footprint": "medium",
+  "use": {
+    "zh-CN": "可调靠背和座位角度",
+    "en": "Adjustable backrest and seat angles"
+  },
+  "caution": {
+    "zh-CN": "角度锁销每次确认",
+    "en": "Verify angle locks each time"
+  },
+  "sources": [
+    "lf-catalog",
+    "tg-catalog"
+  ],
+  "evidenceScope": {
+    "zh-CN": "厂商目录仅用于识别类别。配件安全与承重须逐型号查手册；没有“增肌效果”分数。",
+    "en": "Manufacturer catalogs identify categories only. Check each model manual for ratings and safe use; no hypertrophy score is assigned."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "support.svg",
+  "alternatives": []
+}

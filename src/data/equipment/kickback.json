@@ -1,0 +1,50 @@
+{
+  "id": "kickback",
+  "name": {
+    "zh-CN": "臀后蹬机",
+    "en": "Glute kickback machine"
+  },
+  "aliases": [
+    "臀后蹬机",
+    "Glute kickback machine",
+    "kickback"
+  ],
+  "category": "stack",
+  "patterns": [
+    "hinge"
+  ],
+  "regions": [
+    "glutes",
+    "posterior"
+  ],
+  "settings": [
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "guided",
+  "learning": "low",
+  "footprint": "large",
+  "use": {
+    "zh-CN": "单侧髋伸",
+    "en": "Unilateral hip extension"
+  },
+  "caution": {
+    "zh-CN": "不要用腰部扭转顶替髋伸",
+    "en": "Do not replace hip extension with trunk rotation"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "stack.svg",
+  "alternatives": [
+    "trap-bar",
+    "kettlebell",
+    "sandbag"
+  ]
+}

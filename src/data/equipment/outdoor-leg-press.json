@@ -1,0 +1,46 @@
+{
+  "id": "outdoor-leg-press",
+  "name": {
+    "zh-CN": "户外自重坐蹬器",
+    "en": "Outdoor bodyweight leg press"
+  },
+  "aliases": [
+    "户外自重坐蹬器",
+    "Outdoor bodyweight leg press",
+    "outdoor-leg-press"
+  ],
+  "category": "body",
+  "patterns": [
+    "squat"
+  ],
+  "regions": [
+    "legs",
+    "glutes"
+  ],
+  "settings": [
+    "outdoor"
+  ],
+  "role": "resistance",
+  "path": "guided",
+  "learning": "low",
+  "footprint": "large",
+  "use": {
+    "zh-CN": "通过杠杆移动使用者自重",
+    "en": "Moves user body mass through a lever"
+  },
+  "caution": {
+    "zh-CN": "不同身高适配有限，不强行推入末端位置",
+    "en": "Fit varies by height; do not force end positions"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "body.svg",
+  "alternatives": []
+}

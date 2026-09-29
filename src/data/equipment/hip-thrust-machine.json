@@ -1,0 +1,53 @@
+{
+  "id": "hip-thrust-machine",
+  "name": {
+    "zh-CN": "挂片臀推机",
+    "en": "Plate-loaded hip thrust machine"
+  },
+  "aliases": [
+    "挂片臀推机",
+    "Plate-loaded hip thrust machine",
+    "hip-thrust-machine",
+    "臀桥机",
+    "臀推机",
+    "glute drive"
+  ],
+  "category": "plate",
+  "patterns": [
+    "hinge"
+  ],
+  "regions": [
+    "glutes",
+    "posterior"
+  ],
+  "settings": [
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "guided",
+  "learning": "moderate",
+  "footprint": "large",
+  "use": {
+    "zh-CN": "骨盆带或垫传力的髋伸",
+    "en": "Hip extension through a belt or pad"
+  },
+  "caution": {
+    "zh-CN": "确认保护锁止，勿以腰部过伸代偿",
+    "en": "Check locks; avoid substituting lumbar extension"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "plate.svg",
+  "alternatives": [
+    "trap-bar",
+    "kettlebell",
+    "sandbag"
+  ]
+}

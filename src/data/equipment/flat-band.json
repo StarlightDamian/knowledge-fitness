@@ -1,0 +1,50 @@
+{
+  "id": "flat-band",
+  "name": {
+    "zh-CN": "片状弹力带",
+    "en": "Flat resistance band"
+  },
+  "aliases": [
+    "片状弹力带",
+    "Flat resistance band",
+    "flat-band"
+  ],
+  "category": "elastic",
+  "patterns": [
+    "multi"
+  ],
+  "regions": [
+    "varies"
+  ],
+  "settings": [
+    "home",
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "self",
+  "learning": "low",
+  "footprint": "pocket",
+  "use": {
+    "zh-CN": "可调握距的轻量拉力",
+    "en": "Light resistance with variable grip spacing"
+  },
+  "caution": {
+    "zh-CN": "避免缠绕压迫和尖锐边缘",
+    "en": "Avoid constriction and sharp edges"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "elastic.svg",
+  "alternatives": [
+    "dumbbell",
+    "adjustable-dumbbell",
+    "barbell"
+  ]
+}

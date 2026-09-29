@@ -1,0 +1,58 @@
+{
+  "id": "kettlebell",
+  "name": {
+    "zh-CN": "壶铃",
+    "en": "Kettlebell"
+  },
+  "aliases": [
+    "壶铃",
+    "Kettlebell",
+    "kettlebell",
+    "壺鈴",
+    "ケトルベル",
+    "гиря"
+  ],
+  "category": "free",
+  "patterns": [
+    "hinge",
+    "carry",
+    "multi"
+  ],
+  "regions": [
+    "full-body",
+    "glutes",
+    "posterior",
+    "varies"
+  ],
+  "settings": [
+    "home",
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "self",
+  "learning": "moderate",
+  "footprint": "small",
+  "use": {
+    "zh-CN": "偏心握把，可做受控或摆动动作",
+    "en": "Offset handle for controlled or ballistic work"
+  },
+  "caution": {
+    "zh-CN": "摆动需要另学技术，不是手臂前平举",
+    "en": "Learn the swing separately; not a front raise"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "free.svg",
+  "alternatives": [
+    "smith",
+    "hip-thrust-machine",
+    "reverse-hyper"
+  ]
+}

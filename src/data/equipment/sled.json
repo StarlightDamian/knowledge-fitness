@@ -1,0 +1,47 @@
+{
+  "id": "sled",
+  "name": {
+    "zh-CN": "阻力雪橇",
+    "en": "Training sled"
+  },
+  "aliases": [
+    "阻力雪橇",
+    "Training sled",
+    "sled"
+  ],
+  "category": "conditioning",
+  "patterns": [
+    "carry"
+  ],
+  "regions": [
+    "full-body"
+  ],
+  "settings": [
+    "home",
+    "gym",
+    "outdoor"
+  ],
+  "role": "conditioning",
+  "path": "self",
+  "learning": "moderate",
+  "footprint": "large",
+  "use": {
+    "zh-CN": "推拉移动负重",
+    "en": "Push or pull a moving load"
+  },
+  "caution": {
+    "zh-CN": "地面摩擦改变难度，片重不能跨地面比",
+    "en": "Surface friction changes effort"
+  },
+  "sources": [
+    "who-2020",
+    "cdc-activity"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "conditioning.svg",
+  "alternatives": []
+}

@@ -1,0 +1,947 @@
+[
+  {
+    "id": "squat",
+    "name": {
+      "zh-CN": "徒手深蹲",
+      "en": "Bodyweight squat"
+    },
+    "pattern": "squat",
+    "regions": [
+      "legs",
+      "glutes"
+    ],
+    "equipmentOptions": [
+      []
+    ],
+    "cue": {
+      "zh-CN": "在可控行程内蹲起，脚掌稳定；不强求统一深度。",
+      "en": "Squat through a controlled range with stable feet; do not force a universal depth."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "reviewStatus": "editorial technique summary; coach review pending"
+  },
+  {
+    "id": "wall-push",
+    "name": {
+      "zh-CN": "墙面俯卧撑",
+      "en": "Wall push-up"
+    },
+    "pattern": "push",
+    "regions": [
+      "chest",
+      "arms"
+    ],
+    "equipmentOptions": [
+      []
+    ],
+    "cue": {
+      "zh-CN": "确认墙面稳固；身体整体靠近和推离墙面。",
+      "en": "Use a stable wall; move the body toward and away from it as a unit."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "reviewStatus": "editorial technique summary; coach review pending"
+  },
+  {
+    "id": "pushup",
+    "name": {
+      "zh-CN": "俯卧撑",
+      "en": "Push-up"
+    },
+    "pattern": "push",
+    "regions": [
+      "chest",
+      "arms"
+    ],
+    "equipmentOptions": [
+      []
+    ],
+    "cue": {
+      "zh-CN": "保持躯干可控；困难时改为墙面版本。",
+      "en": "Maintain trunk control; use the wall version if needed."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "reviewStatus": "editorial technique summary; coach review pending"
+  },
+  {
+    "id": "bridge",
+    "name": {
+      "zh-CN": "臀桥",
+      "en": "Glute bridge"
+    },
+    "pattern": "hinge",
+    "regions": [
+      "glutes"
+    ],
+    "equipmentOptions": [
+      []
+    ],
+    "cue": {
+      "zh-CN": "双脚着地抬髋，不用腰部过伸追求高度。",
+      "en": "Keep feet grounded; lift the hips without chasing height through lumbar extension."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "reviewStatus": "editorial technique summary; coach review pending"
+  },
+  {
+    "id": "deadbug",
+    "name": {
+      "zh-CN": "死虫式",
+      "en": "Dead bug"
+    },
+    "pattern": "core",
+    "regions": [
+      "trunk"
+    ],
+    "equipmentOptions": [
+      []
+    ],
+    "cue": {
+      "zh-CN": "缓慢交替移动对侧手脚，控制躯干。",
+      "en": "Move opposite arm and leg slowly while controlling the trunk."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "reviewStatus": "editorial technique summary; coach review pending"
+  },
+  {
+    "id": "bird-dog",
+    "name": {
+      "zh-CN": "鸟狗式",
+      "en": "Bird dog"
+    },
+    "pattern": "core",
+    "regions": [
+      "trunk"
+    ],
+    "equipmentOptions": [
+      []
+    ],
+    "cue": {
+      "zh-CN": "四点支撑后小幅伸展对侧手脚，避免扭转。",
+      "en": "From all fours, reach opposite limbs without trunk rotation."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "reviewStatus": "editorial technique summary; coach review pending"
+  },
+  {
+    "id": "split-squat",
+    "name": {
+      "zh-CN": "原地分腿蹲",
+      "en": "Split squat"
+    },
+    "pattern": "squat",
+    "regions": [
+      "legs",
+      "glutes"
+    ],
+    "equipmentOptions": [
+      []
+    ],
+    "cue": {
+      "zh-CN": "分腿站稳，先做小行程，不急于负重。",
+      "en": "Set a stable split stance; begin with short range before adding load."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "reviewStatus": "editorial technique summary; coach review pending"
+  },
+  {
+    "id": "calf-raise",
+    "name": {
+      "zh-CN": "站姿提踵",
+      "en": "Standing calf raise"
+    },
+    "pattern": "calf",
+    "regions": [
+      "calves"
+    ],
+    "equipmentOptions": [
+      []
+    ],
+    "cue": {
+      "zh-CN": "在平稳地面缓慢提踵，可轻扶稳定物体。",
+      "en": "Rise slowly on a stable surface; use light support if needed."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "reviewStatus": "editorial technique summary; coach review pending"
+  },
+  {
+    "id": "goblet",
+    "name": {
+      "zh-CN": "哑铃杯式深蹲",
+      "en": "Dumbbell goblet squat"
+    },
+    "pattern": "squat",
+    "regions": [
+      "legs",
+      "glutes"
+    ],
+    "equipmentOptions": [
+      [
+        "dumbbell"
+      ],
+      [
+        "adjustable-dumbbell"
+      ]
+    ],
+    "cue": {
+      "zh-CN": "负重靠近胸前，保持脚掌支持，做可控行程。",
+      "en": "Hold the load close to the chest and squat with stable feet through controlled range."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "reviewStatus": "editorial technique summary; coach review pending"
+  },
+  {
+    "id": "db-rdl",
+    "name": {
+      "zh-CN": "哑铃罗马尼亚硬拉",
+      "en": "Dumbbell Romanian deadlift"
+    },
+    "pattern": "hinge",
+    "regions": [
+      "posterior",
+      "glutes"
+    ],
+    "equipmentOptions": [
+      [
+        "dumbbell"
+      ],
+      [
+        "adjustable-dumbbell"
+      ]
+    ],
+    "cue": {
+      "zh-CN": "髋向后移动，负重靠近腿；只到能控制的位置。",
+      "en": "Move hips back with weights close to the legs; stop at your controllable range."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "reviewStatus": "editorial technique summary; coach review pending"
+  },
+  {
+    "id": "db-floor",
+    "name": {
+      "zh-CN": "哑铃地板卧推",
+      "en": "Dumbbell floor press"
+    },
+    "pattern": "push",
+    "regions": [
+      "chest",
+      "arms"
+    ],
+    "equipmentOptions": [
+      [
+        "dumbbell"
+      ],
+      [
+        "adjustable-dumbbell"
+      ]
+    ],
+    "cue": {
+      "zh-CN": "受控放低至上臂接近地面，安全拿起和放下负重。",
+      "en": "Lower under control until upper arms approach the floor; set weights down safely."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "reviewStatus": "editorial technique summary; coach review pending"
+  },
+  {
+    "id": "db-row",
+    "name": {
+      "zh-CN": "单臂哑铃划船",
+      "en": "One-arm dumbbell row"
+    },
+    "pattern": "pull",
+    "regions": [
+      "back",
+      "arms"
+    ],
+    "equipmentOptions": [
+      [
+        "dumbbell"
+      ],
+      [
+        "adjustable-dumbbell"
+      ]
+    ],
+    "cue": {
+      "zh-CN": "另一手轻撑自身大腿或稳定支撑，避免用躯干甩动。",
+      "en": "Support with the other hand on your thigh or a stable support; avoid torso jerking."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "reviewStatus": "editorial technique summary; coach review pending"
+  },
+  {
+    "id": "db-press",
+    "name": {
+      "zh-CN": "哑铃肩推",
+      "en": "Dumbbell overhead press"
+    },
+    "pattern": "vertical-push",
+    "regions": [
+      "shoulders",
+      "arms"
+    ],
+    "equipmentOptions": [
+      [
+        "dumbbell"
+      ],
+      [
+        "adjustable-dumbbell"
+      ]
+    ],
+    "cue": {
+      "zh-CN": "仅使用可控、舒适的上推行程，避免明显后仰。",
+      "en": "Use a controlled, comfortable overhead range without excessive leaning."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "reviewStatus": "editorial technique summary; coach review pending"
+  },
+  {
+    "id": "db-lunge",
+    "name": {
+      "zh-CN": "哑铃分腿蹲",
+      "en": "Dumbbell split squat"
+    },
+    "pattern": "squat",
+    "regions": [
+      "legs",
+      "glutes"
+    ],
+    "equipmentOptions": [
+      [
+        "dumbbell"
+      ],
+      [
+        "adjustable-dumbbell"
+      ]
+    ],
+    "cue": {
+      "zh-CN": "先保证徒手版本稳定，再加轻负重。",
+      "en": "Establish control in the bodyweight version before adding light loads."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "reviewStatus": "editorial technique summary; coach review pending"
+  },
+  {
+    "id": "db-curl",
+    "name": {
+      "zh-CN": "哑铃弯举",
+      "en": "Dumbbell curl"
+    },
+    "pattern": "elbow",
+    "regions": [
+      "arms"
+    ],
+    "equipmentOptions": [
+      [
+        "dumbbell"
+      ],
+      [
+        "adjustable-dumbbell"
+      ]
+    ],
+    "cue": {
+      "zh-CN": "肘部位置相对稳定，避免借助摆动。",
+      "en": "Keep elbow position fairly steady and avoid swinging."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "reviewStatus": "editorial technique summary; coach review pending"
+  },
+  {
+    "id": "db-lateral",
+    "name": {
+      "zh-CN": "哑铃侧平举",
+      "en": "Dumbbell lateral raise"
+    },
+    "pattern": "shoulder",
+    "regions": [
+      "shoulders"
+    ],
+    "equipmentOptions": [
+      [
+        "dumbbell"
+      ],
+      [
+        "adjustable-dumbbell"
+      ]
+    ],
+    "cue": {
+      "zh-CN": "轻负重、可控抬起；不要耸肩猛甩。",
+      "en": "Use a light controlled lift rather than shrugging or jerking."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "reviewStatus": "editorial technique summary; coach review pending"
+  },
+  {
+    "id": "band-row",
+    "name": {
+      "zh-CN": "弹力带坐姿划船",
+      "en": "Seated band row"
+    },
+    "pattern": "pull",
+    "regions": [
+      "back",
+      "arms"
+    ],
+    "equipmentOptions": [
+      [
+        "loop-band"
+      ],
+      [
+        "flat-band"
+      ]
+    ],
+    "cue": {
+      "zh-CN": "坐姿把带绕在穿鞋的双脚上，确认不会滑脱回弹；受控拉向躯干。",
+      "en": "Loop around both shod feet while seated; ensure it cannot slip and recoil, then pull under control."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "reviewStatus": "editorial technique summary; coach review pending"
+  },
+  {
+    "id": "band-press",
+    "name": {
+      "zh-CN": "弹力带绕背推胸",
+      "en": "Band chest press around the back"
+    },
+    "pattern": "push",
+    "regions": [
+      "chest",
+      "arms"
+    ],
+    "equipmentOptions": [
+      [
+        "loop-band"
+      ],
+      [
+        "flat-band"
+      ]
+    ],
+    "cue": {
+      "zh-CN": "弹力带绕过上背而非颈部；先检查材质与握持。",
+      "en": "Position the band around the upper back, not the neck; inspect it and secure the grip."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "reviewStatus": "editorial technique summary; coach review pending"
+  },
+  {
+    "id": "band-squat",
+    "name": {
+      "zh-CN": "弹力带深蹲",
+      "en": "Band squat"
+    },
+    "pattern": "squat",
+    "regions": [
+      "legs",
+      "glutes"
+    ],
+    "equipmentOptions": [
+      [
+        "loop-band"
+      ]
+    ],
+    "cue": {
+      "zh-CN": "双脚固定带中段，双手持带，不把带套在颈部。",
+      "en": "Secure the band under both feet and hold it with hands, not around the neck."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "reviewStatus": "editorial technique summary; coach review pending"
+  },
+  {
+    "id": "band-rdl",
+    "name": {
+      "zh-CN": "弹力带髋铰链",
+      "en": "Band hip hinge"
+    },
+    "pattern": "hinge",
+    "regions": [
+      "posterior",
+      "glutes"
+    ],
+    "equipmentOptions": [
+      [
+        "loop-band"
+      ]
+    ],
+    "cue": {
+      "zh-CN": "双脚踩住带并握住两端，髋后移后站起。",
+      "en": "Stand on the band and hold it while hinging back and standing tall."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "reviewStatus": "editorial technique summary; coach review pending"
+  },
+  {
+    "id": "band-curl",
+    "name": {
+      "zh-CN": "弹力带弯举",
+      "en": "Band curl"
+    },
+    "pattern": "elbow",
+    "regions": [
+      "arms"
+    ],
+    "equipmentOptions": [
+      [
+        "loop-band"
+      ],
+      [
+        "flat-band"
+      ]
+    ],
+    "cue": {
+      "zh-CN": "踩稳带，缓慢屈肘；不要放手弹回。",
+      "en": "Anchor securely underfoot and curl slowly; do not release into recoil."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "reviewStatus": "editorial technique summary; coach review pending"
+  },
+  {
+    "id": "machine-press",
+    "name": {
+      "zh-CN": "器械推胸",
+      "en": "Machine chest press"
+    },
+    "pattern": "push",
+    "regions": [
+      "chest",
+      "arms"
+    ],
+    "equipmentOptions": [
+      [
+        "chest-press"
+      ],
+      [
+        "lever-chest",
+        "weight-plate"
+      ]
+    ],
+    "cue": {
+      "zh-CN": "调整座位和起始握位；先用轻负荷试行程。",
+      "en": "Adjust the seat and starting grip, then test the range with a light load."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "reviewStatus": "editorial technique summary; coach review pending"
+  },
+  {
+    "id": "machine-row",
+    "name": {
+      "zh-CN": "器械划船",
+      "en": "Machine row"
+    },
+    "pattern": "pull",
+    "regions": [
+      "back",
+      "arms"
+    ],
+    "equipmentOptions": [
+      [
+        "seated-row"
+      ],
+      [
+        "lever-row",
+        "weight-plate"
+      ],
+      [
+        "tbar-row",
+        "weight-plate"
+      ],
+      [
+        "lat-row-combo"
+      ]
+    ],
+    "cue": {
+      "zh-CN": "设置胸垫、座位或脚踏支撑；组合机切换至低位划船并确认握把固定。拉动时不猛甩后仰。",
+      "en": "Adjust chest support, seat or foot supports. On a combo machine, select the low-row station and secure its handle. Pull without jerking backward."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "reviewStatus": "editorial technique summary; coach review pending"
+  },
+  {
+    "id": "pulldown",
+    "name": {
+      "zh-CN": "胸前高位下拉",
+      "en": "Front lat pulldown"
+    },
+    "pattern": "vertical-pull",
+    "regions": [
+      "back",
+      "arms"
+    ],
+    "equipmentOptions": [
+      [
+        "lat-pulldown"
+      ],
+      [
+        "lat-row-combo"
+      ],
+      [
+        "lever-lat-pulldown",
+        "weight-plate"
+      ]
+    ],
+    "cue": {
+      "zh-CN": "调整座位与大腿固定垫，先以轻负荷确认可控行程，再向胸前下拉，不拉向颈后。挂片机按具体握把与独立臂路径操作，不强行复制滑轮杆轨迹。",
+      "en": "Adjust the seat and thigh restraint, then check a controllable range with a light load before pulling in front, not behind the neck. Follow the plate-loaded machine’s handles and arm paths rather than forcing a cable-bar trajectory."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "reviewStatus": "editorial technique summary; coach review pending"
+  },
+  {
+    "id": "legpress",
+    "name": {
+      "zh-CN": "腿举",
+      "en": "Leg press"
+    },
+    "pattern": "squat",
+    "regions": [
+      "legs",
+      "glutes"
+    ],
+    "equipmentOptions": [
+      [
+        "stack-leg-press"
+      ],
+      [
+        "leg-press-45",
+        "weight-plate"
+      ],
+      [
+        "leg-press-horizontal",
+        "weight-plate"
+      ]
+    ],
+    "cue": {
+      "zh-CN": "脚掌稳定，保持骨盆支持，熟悉保护装置。",
+      "en": "Keep feet stable and the pelvis supported; learn the safety mechanism."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "reviewStatus": "editorial technique summary; coach review pending"
+  },
+  {
+    "id": "legcurl",
+    "name": {
+      "zh-CN": "腿弯举",
+      "en": "Leg curl"
+    },
+    "pattern": "knee",
+    "regions": [
+      "posterior"
+    ],
+    "equipmentOptions": [
+      [
+        "seated-leg-curl"
+      ],
+      [
+        "prone-leg-curl"
+      ]
+    ],
+    "cue": {
+      "zh-CN": "调整机轴与滚垫，缓慢屈伸，不用腰部甩动。",
+      "en": "Adjust the axis and roller, then flex and extend without jerking through the back."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "reviewStatus": "editorial technique summary; coach review pending"
+  },
+  {
+    "id": "legextension",
+    "name": {
+      "zh-CN": "腿屈伸",
+      "en": "Leg extension"
+    },
+    "pattern": "knee",
+    "regions": [
+      "legs"
+    ],
+    "equipmentOptions": [
+      [
+        "leg-extension"
+      ]
+    ],
+    "cue": {
+      "zh-CN": "膝部与机轴适配，在可控行程内伸膝。",
+      "en": "Align knee and machine axis and extend through controlled range."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "reviewStatus": "editorial technique summary; coach review pending"
+  },
+  {
+    "id": "machine-shoulder",
+    "name": {
+      "zh-CN": "器械肩推",
+      "en": "Machine shoulder press"
+    },
+    "pattern": "vertical-push",
+    "regions": [
+      "shoulders",
+      "arms"
+    ],
+    "equipmentOptions": [
+      [
+        "shoulder-press"
+      ],
+      [
+        "lever-shoulder",
+        "weight-plate"
+      ]
+    ],
+    "cue": {
+      "zh-CN": "先适配座高，肩部不适则停止并评估。",
+      "en": "Fit seat height first; stop and assess shoulder discomfort."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "reviewStatus": "editorial technique summary; coach review pending"
+  },
+  {
+    "id": "bar-squat",
+    "name": {
+      "zh-CN": "杠铃深蹲",
+      "en": "Barbell squat"
+    },
+    "pattern": "squat",
+    "regions": [
+      "legs",
+      "glutes"
+    ],
+    "equipmentOptions": [
+      [
+        "barbell",
+        "weight-plate",
+        "power-rack",
+        "barbell-collars"
+      ]
+    ],
+    "cue": {
+      "zh-CN": "先设置保护杆和挂杠高度，空杆练习进出架。",
+      "en": "Set safeties and bar height first; practice setup and re-racking unloaded."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "reviewStatus": "editorial technique summary; coach review pending"
+  },
+  {
+    "id": "bar-rdl",
+    "name": {
+      "zh-CN": "杠铃罗马尼亚硬拉",
+      "en": "Barbell Romanian deadlift"
+    },
+    "pattern": "hinge",
+    "regions": [
+      "posterior",
+      "glutes"
+    ],
+    "equipmentOptions": [
+      [
+        "barbell",
+        "weight-plate",
+        "barbell-collars"
+      ]
+    ],
+    "cue": {
+      "zh-CN": "髋后移，杠贴近腿；使用熟悉的起始拿放方式。",
+      "en": "Hinge back with the bar close to the legs; use a familiar safe pickup and set-down."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "reviewStatus": "editorial technique summary; coach review pending"
+  },
+  {
+    "id": "bar-bench",
+    "name": {
+      "zh-CN": "杠铃卧推",
+      "en": "Barbell bench press"
+    },
+    "pattern": "push",
+    "regions": [
+      "chest",
+      "arms"
+    ],
+    "equipmentOptions": [
+      [
+        "barbell",
+        "weight-plate",
+        "power-rack",
+        "flat-bench",
+        "barbell-collars"
+      ]
+    ],
+    "cue": {
+      "zh-CN": "保护杆或合格保护人员到位，空杆确认行程。",
+      "en": "Use correctly set safeties or a qualified spotter and check range with an unloaded bar."
+    },
+    "sources": [
+      "acsm-2026",
+      "currier-2023"
+    ],
+    "reviewStatus": "editorial technique summary; coach review pending"
+  },
+  {
+    "id": "walk",
+    "name": {
+      "zh-CN": "快走",
+      "en": "Brisk walking"
+    },
+    "pattern": "gait",
+    "regions": [
+      "legs"
+    ],
+    "equipmentOptions": [
+      []
+    ],
+    "cue": {
+      "zh-CN": "选择稳定、无障碍路线，从可持续的谈话强度开始。",
+      "en": "Choose a stable clear route and begin at a sustainable conversational effort."
+    },
+    "sources": [
+      "who-2020",
+      "nhs-activity"
+    ],
+    "reviewStatus": "editorial technique summary; coach review pending"
+  },
+  {
+    "id": "bike",
+    "name": {
+      "zh-CN": "固定车骑行",
+      "en": "Stationary cycling"
+    },
+    "pattern": "cycle",
+    "regions": [
+      "legs"
+    ],
+    "equipmentOptions": [
+      [
+        "upright-bike"
+      ],
+      [
+        "recumbent-bike"
+      ],
+      [
+        "spin-bike"
+      ]
+    ],
+    "cue": {
+      "zh-CN": "调整座高和把位，以能持续完成的强度骑行。",
+      "en": "Adjust saddle and handles; ride at a sustainable effort."
+    },
+    "sources": [
+      "who-2020",
+      "nhs-activity"
+    ],
+    "reviewStatus": "editorial technique summary; coach review pending"
+  },
+  {
+    "id": "row-erg",
+    "name": {
+      "zh-CN": "划船机划行",
+      "en": "Rowing ergometer"
+    },
+    "pattern": "row",
+    "regions": [
+      "full-body"
+    ],
+    "equipmentOptions": [
+      [
+        "air-rower"
+      ],
+      [
+        "water-rower"
+      ],
+      [
+        "magnetic-rower"
+      ]
+    ],
+    "cue": {
+      "zh-CN": "先学腿—髋—手臂协调，不用高阻力掩盖技术问题。",
+      "en": "Learn coordinated leg, hip and arm action; high resistance is not a technique fix."
+    },
+    "sources": [
+      "who-2020",
+      "concept2-damper"
+    ],
+    "reviewStatus": "editorial technique summary; coach review pending"
+  }
+]

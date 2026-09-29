@@ -1,0 +1,194 @@
+[
+  {
+    "id": "healthy",
+    "name": {
+      "zh-CN": "健康成人新手",
+      "en": "Healthy adult beginner"
+    },
+    "knowledge": [
+      "start",
+      "frequency",
+      "failure"
+    ],
+    "advice": {
+      "zh-CN": "先学习动作与记录，选择器材齐备且时间可执行的模板。",
+      "en": "Learn movements and logging; choose a feasible template with the required equipment."
+    },
+    "route": "screen-first"
+  },
+  {
+    "id": "trained",
+    "name": {
+      "zh-CN": "已有训练经验",
+      "en": "Experienced adult"
+    },
+    "knowledge": [
+      "volume",
+      "progression",
+      "rest"
+    ],
+    "advice": {
+      "zh-CN": "按弱项、目标与恢复分配训练，不因级别更高而无限加量。",
+      "en": "Allocate work to goals and recovery, not unlimited volume because of experience."
+    },
+    "route": "screen-first"
+  },
+  {
+    "id": "overweight",
+    "name": {
+      "zh-CN": "超重 / 肥胖",
+      "en": "Overweight / obesity"
+    },
+    "knowledge": [
+      "fat-loss",
+      "retain-muscle",
+      "bmi"
+    ],
+    "advice": {
+      "zh-CN": "先考虑可执行性、关节耐受、伴随疾病与体成分指标。",
+      "en": "Consider feasibility, joint tolerance, associated conditions and composition outcomes."
+    },
+    "route": "education-only"
+  },
+  {
+    "id": "older",
+    "name": {
+      "zh-CN": "65岁及以上",
+      "en": "Adults 65+"
+    },
+    "knowledge": [
+      "older",
+      "accessibility"
+    ],
+    "advice": {
+      "zh-CN": "加入平衡与功能；本版只提供教育分流，不生成自动处方。",
+      "en": "Include balance and function; educational routing only in this release."
+    },
+    "route": "education-only"
+  },
+  {
+    "id": "young",
+    "name": {
+      "zh-CN": "儿童青少年",
+      "en": "Children / adolescents"
+    },
+    "knowledge": [
+      "youth"
+    ],
+    "advice": {
+      "zh-CN": "保护生长与技能发展；不使用成人减脂及BMI阈值。",
+      "en": "Protect development and skills; do not use adult fat-loss plans or BMI thresholds."
+    },
+    "route": "education-only"
+  },
+  {
+    "id": "pregnant",
+    "name": {
+      "zh-CN": "孕期 / 产后",
+      "en": "Pregnancy / postpartum"
+    },
+    "knowledge": [
+      "pregnancy"
+    ],
+    "advice": {
+      "zh-CN": "先根据产科评估和症状适配，不自动推荐减脂。",
+      "en": "Adapt to obstetric assessment and symptoms; no automatic fat-loss recommendation."
+    },
+    "route": "education-only"
+  },
+  {
+    "id": "metabolic",
+    "name": {
+      "zh-CN": "糖尿病与代谢疾病",
+      "en": "Diabetes / metabolic disease"
+    },
+    "knowledge": [
+      "diabetes"
+    ],
+    "advice": {
+      "zh-CN": "用药和并发症必须纳入，不在线调药。",
+      "en": "Account for medication and complications; no online medication changes."
+    },
+    "route": "education-only"
+  },
+  {
+    "id": "cardiorenal",
+    "name": {
+      "zh-CN": "心血管 / 肾脏疾病",
+      "en": "Cardiovascular / renal disease"
+    },
+    "knowledge": [
+      "diabetes",
+      "pain-gate"
+    ],
+    "advice": {
+      "zh-CN": "交由相关专业人员明确运动限制、监测与营养要求。",
+      "en": "A relevant professional should establish limits, monitoring and nutrition needs."
+    },
+    "route": "education-only"
+  },
+  {
+    "id": "injury",
+    "name": {
+      "zh-CN": "疼痛 / 损伤 / 术后",
+      "en": "Pain / injury / postoperative"
+    },
+    "knowledge": [
+      "pain-gate",
+      "back-pain",
+      "joint-pain"
+    ],
+    "advice": {
+      "zh-CN": "先分流和明确诊断；不从部位关键词直接套康复动作。",
+      "en": "Triage and clarify diagnosis; do not prescribe rehab from a body-part keyword."
+    },
+    "route": "education-only"
+  },
+  {
+    "id": "disability",
+    "name": {
+      "zh-CN": "残障 / 活动受限",
+      "en": "Disability / limited mobility"
+    },
+    "knowledge": [
+      "accessibility"
+    ],
+    "advice": {
+      "zh-CN": "按可达性、支撑、转移与个体能力适配，不用统一模板。",
+      "en": "Adapt reach, support, transfers and individual ability rather than using one template."
+    },
+    "route": "education-only"
+  },
+  {
+    "id": "returning",
+    "name": {
+      "zh-CN": "停训回归 / 久坐",
+      "en": "Returning / sedentary"
+    },
+    "knowledge": [
+      "return",
+      "start"
+    ],
+    "advice": {
+      "zh-CN": "按当前能力回归，既往伤病另行评估。",
+      "en": "Resume at current capacity; previous injuries need separate assessment."
+    },
+    "route": "screen-first"
+  },
+  {
+    "id": "eating",
+    "name": {
+      "zh-CN": "进食障碍风险 / 体重焦虑",
+      "en": "Eating-disorder risk / weight distress"
+    },
+    "knowledge": [
+      "fat-loss",
+      "pain-gate"
+    ],
+    "advice": {
+      "zh-CN": "关闭自动减脂和体重追踪，优先合格专业支持。",
+      "en": "Do not use automatic fat-loss plans or weight tracking; prioritize qualified support."
+    },
+    "route": "education-only"
+  }
+]

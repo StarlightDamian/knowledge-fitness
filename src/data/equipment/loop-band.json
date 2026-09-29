@@ -1,0 +1,54 @@
+{
+  "id": "loop-band",
+  "name": {
+    "zh-CN": "长环形弹力带",
+    "en": "Long loop resistance band"
+  },
+  "aliases": [
+    "长环形弹力带",
+    "Long loop resistance band",
+    "loop-band",
+    "弹力带",
+    "彈力帶",
+    "resistance band",
+    "power band"
+  ],
+  "category": "elastic",
+  "patterns": [
+    "multi"
+  ],
+  "regions": [
+    "varies"
+  ],
+  "settings": [
+    "home",
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "self",
+  "learning": "low",
+  "footprint": "pocket",
+  "use": {
+    "zh-CN": "以伸长长度改变阻力",
+    "en": "Resistance varies with extension"
+  },
+  "caution": {
+    "zh-CN": "检查老化与锚点，避开回弹路线",
+    "en": "Inspect wear and anchors; stay clear of recoil"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "elastic.svg",
+  "alternatives": [
+    "dumbbell",
+    "adjustable-dumbbell",
+    "barbell"
+  ]
+}

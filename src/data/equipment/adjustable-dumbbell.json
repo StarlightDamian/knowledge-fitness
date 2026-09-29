@@ -1,0 +1,50 @@
+{
+  "id": "adjustable-dumbbell",
+  "name": {
+    "zh-CN": "可调哑铃",
+    "en": "Adjustable dumbbells"
+  },
+  "aliases": [
+    "可调哑铃",
+    "Adjustable dumbbells",
+    "adjustable-dumbbell"
+  ],
+  "category": "free",
+  "patterns": [
+    "multi"
+  ],
+  "regions": [
+    "varies"
+  ],
+  "settings": [
+    "home",
+    "gym"
+  ],
+  "role": "resistance",
+  "path": "self",
+  "learning": "moderate",
+  "footprint": "small",
+  "use": {
+    "zh-CN": "少量占地覆盖多个负荷",
+    "en": "Several loads in a compact footprint"
+  },
+  "caution": {
+    "zh-CN": "每次确认锁止，不假定可抛落",
+    "en": "Verify locks; do not assume drop tolerance"
+  },
+  "sources": [
+    "acsm-2026",
+    "machines-2023"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "free.svg",
+  "alternatives": [
+    "smith",
+    "functional-trainer",
+    "cable-crossover"
+  ]
+}

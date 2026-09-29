@@ -1,0 +1,50 @@
+{
+  "id": "curved-treadmill",
+  "name": {
+    "zh-CN": "无动力弧形跑步机",
+    "en": "Curved non-motorized treadmill"
+  },
+  "aliases": [
+    "无动力弧形跑步机",
+    "Curved non-motorized treadmill",
+    "curved-treadmill"
+  ],
+  "category": "cardio",
+  "patterns": [
+    "gait"
+  ],
+  "regions": [
+    "legs"
+  ],
+  "settings": [
+    "home",
+    "gym"
+  ],
+  "role": "aerobic",
+  "path": "cyclic",
+  "learning": "moderate",
+  "footprint": "large",
+  "use": {
+    "zh-CN": "使用者推动履带",
+    "en": "User drives the belt"
+  },
+  "caution": {
+    "zh-CN": "起停控制不同，先低速熟悉",
+    "en": "Start slowly; control differs from powered belts"
+  },
+  "sources": [
+    "who-2020",
+    "cdc-activity"
+  ],
+  "evidenceScope": {
+    "zh-CN": "来源支持训练类别，不是本型号的直接比较试验；结构描述为编辑归纳，具体使用以厂商手册为准。",
+    "en": "Sources support the training class, not a direct trial of this device. Mechanical descriptions are editorial; consult the model manual."
+  },
+  "reviewStatus": "editorial-classification; model-specific review pending",
+  "image": "cardio.svg",
+  "alternatives": [
+    "treadmill",
+    "walking-pad",
+    "elliptical"
+  ]
+}
