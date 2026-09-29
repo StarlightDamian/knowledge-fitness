@@ -4,7 +4,7 @@ Want to build muscle or lose fat? Find out what equipment does, how to organize 
 
 **Understand your training. Then make it better.** Start with an option you can repeat; adapt it using your training records and recovery.
 
-[中文](README.md) · [Download offline website](https://github.com/StarlightDamian/knowledge-fitness/raw/refs/heads/main/index.html) · [Equipment catalog](docs/EQUIPMENT_CATALOG.md) · [Adversarial review (Chinese)](docs/ADVERSARIAL_REVIEW.md) · [Source registry](docs/SOURCES.md)
+[Open Lift Atlas online](https://www.zengyuwei.cn/fitness/) · [中文](README.md) · [Download offline website](https://github.com/StarlightDamian/knowledge-fitness/raw/refs/heads/main/index.html) · [Equipment catalog](docs/EQUIPMENT_CATALOG.md) · [Adversarial review (Chinese)](docs/ADVERSARIAL_REVIEW.md)
 
 ## Find an answer
 
@@ -28,6 +28,8 @@ The major commercial-gym and home-training families are broadly represented; pub
 
 ## Use and publish
 
+**Visit [www.zengyuwei.cn/fitness/](https://www.zengyuwei.cn/fitness/)**. No download, account or installation is needed. The hosted version also processes records in your browser and saves them locally only with explicit consent.
+
 Open the prebuilt `index.html`, or run `python -m http.server 8000` and visit `http://localhost:8000`. All runtime resources are embedded: no CDN, account, tracking, API key or data upload. File-protocol storage depends on browser policy.
 
 [Project repository](https://github.com/StarlightDamian/knowledge-fitness). Download the offline HTML or clone the repository:
@@ -38,7 +40,9 @@ cd knowledge-fitness
 python -m http.server 8000
 ```
 
-GitHub previews HTML as source code; download it to open in a browser. Pushes to `main` run validation, unit tests and browser checks. Pages deployment is **manual**: maintainers choose **GitHub Actions** in `Settings → Pages`, then run `Deploy Pages`. The published URL is reported by the successful workflow run.
+The official site runs on a privately managed server at `/fitness/`; see [deployment and rollback](docs/DEPLOYMENT.md). Pushes to `main` run validation, unit tests and browser checks; they do not automatically update that server. GitHub previews HTML as source code, so use the online link above or download it for offline use.
+
+The optional GitHub Pages workflow remains manual and publishes a separate copy. It does not manage the official server URL.
 
 Alternatively publish `main / (root)` from a branch using the committed `index.html`, rebuilding and committing it whenever content changes. Choose one publishing mode.
 
@@ -52,6 +56,7 @@ node src/audit-coverage.mjs docs/coverage_observations.json
 python -m pip install -r tests/requirements.txt
 python -m playwright install chromium
 npm run test:browser
+python tests/browser_smoke.py --url https://www.zengyuwei.cn/fitness/
 ```
 
 Code lives under `/src`, tests under `/tests`. New equipment records are discovered automatically; add one JSON file to `src/data/equipment/`, then validate and build. To make that equipment usable in a particular plan, separately review/update the relevant exercise's AND/OR `equipmentOptions`.

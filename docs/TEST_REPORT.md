@@ -2,6 +2,14 @@
 
 验证日期：2026-09-29。本次在 Windows 完成器材与训练审核后的软件检查。结果不构成医学认证、临床效果验证或真人训练完成证明。
 
+## 自有服务器上线验收（2026-09-29）
+
+正式网址：[https://www.zengyuwei.cn/fitness/](https://www.zengyuwei.cn/fitness/)。使用 `tests/browser_smoke.py --url` 直接访问公网HTTPS，**70项通过，0失败**，包含实际器材搜索、计划匹配、CSV导出、中文/英文每侧次数、本地记录重载与删除；浏览器为Chromium 153.0.8010.12。
+
+初次检查发现Cloudflare自动插入统计脚本，69项通过、1项失败。随后仅为健身路径添加 `no-transform` 响应头，最终保留原有外部请求断言并全部通过。页面字节哈希与本地发布产物一致。另有原主页/LeetCode及资源路径6项公网测试通过、Linux发布器5项测试通过、Windows及Linux静态响应头各2项测试通过。
+
+证据：[公网浏览器报告](verification/browser-live-report.json)、[原主页公网结果](verification/homepage-public-tests.txt)、[部署与回滚](DEPLOYMENT.md)。测试使用独立浏览器上下文中的合成数据，不代表浏览器重启后恢复、多地区网络或真实移动设备均已验证。下表保留应用本地验证；GitHub Pages仍未部署，自有服务器上线与Pages无关。
+
 ## 当前结果
 
 | 验证层 | 实际结果 | 边界 |

@@ -1,5 +1,9 @@
 # Changelog
 
+## Self-hosted website — 2026-09-29
+
+Published the existing application at `https://www.zengyuwei.cn/fitness/` and made it the primary README and repository website link. Added deployed-URL browser verification and a standard-library static handler that sends revalidation and no-transform headers only for the fitness path. The homepage publisher retains the independently deployed fitness directory across homepage updates. Deployment, backups, rollback and live verification are documented in `docs/DEPLOYMENT.md`.
+
 ## GitHub initial publication audit — 2026-09-29
 
 Expanded to 140 equipment records and 36 source documents, including four specific manufacturer pages for the new equipment. Added a mainstream equipment coverage matrix with explicit outdoor gaps. Corrected grip/wrist classification, outdoor parallel-bar filtering, unilateral repetitions, aerobic/bodyweight progression, combined-machine matching, plate requirements and older-adult wording. Added six Node regressions and browser checks for per-side rendering and cycling progression. Reworked Chinese and English project introductions; Pages deployment now requires manual dispatch.

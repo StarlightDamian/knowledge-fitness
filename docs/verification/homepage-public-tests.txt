@@ -1,0 +1,14 @@
+✔ existing readonly application, navigation and assets survive homepage publication (8011.2022ms)
+✔ external blue-hole game deployment is live and identifiable (631.6836ms)
+✔ legacy root redirects to the canonical home without loading another application (1574.5768ms)
+✔ canonical home serves the built homepage with valid isolated assets (14381.2358ms)
+✔ unknown, login and reserved paths without local services remain genuine 404s (15998.2676ms)
+✔ deployed license preserves upstream author; music is excluded (837.3861ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 32863.5211

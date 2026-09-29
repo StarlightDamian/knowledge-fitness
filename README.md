@@ -4,7 +4,7 @@
 
 **练得明白，再练得更好。** 不必先买齐器材，也不必把所有方法都练一遍。先选能持续执行的一种，再根据恢复和实际完成情况调整。
 
-[English](README.en.md) · [下载离线网页](https://github.com/StarlightDamian/knowledge-fitness/raw/refs/heads/main/index.html) · [完整器材目录](docs/EQUIPMENT_CATALOG.md) · [本次对抗式审核](docs/ADVERSARIAL_REVIEW.md) · [证据审计](docs/CLAIM_AUDIT.md)
+[打开在线健身图谱](https://www.zengyuwei.cn/fitness/) · [English](README.en.md) · [下载离线网页](https://github.com/StarlightDamian/knowledge-fitness/raw/refs/heads/main/index.html) · [完整器材目录](docs/EQUIPMENT_CATALOG.md) · [本次对抗式审核](docs/ADVERSARIAL_REVIEW.md)
 
 > **定位：面向公众的教育与模板匹配工具，不是诊疗系统。** 资料案头核对日期为2026-09-29；未完成独立持证专家审校。不要将元数据校验通过理解为医学认可。
 
@@ -47,6 +47,10 @@
 
 ## 立即使用
 
+**直接打开 [www.zengyuwei.cn/fitness/](https://www.zengyuwei.cn/fitness/)**，无需下载、注册或安装。在线版同样在当前浏览器处理数据，记录只在明确同意后保存在本地。
+
+### 离线或本地运行
+
 下载完整仓库后，打开根目录 `index.html`。网页中已嵌入数据、样式、脚本和SVG，不需要构建或API密钥。部分浏览器禁止 `file://` 本地存储，阅读与计算不依赖存储；更稳妥的本地访问方式：
 
 ```bash
@@ -58,7 +62,9 @@ python -m http.server 8000
 
 ## 仓库与网页发布
 
-项目仓库：[StarlightDamian/knowledge-fitness](https://github.com/StarlightDamian/knowledge-fitness)。可以直接下载离线网页，也可以克隆源码：
+正式访问地址：[https://www.zengyuwei.cn/fitness/](https://www.zengyuwei.cn/fitness/)。网页部署在自有服务器，复用现有 HTTPS 站点。维护、校验与回滚步骤见[服务器部署说明](docs/DEPLOYMENT.md)。
+
+项目仓库：[StarlightDamian/knowledge-fitness](https://github.com/StarlightDamian/knowledge-fitness)。需要自行运行时可克隆源码：
 
 ```bash
 git clone https://github.com/StarlightDamian/knowledge-fitness.git
@@ -66,7 +72,9 @@ cd knowledge-fitness
 python -m http.server 8000
 ```
 
-推送 `main` 会运行数据、单元及浏览器检查。**Pages 发布采用手动触发**：仓库维护者在 `Settings → Pages → Source` 选择 **GitHub Actions**，再到 `Actions → Deploy Pages → Run workflow` 发布。部署后的真实网址以该次成功运行的输出为准。
+推送 `main` 会运行数据、单元及浏览器检查；自有服务器采用明确的版本发布，不随每次推送自动更新。
+
+**可选 GitHub Pages**：工作流保留手动触发。需要另建 Pages 副本时，在 `Settings → Pages → Source` 选择 **GitHub Actions**，再运行 `Deploy Pages`；它不负责上述自有服务器网址。
 
 也可选择 `Deploy from a branch → main → /(root)`，使用已生成的根目录 `index.html`。这种方式必须在修改JSON后重新构建并提交HTML；不要与Actions发布同时使用。
 
@@ -90,6 +98,7 @@ node src/audit-coverage.mjs docs/coverage_observations.json
 python -m pip install -r tests/requirements.txt
 python -m playwright install chromium
 npm run test:browser           # 使用本地HTTP；会检查浏览器持久化
+.venv/Scripts/python.exe tests/browser_smoke.py --url https://www.zengyuwei.cn/fitness/
 # 无导航权限的受限环境，可仅验证渲染/交互：
 python tests/browser_smoke.py --mode document
 ```

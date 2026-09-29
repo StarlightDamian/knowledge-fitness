@@ -32,3 +32,5 @@ jobs:
           .venv/bin/python -m playwright install --with-deps chromium
       - name: Test local HTTP origin and UI
         run: .venv/bin/python tests/browser_smoke.py --mode http
+      - name: Test static hosting headers
+        run: .venv/bin/python tests/test_static_server.py

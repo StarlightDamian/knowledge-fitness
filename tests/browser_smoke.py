@@ -1,7 +1,7 @@
 """Browser integration checks. Install tests/requirements.txt first.
 
---mode http exercises a real local origin; --mode document renders the complete
-HTML in memory when navigation is disallowed by the host's browser policy.
+--mode http exercises a real local origin, or a deployed site given by --url.
+--mode document renders the complete HTML in memory when navigation is disallowed.
 Document mode explicitly uses a memory Storage adapter for save-flow checks;
 it does NOT establish real localStorage persistence, file://, or Pages deployment.
 """
@@ -13,21 +13,48 @@ from pathlib import Path
 from functools import partial
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from threading import Thread
+from urllib.parse import urlsplit
 from playwright.sync_api import sync_playwright
 
 ROOT = Path(__file__).resolve().parents[1]
 
+def http_origin(value: str) -> tuple[str, str, int] | None:
+    try:
+        parts = urlsplit(value)
+        if parts.scheme not in ('http', 'https') or not parts.hostname:
+            return None
+        port = parts.port if parts.port is not None else (443 if parts.scheme == 'https' else 80)
+        return parts.scheme, parts.hostname, port
+    except ValueError:
+        return None
+
+def site_url(value: str) -> str:
+    try:
+        parts = urlsplit(value)
+        if (http_origin(value) is None or parts.username is not None or parts.password is not None
+                or '\\' in value or any(c.isspace() for c in value)):
+            raise ValueError
+    except ValueError:
+        raise argparse.ArgumentTypeError('--url requires an HTTP(S) URL without username or password') from None
+    return value
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument('--mode', choices=['http', 'document'], default='http')
+    parser.add_argument('--url', type=site_url, help='Deployed site URL to test in HTTP mode')
     parser.add_argument('--output', default='test-results/browser')
     args = parser.parse_args()
+    if args.url and args.mode != 'http':
+        parser.error('--url cannot be combined with --mode document')
     output = ROOT / args.output
     output.mkdir(parents=True, exist_ok=True)
-    html = (ROOT / 'index.html').read_text(encoding='utf-8')
+    html = (ROOT / 'index.html').read_text(encoding='utf-8') if args.mode == 'document' else None
     results = []
     server = None
-    if args.mode == 'http':
+    document_url = None
+    browser_version = None
+    environment = 'hosted-http' if args.url else 'local-http' if args.mode == 'http' else 'document'
+    if args.mode == 'http' and not args.url:
         server = ThreadingHTTPServer(('127.0.0.1', 0), partial(SimpleHTTPRequestHandler, directory=str(ROOT)))
         Thread(target=server.serve_forever, daemon=True).start()
     def check(name: str, condition: bool) -> None:
@@ -39,15 +66,25 @@ def main() -> None:
             if os.getenv('PLAYWRIGHT_CHROMIUM_PATH'):
                 launch['executable_path'] = os.environ['PLAYWRIGHT_CHROMIUM_PATH']
             browser = p.chromium.launch(**launch)
+            browser_version = browser.version
             context = browser.new_context(viewport={'width': 1440, 'height': 1050}, device_scale_factor=1)
             page = context.new_page()
             errors, requests = [], []
             page.on('pageerror', lambda error: errors.append(str(error)))
-            page.on('request', lambda req: requests.append(req.url))
-            if server:
-                page.goto(f'http://127.0.0.1:{server.server_port}/dist/index.html', wait_until='load')
+            loading_document = True
+            def record_request(request) -> None:
+                # Initial document redirects are navigation, not runtime dependencies.
+                if not (loading_document and request.is_navigation_request() and request.frame == page.main_frame):
+                    requests.append(request.url)
+            page.on('request', record_request)
+            if args.mode == 'http':
+                target = args.url or f'http://127.0.0.1:{server.server_port}/dist/index.html'
+                page.goto(target, wait_until='load')
             else:
                 page.set_content(html, wait_until='load')
+            loading_document = False
+            document_url = page.url
+            document_origin = http_origin(document_url)
             page.wait_for_timeout(60)
             def go(route: str) -> None:
                 page.evaluate('(route) => {location.hash=route;}', route)
@@ -176,13 +213,24 @@ def main() -> None:
                 go('compare')
                 check(f'comparison scroll contained at {width}', page.evaluate('document.documentElement.scrollWidth <= innerWidth + 1'))
             check('all tested routes free of uncaught JS errors', not errors)
-            app_requests=[r for r in requests if not (server and r.startswith(f'http://127.0.0.1:{server.server_port}/')) and not r.startswith('blob:')]
+            def same_document_origin(url: str) -> bool:
+                if url.startswith('blob:'):
+                    return url.startswith('blob:null/') if document_origin is None else http_origin(url[5:]) == document_origin
+                return document_origin is not None and http_origin(url) == document_origin
+            app_requests=[r for r in requests if not same_document_origin(r)]
+            if app_requests:
+                print('Unexpected runtime requests:', json.dumps(app_requests, ensure_ascii=False))
             check('no external runtime network requests', not app_requests)
             browser.close()
     finally:
         if server:
             server.shutdown()
-        report={'mode':args.mode,'passed':sum(r['passed'] for r in results),'checks':results,'limitations': 'Document mode: browser navigation blocked in authoring host. No file://, hosted HTTP, real localStorage persistence or live GitHub Pages acceptance. Save flow uses explicit memory adapter.' if args.mode=='document' else 'Local HTTP only; does not verify live GitHub Pages or file://.'}
+        limitations = {
+            'document': 'HTML rendered in memory; save flow uses an explicit memory Storage adapter. Does not verify HTTP hosting, file://, or real localStorage persistence.',
+            'local-http': 'Local HTTP origin only; does not verify a deployed site or file://. Storage is checked across reloads in an isolated browser context, not across browser restarts.',
+            'hosted-http': 'Only the reported deployed URL and browser are exercised; does not verify file://, other browsers, or all hosting paths. Storage is checked across reloads in an isolated browser context, not across browser restarts.'
+        }
+        report={'mode':args.mode,'environment':environment,'requestedUrl':args.url,'url':document_url,'browserVersion':browser_version,'passed':sum(r['passed'] for r in results),'checks':results,'limitations':limitations[environment]}
         (output/'report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
     print(f"PASS: {len(results)} browser checks ({args.mode} mode). Report: {output/'report.json'}")
 
