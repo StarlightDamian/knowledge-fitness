@@ -1,10 +1,14 @@
 # Lift Atlas · 循证健身图谱
 
+## [在线使用 → www.zengyuwei.cn/fitness/](https://www.zengyuwei.cn/fitness/)
+
+点击上方链接直接进入网站，无需下载或安装。
+
 想增肌、减脂，先弄清器材怎么选、训练怎么排、做到什么程度。这里把常见器材、训练方法和研究依据放在一起：查用途与限制，按手头器材和时间找训练模板，用记录观察自己的变化。
 
 **练得明白，再练得更好。** 不必先买齐器材，也不必把所有方法都练一遍。先选能持续执行的一种，再根据恢复和实际完成情况调整。
 
-[打开在线健身图谱](https://www.zengyuwei.cn/fitness/) · [English](README.en.md) · [下载离线网页](https://github.com/StarlightDamian/knowledge-fitness/raw/refs/heads/main/index.html) · [完整器材目录](docs/EQUIPMENT_CATALOG.md) · [本次对抗式审核](docs/ADVERSARIAL_REVIEW.md)
+[English](README.en.md) · [完整器材目录](docs/EQUIPMENT_CATALOG.md) · [本次对抗式审核](docs/ADVERSARIAL_REVIEW.md)
 
 > **定位：面向公众的教育与模板匹配工具，不是诊疗系统。** 资料案头核对日期为2026-09-29；未完成独立持证专家审校。不要将元数据校验通过理解为医学认可。
 

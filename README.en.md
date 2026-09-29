@@ -1,10 +1,14 @@
 # Lift Atlas
 
-Want to build muscle or lose fat? Find out what equipment does, how to organize training, and how to adjust it. Lift Atlas brings equipment, practical templates and research sources together in an offline fitness atlas.
+## [Use online → www.zengyuwei.cn/fitness/](https://www.zengyuwei.cn/fitness/)
+
+Open the link above to use the website. No download or installation is needed.
+
+Want to build muscle or lose fat? Find out what equipment does, how to organize training, and how to adjust it. Lift Atlas brings equipment, practical templates and research sources together in a fitness atlas.
 
 **Understand your training. Then make it better.** Start with an option you can repeat; adapt it using your training records and recovery.
 
-[Open Lift Atlas online](https://www.zengyuwei.cn/fitness/) · [中文](README.md) · [Download offline website](https://github.com/StarlightDamian/knowledge-fitness/raw/refs/heads/main/index.html) · [Equipment catalog](docs/EQUIPMENT_CATALOG.md) · [Adversarial review (Chinese)](docs/ADVERSARIAL_REVIEW.md)
+[中文](README.md) · [Equipment catalog](docs/EQUIPMENT_CATALOG.md) · [Adversarial review (Chinese)](docs/ADVERSARIAL_REVIEW.md)
 
 ## Find an answer
 
